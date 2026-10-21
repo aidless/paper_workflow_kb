@@ -1,0 +1,60 @@
+{
+ "artifact": "R18 P0-data(b) loose-regime replication",
+ "collection": {
+  "errors": 0,
+  "host": "seetacloud-h3 cloud ollama qwen2.5:7b temperature 0",
+  "n": 60,
+  "prompt": "xdomain-loose replica (verbatim)",
+  "trace_ids": "lr18-01..lr18-60"
+ },
+ "dedup_gate": "r18_dedup_check.py exit 0 (60 questions, zero collisions, dual caliber)",
+ "files": {
+  "PREREG_R18_LOOSE_REP.md": "2150c7dce8c0604839283d3f086b8e6ac2375aaf48cfcb1971a9fd93a539efaf",
+  "evidence/r18_loose_rep60_raw.json": "00944d49d72475cacd7217cef7c41bab54ed83a2ff0b199961aad7626dd29ada",
+  "results/r18_loose_rep.json": "d93500008764d1e6ebafe411911ac10b07df108ec822792e272f064cad5144e3",
+  "scripts/analyze_r18.py": "edf9eb24ca4057ba7fe6555d80a9282f64349240dc3d6be52c23df5ccb6f534a",
+  "scripts/r18_loose_rep60.py": "0114ef0f657df4fc78e3fd08d10c064778457e541338dac4689aefa98229b1b0",
+  "evidence/r18_judge.json": "1adeaf94cbdfd93524801ba4997d75a0946fc3cdf5de680660b28b2a74bee51e",
+  "evidence/r18_judge_pass2.json": "852a4e55e3b23733970c4c4c12e7741ab551daf3443f7ce6dd9b393902913a69",
+  "evidence/r18_judge_pass2b.json": "022e4cd6d1f1f72725df6a150456588dc2d56cb42f966cdf2259071dbfe6e3ca",
+  "evidence/r18_judge_pass2c.json": "01855065ac8b4309d999c6cfd2df521993adfed217d9bfcd6083570871a5b0c8",
+  "results/r18_adjudication.json": "b54f6f4e5c39a0baeca1a5837347b0d8878934556c0c090eded222d2de65665f",
+  "scripts/local_judge_r18.py": "6bfd60d32da26532a887392df0f6dfcec3564c438fdf046b9230fab6e85e8a4c",
+  "scripts/local_judge_r18_pass2.py": "620bc1b2e1193ca11822febf30c0f941b049060d80105f038ac5c4b4d072d997",
+  "scripts/local_judge_r18_pass2b.py": "2193b8af7dfbc2997419c76d7a23bc32d2ffa81a1b38f30ae022ee9de84da43a",
+  "scripts/local_judge_r18_pass2c.py": "8cf2093ce349ea6e58f51e80da1194f3c3133ed613ec9801518ace6dcaea997d",
+  "scripts/r18_adjudicate.py": "116fae2e071ae17721752337096faf5d5358e582b8abcf284b98aca0c056c3b8",
+  "scripts/seal_r18_update.py": "0e58b8810e28a44ff7a4cdcb7ce2aad37e9c9271b1dda33031a7359a9c739f82"
+ },
+ "result_descriptive": {
+  "acc_exact": 0.25,
+  "acc_guarded": 0.7,
+  "b": 27,
+  "c": 0,
+  "ece10_exact": 0.6425,
+  "ece10_guarded": 0.1925,
+  "flip_rate": 0.45,
+  "inference": "NONE (nested construction; McNemar p retained in results JSON as arithmetic record only)",
+  "n_flips": 27,
+  "adjudicated": {
+   "adjudicated_flips": 24,
+   "adjudicated_guarded_correct": 39,
+   "adjudicated_guarded_acc": 0.65,
+   "adjudicated_ece_equalwidth": 0.2425
+  }
+ },
+ "sealed": "2026-09-07",
+ "sha256": "self-contained (per-file above)",
+ "adjudication": {
+  "judge": "local deepseek-r1:7b, temp 0 (heterogeneous family)",
+  "passes": "pass1 (27) + pass2 leak-stripped (10) + pass2b retry (4) + pass2c bilingual parser (2); all on record",
+  "confirmed": "24 of 27 (23 judge + 1 author-ruled lr18-46, judge-ERROR x3)",
+  "excluded": [
+   "lr18-42 (guard FP #2: 牧 vs 牧之 fragment, judge 0-2)",
+   "lr18-54/55 (judge-rejected echo-containment; author-correct noted)"
+  ],
+  "adjudicated_flips": 24,
+  "adjudicated_guarded_acc": 0.65,
+  "adjudicated_ece_equalwidth": 0.2425
+ }
+}

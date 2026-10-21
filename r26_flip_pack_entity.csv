@@ -1,0 +1,33 @@
+id,question,prediction_answer,aliases,verdict
+entity-P112-0,Who founded Porsche Automobil Holding SE?,Ferdinand Porsche founded Porsche Automobil Holding SE.,Ferdinand Porsche,correct
+entity-P131-0,Where is Mueang Lampang located?,"Mueang Lampang is located in Lampang Province, Thailand.",Lampang,correct
+entity-P17-0,Which country is Hanging Lake located in?,United States,United States of America,correct
+entity-P170-0,Who was Jimeoin: Over The Top created by?,Jimeoin: Over The Top was created by Jimeoin.,Jimeoin,correct
+entity-P40-0,Who is Carlos Bonaparte's child?,Napoleon Bonaparte,Caroline Bonaparte | Elisa Bonaparte | Louis Bonaparte | Lucien Bonaparte | Napoleon | Pauline Bonaparte,correct
+entity-P131-1,Where is Fogo Island located?,"Fogo Island is located in the province of Newfoundland and Labrador, Canada.",Newfoundland and Labrador,correct
+entity-P20-1,Where did Ernest Cosson die?,"Ernest Cosson died in Paris, France.",Paris,correct
+entity-P106-2,What kind of work does Sophie Bryant do?,Sophie Bryant is a mathematician and educator.,mathematician,correct
+entity-P17-2,Which country is Fredericktown-Millsboro located in?,United States,United States of America,correct
+entity-P176-2,Which company is Fiat Idea produced by?,Fiat Chrysler Automobiles,Fiat,correct
+entity-P495-2,Which country was Gateways created in?,United States,United States of America,correct
+entity-P159-3,Where is the headquarter of Aspinal of London?,"London, UK",London,correct
+entity-P20-3,Where did Lauge Koch die?,"Copenhagen, Denmark",Copenhagen,correct
+entity-P276-3,Where is 1970 Masters Tournament located?,"Augusta National Golf Club, Augusta, Georgia",Augusta National Golf Club,correct
+entity-P495-3,Which country was Your Touch created in?,United States,United States of America,correct
+entity-P131-4,Where is Edamulackal located?,"Edamulackal is located in Kerala, India.",Kerala | Kollam district,correct
+entity-P19-4,Where was Richard Semon born?,"Richard Semon was born in Berlin, Germany.",Berlin,correct
+entity-P276-4,Where is Siege of Bari located?,"Bari, Italy",Bari,correct
+entity-P495-4,Which country was Thank Heavens for Dale Evans created in?,United States,United States of America,correct
+entity-P69-4,Where was Richard G. Stern educated?,"Richard G. Stern was educated at Harvard University and the University of California, Berkeley.",Harvard University,correct
+entity-P159-5,Where is the headquarter of Beitar Tel Aviv Ramla F.C.?,"Beitar Tel Aviv Ramla F.C. headquarters is in Tel Aviv, Israel.",Tel Aviv,correct
+entity-P19-5,Where was Elizabeth Shepherd born?,"Elizabeth Shepherd was born in London, England.",London,correct
+entity-P276-5,Where is Treaty of Saint-Germain-en-Laye located?,Treaty of Saint-Germain-en-Laye is located in Austria.,Saint-Germain-en-Laye,incorrect
+entity-P40-5,"Who is Burchard I, Duke of Swabia's child?","Burchard I, Duke of Swabia's child is Burchard II, Duke of Swabia.",Burchard II,correct
+entity-P112-6,Who founded Walt Disney Pictures?,Walt Disney founded Walt Disney Pictures.,Walt Disney,correct
+entity-P175-6,Who performed Rory Gallagher?,Rory Gallagher performed Rory Gallagher.,Rory Gallagher,correct
+entity-P495-6,Which country was The Return of Sophie Lang created in?,United States,United States of America,correct
+entity-P127-7,Who owns Irish Distillers?,Pernod Ricard owns Irish Distillers.,Pernod Ricard,correct
+entity-P131-7,Where is Drumnadrochit located?,"Drumnadrochit is located in the Scottish Highlands, near Loch Ness.",Highland,correct
+entity-P176-7,Which company is SEAT Alhambra produced by?,"SEAT Alhambra is produced by the Spanish automobile manufacturer, SEAT.",SEAT,correct
+entity-P20-7,Where did Marcel Gaumont die?,"Paris, France",Paris,correct
+entity-P159-8,Where is the headquarter of Erani Filiatra?,"Erani Filiatra's headquarters is located in Jakarta, Indonesia.",Filiatra,incorrect

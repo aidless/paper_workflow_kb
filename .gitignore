@@ -1,0 +1,49 @@
+# 投稿打包件（单文件 2.5GB，超 GitHub 100MB 硬上限；可由 paper/ 源文件重新编译）
+submission/
+
+# 外部数据集（公开可重新下载，见 data_*/SOURCE.md 与 SHASUMS.txt）
+data_boolq/BoolQ.zip
+data_r26/entityquestions-dataset.zip
+data_r26/*.zip
+
+# LaTeX 编译中间产物（含本机绝对路径，且可重新生成）
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境与密钥（绝不入库）
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 备份与临时
+*.bak
+*.bak_*
+*.orig
+*.rej
+*.tmp
+*~

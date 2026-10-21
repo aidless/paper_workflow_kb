@@ -1,0 +1,10 @@
+{
+  "N": 8.5,
+  "S": 8.5,
+  "Si": 8.5,
+  "C": 8.5,
+  "reason_N": "The manuscript addresses N by conducting a comprehensive evaluation with paired discordant rows, exact vs guarded label matching, and various statistical tests. However, it lacks explicit mention of negative findings, which could strengthen the dimension.",
+  "reason_S": "S is well-covered with synthetic boundary measurements, three heterogeneous judge families, and thorough testing, including blinded GOLD evaluations. However, it could benefit from addressing negative findings explicitly.",
+  "reason_Si": "Si is strong with multiple layers of replication, including Holm-Bonferroni analysis and retesting. However, it could improve by addressing negative findings and formalizing asymmetry.",
+  "reason_C": "C is comprehensive with detailed documentation, registration, and blinded evaluations. However, it could enhance by addressing negative findings and ensuring all aspects are fully disclosed."
+}

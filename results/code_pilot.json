@@ -1,0 +1,23 @@
+{
+  "n": 12,
+  "note": "feasibility probe only; not a formal stratum; no ledger claim beyond counts",
+  "n_errs": 0,
+  "v31": {
+    "n_exact": 12,
+    "n_guarded": 11,
+    "n_b_cells": 0,
+    "b_cells": [],
+    "n_c_cells": 1,
+    "c_cells": [
+      "code-pilot-04"
+    ]
+  },
+  "v32": {
+    "n_exact": 12,
+    "n_guarded": 12,
+    "n_b_cells": 0,
+    "b_cells": [],
+    "n_c_cells": 0,
+    "c_cells": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+ "prior": {
+  "judged": 21,
+  "confirmed": 20
+ },
+ "extension": {
+  "judged": 9,
+  "confirmed": 9
+ },
+ "xdomain": {
+  "judged": 21,
+  "confirmed": 21
+ },
+ "power_tight": {
+  "judged": 10,
+  "confirmed": 10
+ },
+ "power_loose": {
+  "judged": 7,
+  "confirmed": 7
+ },
+ "r18": {
+  "rows_put_to_judge": 27,
+  "flip_rows": 26,
+  "confirmed": 24,
+  "control": "lr18-42 (non-flip)",
+  "excluded": [
+   "lr18-54",
+   "lr18-55"
+  ]
+ },
+ "hetero": {
+  "rows_put_to_judge": 11,
+  "flip_rows": 8,
+  "confirmed": 8,
+  "probes": [
+   "gr18-41",
+   "gr18-42",
+   "gr18-45 (non-flips)"
+  ]
+ },
+ "total_judged": 106,
+ "total_flip_rows": 102,
+ "total_confirmed": 99,
+ "nonflip_probe_rows": 4,
+ "convention": "judged = every row submitted to any judge pass, incl. 4 non-flip probe rows; confirmed = accepted correct on content in the final ruling"
+}

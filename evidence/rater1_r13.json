@@ -1,0 +1,12 @@
+{
+  "N": 8,
+  "S": 8,
+  "Si": 7,
+  "C": 8,
+  "reason_N": "The manuscript reports significant advancements, including two proved theorems, a formalized measurement-error framework, and a pre-registered cross-domain test. However, the initial flip-magnitude report is still limited, and the pilot study remains underpowered. The framework is still QA-rooted, and the public repository is not available.",
+  "reason_S": "The manuscript demonstrates robustness through multiple layers of validation, including sealed recomputations, pre-registered tests, and a public dataset arm. The guardrails and false negatives are quantified, and the external second rater agreement is strong. However, the pilot study is still underpowered, and the public repository is not available.",
+  "reason_Si": "The manuscript shows strong internal validity with Holm-surviving layers, observed readings, and cross-model/cross-type/cross-domain/cross-family replications. The theory is falsifiable, and the public dataset arm confirms flips. However, the hetero cross-family replication is descriptive-only, and the pilot study is still underpowered.",
+  "reason_C": "The abstract, body, tables, and captions are consistent, and the manuscript uses unified terms and formal definitions. Complete disclosures are provided, including the new over-fire class and post-hoc framing. However, there is no public artifact link, which is a significant limitation.",
+  "rater_model": "qwen2.5:7b",
+  "note": "R1 rater substituted: muse-spark-1.3 (unavailable) -> qwen2.5:7b (local)"
+}

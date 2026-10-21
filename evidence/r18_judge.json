@@ -1,0 +1,218 @@
+[
+  {
+    "trace_id": "lr18-02",
+    "question": "一纪等于多少年？",
+    "predicted": "12年",
+    "gold": "12",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-05",
+    "question": "半个世纪等于多少年？",
+    "predicted": "50年",
+    "gold": "50",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-07",
+    "question": "一分等于多少秒？",
+    "predicted": "60秒",
+    "gold": "60",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-08",
+    "question": "一周等于多少小时？",
+    "predicted": "168小时",
+    "gold": "168",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-15",
+    "question": "一海里等于多少米？",
+    "predicted": "1852米",
+    "gold": "1852",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-21",
+    "question": "章鱼有八条腿吗？",
+    "predicted": "是的",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-22",
+    "question": "白蚁是昆虫吗？",
+    "predicted": "是的。0.9",
+    "gold": "是",
+    "judge_verdict": "ERROR",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-23",
+    "question": "萤火虫会发光吗？",
+    "predicted": "会发光",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-24",
+    "question": "蝴蝶是昆虫吗？",
+    "predicted": "是的。0.9",
+    "gold": "是",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-25",
+    "question": "蜈蚣是昆虫吗？",
+    "predicted": "不是。",
+    "gold": "否",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-26",
+    "question": "蝎子是昆虫吗？",
+    "predicted": "不是。0.9",
+    "gold": "否",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-27",
+    "question": "龙虾是鱼吗？",
+    "predicted": "不是。0.9",
+    "gold": "否",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-28",
+    "question": "水母是鱼吗？",
+    "predicted": "不是。0.9",
+    "gold": "否",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-29",
+    "question": "扇贝是鱼吗？",
+    "predicted": "不是。0.9",
+    "gold": "否",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-30",
+    "question": "乌贼会喷墨吗？",
+    "predicted": "会",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-34",
+    "question": "信天翁会飞吗？",
+    "predicted": "会飞",
+    "gold": "是",
+    "judge_verdict": "ERROR",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-35",
+    "question": "啄木鸟会飞吗？",
+    "predicted": "会",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-36",
+    "question": "鸵鸟会飞吗？",
+    "predicted": "不会",
+    "gold": "否",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-38",
+    "question": "壁虎会断尾吗？",
+    "predicted": "会",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-39",
+    "question": "蜜蜂会酿蜜吗？",
+    "predicted": "会",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-42",
+    "question": "杜牧字什么？",
+    "predicted": "牧",
+    "gold": "牧之",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-45",
+    "question": "孟浩然字什么？",
+    "predicted": "孟浩然字浩然0.9",
+    "gold": "浩然",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-46",
+    "question": "王昌龄字什么？",
+    "predicted": "昌龄字少伯",
+    "gold": "少伯",
+    "judge_verdict": "ERROR",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-47",
+    "question": "高适字什么？",
+    "predicted": "高适字达夫",
+    "gold": "达夫",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-51",
+    "question": "岳飞字什么？",
+    "predicted": "岳飞字鹏举",
+    "gold": "鹏举",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-54",
+    "question": "文天祥字什么？",
+    "predicted": "文天祥字宋瑞，又字履善。0.9",
+    "gold": "履善",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-55",
+    "question": "海瑞字什么？",
+    "predicted": "海瑞字汝贤",
+    "gold": "汝贤",
+    "judge_verdict": "incorrect",
+    "error": null
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "model": "deepseek-r1:7b (ollama local)",
+  "role": "R2 4-stratum symmetric (replaces two failed qwen3:4b runs rater2_180_failed.log/rater2_180b_failed.log)",
+  "prompt": "/tmp/rater_prompt_180.txt + think/JSON-final-line rule",
+  "scores": {
+    "N": 4,
+    "S": 6,
+    "Si": 7,
+    "C": 8
+  },
+  "score_line_verified": "verbatim single occurrence in rater2_r1_raw.log: {\"N\": 4, \"S\": 6, \"Si\": 7, \"C\": 8}",
+  "weighted": 5.85,
+  "reasons_quoted_with_redraw_cleanup": {
+    "reason_N": "Focus on replicability is limited ... Underpowered experiments suggest narrow domain. No new theory developed in N.",
+    "reason_S": "Detailed recalculations and scripts provided, but Local-new uses a single rater. Power analysis undercuts significance. Single model replication may limit S.",
+    "reason_Si": "Three exact replications, one cross-model. Honest calibrations. Fixed failure mode. Reusable guardrails.",
+    "reason_C": "Strongly written with IMRaD, clear table. Honest reporting including ECE. No figures, but table included."
+  },
+  "raw": "evidence/rater2_r1_raw.log (terminal-redraw artifacts present; score line intact)"
+}

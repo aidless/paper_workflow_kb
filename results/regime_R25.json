@@ -1,0 +1,58 @@
+{
+ "pilot": {
+  "n": 30,
+  "n_exact": 19,
+  "exact_acc": 0.6333,
+  "n_guarded": 30,
+  "wrong_after_guarded": 0
+ },
+ "holdout-main": {
+  "n": 30,
+  "n_exact": 19,
+  "exact_acc": 0.6333,
+  "n_guarded": 24,
+  "wrong_after_guarded": 6
+ },
+ "cloud-new": {
+  "n": 60,
+  "n_exact": 48,
+  "exact_acc": 0.8,
+  "n_guarded": 52,
+  "wrong_after_guarded": 8
+ },
+ "local-new": {
+  "n": 60,
+  "n_exact": 48,
+  "exact_acc": 0.8,
+  "n_guarded": 53,
+  "wrong_after_guarded": 7
+ },
+ "local-big": {
+  "n": 160,
+  "n_exact": 148,
+  "exact_acc": 0.925,
+  "n_guarded": 152,
+  "wrong_after_guarded": 8
+ },
+ "xloose": {
+  "n": 60,
+  "n_exact": 25,
+  "exact_acc": 0.4167,
+  "n_guarded": 45,
+  "wrong_after_guarded": 15
+ },
+ "r18": {
+  "n": 60,
+  "n_exact": 15,
+  "exact_acc": 0.25,
+  "n_guarded": 39,
+  "wrong_after_guarded": 21
+ },
+ "hetero-gemma": {
+  "n": 60,
+  "n_exact": 21,
+  "exact_acc": 0.35,
+  "n_guarded": 29,
+  "wrong_after_guarded": 31
+ }
+}

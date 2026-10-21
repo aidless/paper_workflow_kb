@@ -1,0 +1,57 @@
+{
+  "model": "deepseek-r1:7b",
+  "temperature": 0,
+  "rule": "strip trailing same-line confidence float, re-judge",
+  "rows": [
+    {
+      "trace_id": "xloose-21",
+      "layer": "loose",
+      "predicted_raw": "不是。0.9",
+      "predicted_stripped": "不是",
+      "gold": "否",
+      "first_pass": "incorrect",
+      "second_pass": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-25",
+      "layer": "loose",
+      "predicted_raw": "是的。0.9",
+      "predicted_stripped": "是的",
+      "gold": "是",
+      "first_pass": "ERROR",
+      "second_pass": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-29",
+      "layer": "loose",
+      "predicted_raw": "不是。0.9",
+      "predicted_stripped": "不是",
+      "gold": "否",
+      "first_pass": "incorrect",
+      "second_pass": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-31",
+      "layer": "loose",
+      "predicted_raw": "是的。0.9",
+      "predicted_stripped": "是的",
+      "gold": "是",
+      "first_pass": "incorrect",
+      "second_pass": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-33",
+      "layer": "loose",
+      "predicted_raw": "是的。0.9",
+      "predicted_stripped": "是的",
+      "gold": "是",
+      "first_pass": "ERROR",
+      "second_pass": "correct",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+id,gold,predicted,form,verdict,reason
+boolq-2645,Yes,"Yes, Riverdale is based on the Archie Comics.",extended,flip_correct,polarity token matches gold class
+boolq-663,Yes,"Yes, it is possible to do a uterus transplant.",extended,flip_correct,polarity token matches gold class
+boolq-2165,Yes,"Yes, staring at a bright light can cause flash blindness.",extended,flip_correct,polarity token matches gold class
+boolq-1418,Yes,"Yes, there is a Las Vegas in New Mexico.",extended,flip_correct,polarity token matches gold class
+boolq-1127,Yes,"Yes, Attack on Titan has a second season.",extended,flip_correct,polarity token matches gold class
+boolq-2230,Yes,"Yes, there are nuclear power plants in Canada.",extended,flip_correct,polarity token matches gold class
+boolq-3022,Yes,"Yes, Stefan turns off his humanity in season 6.",extended,flip_correct,polarity token matches gold class
+boolq-349,Yes,"Yes, the Queen has one sibling, Princess Margaret.",extended,flip_correct,polarity token matches gold class
+boolq-726,Yes,"Yes, there will be a season 4 of The Flash.",extended,flip_correct,polarity token matches gold class
+boolq-1429,Yes,"Yes, Dawn Wells, who played Mary Ann Summers on Gilligan's Island, is still alive.",extended,flip_correct,polarity token matches gold class
+boolq-1217,Yes,"Yes, there is a season 2 of Case Histories.",extended,flip_correct,polarity token matches gold class
+boolq-491,Yes,"Yes, Belgium has been in the World Cup final.",extended,flip_correct,polarity token matches gold class
+boolq-213,Yes,"Yes, animal cells have cell membranes.",extended,flip_correct,polarity token matches gold class
+boolq-3215,Yes,"Yes, the Data Protection Act 1998 has been superseded.",extended,flip_correct,polarity token matches gold class
+boolq-2201,Yes,"Yes, they are present in both processes.",extended,flip_correct,polarity token matches gold class
+boolq-3060,Yes,"Yes, the US has a designated survivor.",extended,flip_correct,polarity token matches gold class
+boolq-3079,Yes,"Yes, you can buy liquor on Sunday in Pennsylvania.",extended,flip_correct,polarity token matches gold class
+boolq-805,Yes,"Yes, the Calvin cycle is a part of the dark reactions (light-independent reactions) of photosynthesis.",extended,flip_correct,polarity token matches gold class
+boolq-2896,No,"No, it is not a love song.",extended,flip_correct,polarity token matches gold class
+boolq-856,No,"No, a ship's captain cannot legally marry a couple.",extended,flip_correct,polarity token matches gold class
+boolq-2962,No,"No, you do not have to use all the numbers on Countdown.",extended,flip_correct,polarity token matches gold class
+boolq-395,No,"No, the cast members are not real gymnasts. They are actors who performed gymnastics stunts.",extended,flip_correct,polarity token matches gold class
+boolq-2942,No,"No, you do not need plumber's tape on compression fittings.",extended,flip_correct,polarity token matches gold class
+boolq-2205,No,"No, it did not apply to all states.",extended,flip_correct,polarity token matches gold class
+boolq-2023,No,"No, the foreword goes before the table of contents.",extended,flip_correct,polarity token matches gold class
+boolq-1402,No,"No, Tara does not die in Sons of Anarchy season 4.",extended,flip_correct,polarity token matches gold class
+boolq-1243,No,No.,period_variant,flip_correct,polarity token matches gold class
+boolq-3017,No,"No, Mickey and Minnie's House is no longer in the Magic Kingdom.",extended,flip_correct,polarity token matches gold class
+boolq-2879,No,"No, the County Court Business Centre is not a physical court where hearings take place.",extended,flip_correct,polarity token matches gold class
+boolq-1685,No,"No, there is no confirmed third season of Good Morning Call.",extended,flip_correct,polarity token matches gold class
+boolq-758,No,"No, they do not speak the same Korean.",extended,flip_correct,polarity token matches gold class
+boolq-3220,No,"No, pool water cannot change color specifically from urine.",extended,flip_correct,polarity token matches gold class
+boolq-2572,No,"No, Nick Massi has passed away.",extended,flip_correct,polarity token matches gold class
+boolq-2258,No,"No, you do not need a visa to visit Svalbard.",extended,flip_correct,polarity token matches gold class
+boolq-2449,No,"No, Day of the Dead: Bloodline is not a sequel. It is a remake of the original 1985 film Day of the Dead.",extended,flip_correct,polarity token matches gold class

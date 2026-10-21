@@ -1,0 +1,61 @@
+id,question,prediction_answer,aliases,verdict
+entity-P740-5,Where was As One founded?,As One was founded in South Korea.,Hong Kong,incorrect
+entity-P19-6,Where was Robert Moorhouse born?,"Robert Moorhouse was born in Manchester, England.",Berry Brow,incorrect
+entity-P800-4,What is Lemon Jelly famous for?,"Lemon Jelly is famous for their electronic music and the song ""Sundial.""",Lost Horizons,incorrect
+entity-P131-8,Where is Quch Palang located?,Quch Palang is located in Iran.,Razavi Khorasan Province,incorrect
+entity-P136-0,What type of music does Arlene play?,Jazz,country music,incorrect
+entity-P36-5,What is the capital of Pando Department?,Plaza de la Revolución,Cobija,incorrect
+entity-P36-0,What is the capital of Twiggs County?,"Berry, Georgia",Jeffersonville,incorrect
+entity-P159-6,Where is the headquarter of TMS Entertainment?,"Tokyo, Japan",Nakano-ku,incorrect
+entity-P112-2,Who founded Iliad?,Vladimir Nabokov founded Iliad.,Xavier Niel,incorrect
+entity-P136-4,What type of music does Miss Congeniality 2: Armed and Fabulous play?,Pop and dance music.,comedy film,incorrect
+entity-P69-6,Where was Samuel T. Richardson educated?,Samuel T. Richardson was educated at the University of Pennsylvania.,Willamette University,incorrect
+entity-P276-2,Where is Portrait of a Lady located?,"The Metropolitan Museum of Art, New York City",National Gallery of Art,incorrect
+entity-P36-3,What is the capital of West Azarbaijan Province?,Tabriz,Urmia,incorrect
+entity-P740-2,Where was Iskra founded?,Iskra was founded in Poland.,Victoria,incorrect
+entity-P127-4,Who owns Bergensavisen?,Norwegian Media Corporation,Amedia,incorrect
+entity-P19-2,Where was Zoran Urumov born?,"Zoran Urumov was born in Skopje, Macedonia.",Belgrade,incorrect
+entity-P112-1,Who founded Hadassah Women's Zionist Organization of America?,Rebecca Charnin,Henrietta Szold,incorrect
+entity-P127-1,Who owns Thomasville Times-Enterprise?,The ownership of Thomasville Times-Enterprise is not specified in the given context.,Community Newspaper Holdings,incorrect
+entity-P106-5,What kind of work does Bruce Foxton do?,Bruce Foxton is a musician.,songwriter,incorrect
+entity-P69-3,Where was Bruce Bromley educated?,Stanford University,Harvard Law School,incorrect
+entity-P40-4,Who is Lambert I of Nantes's child?,Eudes of Brittany,Guy I of Spoleto | Lambert II of Nantes,incorrect
+entity-P175-4,Who performed El Miedo a la Libertad?,"Ricky Martin performed ""El Miedo a la Libertad"".",Tanghetto,incorrect
+entity-P131-5,Where is Vatani Stadium located?,Vatani Stadium is located in Iran.,Qaem Shahr,incorrect
+entity-P740-7,Where was Servite Order founded?,Servite Order was founded in Italy.,Florence,incorrect
+entity-P50-4,Who is the author of Nature Girl?,Lynne Reid Banks,Carl Hiaasen,incorrect
+entity-P131-3,Where is Hidden Bay Airport located?,Hidden Bay Airport is located in the Bahamas.,Saskatchewan,incorrect
+entity-P69-2,Where was Karen Kwan educated?,Karen Kwan was educated at the Chinese High School in Singapore.,Boston University,incorrect
+entity-P20-4,Where did Hugo Treffner die?,"Hugo Treffner died in Berlin, Germany.",Tartu,incorrect
+entity-P20-0,Where did Edmund Burke die?,"Edmund Burke died in Paris, France.",Beaconsfield,incorrect
+entity-P136-1,What type of music does Edge of the Axe play?,Heavy metal,horror film,incorrect
+entity-P740-1,Where was Sobeys founded?,"Sobeys was founded in St. John's, Newfoundland and Labrador, Canada.",Stellarton,incorrect
+entity-P69-5,Where was Michael New educated?,Michael New was educated at the University of Virginia.,Dartmouth College | Stanford University,incorrect
+entity-P170-7,Who was Madonna in Glory with Seraphim created by?,"Madonna was not directly associated with the creation of ""Glory with Seraphim."" 0.1",Sandro Botticelli,incorrect
+entity-P36-2,What is the capital of Tagant Region?,El Aaiun,Tidjikja,incorrect
+entity-P276-1,Where is Convention on preventing and combating violence against women and domestic violence located?,Convention on preventing and combating violence against women and domestic violence is located in the United Nations headquarters.,Istanbul,incorrect
+entity-P800-7,What is Muhammad Husayn Tabatabaei famous for?,Muhammad Husayn Tabatabaei is famous for being the grandson of Ayatollah Khomeini and a prominent Shia scholar.,Tafsir al-Mizan,incorrect
+entity-P175-7,Who performed Holiday for Swing?,Bobby Darin,Seth MacFarlane,incorrect
+entity-P50-2,Who is the author of America Hurrah?,Irwin Shaw,Jean-Claude van Itallie,incorrect
+entity-P50-1,Who is the author of On Human Nature?,Richard Dawkins,Edward O. Wilson,incorrect
+entity-P127-5,Who owns PlayStation?,Sony Corporation,Sony Interactive Entertainment,incorrect
+entity-P276-7,Where is International Screenwriters' Festival located?,"International Screenwriters' Festival is located in London, UK.",Cheltenham,incorrect
+entity-P176-1,Which company is Türksat 3A produced by?,Boeing,Thales Alenia Space,incorrect
+entity-P264-2,What music label is The Upsides represented by?,Fueled by Ramen,Hopeless Records,incorrect
+entity-P413-2,What position does Dave Mossman play?,Defender,midfielder,incorrect
+entity-P159-1,"Where is the headquarter of Castlemaine Brewery, Western Australia?","Castlemaine Brewery, Western Australia headquarters: Midland, Western Australia.",East Fremantle,incorrect
+entity-P112-3,Who founded Aerial Experiment Association?,"Alfred V. Loomis and John Robert ""Jack"" Knight founded the Aerial Experiment Association.",Alexander Graham Bell | Glenn Curtiss,incorrect
+entity-P800-3,What is Kazi Nazrul Islam famous for?,"Kazi Nazrul Islam is famous for being a poet, writer, and freedom fighter.",Notuner Gaan,incorrect
+entity-P170-2,Who was Acton created by?,Stan Lee and Steve Ditko,James Turrell,incorrect
+entity-P407-0,Which language was The Chieftains 2 written in?,English,Irish,incorrect
+entity-P264-6,What music label is Touched by a Polka represented by?,Touched by a Polka is represented by Sony Music.,Rounder Records,incorrect
+entity-P170-6,Who was La Femme Nikita created by?,Luc Besson,Joel Surnow,incorrect
+entity-P69-7,Where was Christian Friedrich Henrici educated?,Christian Friedrich Henrici was educated at the University of Halle-Wittenberg.,Leipzig University,incorrect
+entity-P495-1,Which country was The Pest created in?,Romania,United States of America,incorrect
+entity-P276-0,Where is Battle of Abbeville located?,France,Abbeville,incorrect
+entity-P50-0,Who is the author of The Sigma Protocol?,Dan Brown,Robert Ludlum,incorrect
+entity-P740-0,"Where was Hello, Blue Roses founded?","Hello, Blue Roses was founded in Sweden.",Vancouver,incorrect
+entity-P50-3,Who is the author of Lux Mundi?,Dorothy L. Sayers,Charles Gore,incorrect
+entity-P20-2,Where did Ron Haydock die?,"Ron Haydock died in Manchester, England.",Victorville,incorrect
+entity-P176-4,Which company is BMW Vision ConnectedDrive produced by?,BMW Group,Arman Ansari,incorrect
+entity-P40-3,Who is Teti's child?,Teti's child is Gianni.,Pepi I Meryre,incorrect

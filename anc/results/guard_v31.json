@@ -1,0 +1,60 @@
+{
+  "matcher": "label_match_v31 guarded_tolerant_match (v3 + short-ASCII formula guard)",
+  "guard_rule": "block substring iff both normed sides match ^[a-z0-9]{1,4}$, differ, min(len)<=2",
+  "n_rows": 120,
+  "n_changed_vs_v3": 1,
+  "changed": [
+    {
+      "trace_id": "cloud-new-42",
+      "source": "cloud-new",
+      "predicted": "O",
+      "gold": "O2",
+      "v3": true,
+      "v3.1": false
+    }
+  ],
+  "changed_single_trace_id": "cloud-new-42",
+  "regression": {
+    "cloud-new-42_rejected": true,
+    "pilot-03_kept": true,
+    "cloud-new-48_kept": true
+  },
+  "strata": {
+    "pilot": {
+      "n": 30,
+      "n_guarded": 30,
+      "acc_guarded": 1.0,
+      "n_exact": 19,
+      "flips_guarded": 11,
+      "flip_rate_guarded": 0.3667,
+      "mcnemar_b": 11,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 0.0009765624999999999,
+      "ece10_guarded": 0.0037
+    },
+    "holdout-main": {
+      "n": 30,
+      "n_guarded": 24,
+      "acc_guarded": 0.8,
+      "n_exact": 19,
+      "flips_guarded": 5,
+      "flip_rate_guarded": 0.1667,
+      "mcnemar_b": 5,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 0.0625,
+      "ece10_guarded": 0.205
+    },
+    "cloud-new": {
+      "n": 60,
+      "n_guarded": 52,
+      "acc_guarded": 0.8667,
+      "n_exact": 48,
+      "flips_guarded": 4,
+      "flip_rate_guarded": 0.0667,
+      "mcnemar_b": 4,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 0.125,
+      "ece10_guarded": 0.1692
+    }
+  }
+}

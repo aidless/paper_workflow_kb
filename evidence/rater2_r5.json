@@ -1,0 +1,14 @@
+{
+ "model": "deepseek-r1:7b (ollama local)",
+ "role": "R2 round-5 symmetric strict, blind, WITH seven-strata+math evidence",
+ "prompt": "/tmp/rater_prompt_r5.txt",
+ "scores": {
+  "N": 4,
+  "S": 6,
+  "Si": 5,
+  "C": 8
+ },
+ "weighted": "0.30*4+0.35*6+0.25*5+0.10*8=5.35",
+ "extract": "post-</think> JSON, 1 hit",
+ "note": "qwen3:4b failed 4x this round (prose-no-JSON); uncalibrated model estimate"
+}

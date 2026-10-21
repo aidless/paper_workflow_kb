@@ -1,0 +1,33 @@
+{
+  "dropped_trace_suffixes": [
+    "09",
+    "16",
+    "53",
+    "54",
+    "55"
+  ],
+  "reason": "core-stem overlap with pre-xdomain rows",
+  "overlapping": {
+    "09": "一公里等于多少米",
+    "16": "一年有多少个月",
+    "53": "中国的首都是哪里",
+    "54": "日本的首都是哪里",
+    "55": "法国的首都是哪里"
+  },
+  "tight": {
+    "n": 55,
+    "n_guarded": 46,
+    "n_flips": 1,
+    "mcnemar_b": 1,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 1.0
+  },
+  "loose": {
+    "n": 55,
+    "n_guarded": 40,
+    "n_flips": 19,
+    "mcnemar_b": 19,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 3.814697265625e-06
+  }
+}

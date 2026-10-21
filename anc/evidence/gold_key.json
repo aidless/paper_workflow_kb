@@ -1,0 +1,131 @@
+{
+  "seed": 20260908,
+  "mapping": {
+    "G01": {
+      "kind": "flip-stem",
+      "trace_id": "local-big-096",
+      "stratum": "local-big"
+    },
+    "G02": {
+      "kind": "flip-stem",
+      "trace_id": "cloud-new-07",
+      "stratum": "cloud-new"
+    },
+    "G03": {
+      "kind": "flip-nostem",
+      "trace_id": "holdout-10",
+      "stratum": "holdout-main"
+    },
+    "G04": {
+      "kind": "flip-stem",
+      "trace_id": "local-big-097",
+      "stratum": "local-big"
+    },
+    "G05": {
+      "kind": "flip-stem",
+      "trace_id": "local-new-31",
+      "stratum": "local-new"
+    },
+    "G06": {
+      "kind": "flip-stem",
+      "trace_id": "cloud-new-42",
+      "stratum": "cloud-new"
+    },
+    "G07": {
+      "kind": "flip-stem",
+      "trace_id": "cloud-new-48",
+      "stratum": "cloud-new"
+    },
+    "G08": {
+      "kind": "flip-nostem",
+      "trace_id": "pilot-01",
+      "stratum": "pilot"
+    },
+    "G09": {
+      "kind": "flip-nostem",
+      "trace_id": "pilot-05",
+      "stratum": "pilot"
+    },
+    "G10": {
+      "kind": "flip-stem",
+      "trace_id": "local-big-103",
+      "stratum": "local-big"
+    },
+    "G11": {
+      "kind": "flip-nostem",
+      "trace_id": "holdout-23",
+      "stratum": "holdout-main"
+    },
+    "G12": {
+      "kind": "flip-stem",
+      "trace_id": "local-new-09",
+      "stratum": "local-new"
+    },
+    "G13": {
+      "kind": "flip-stem",
+      "trace_id": "local-new-26",
+      "stratum": "local-new"
+    },
+    "G14": {
+      "kind": "flip-nostem",
+      "trace_id": "holdout-25",
+      "stratum": "holdout-main"
+    },
+    "G15": {
+      "kind": "flip-stem",
+      "trace_id": "local-new-48",
+      "stratum": "local-new"
+    },
+    "G16": {
+      "kind": "flip-nostem",
+      "trace_id": "holdout-7",
+      "stratum": "holdout-main"
+    },
+    "G17": {
+      "kind": "flip-nostem",
+      "trace_id": "pilot-27",
+      "stratum": "pilot"
+    },
+    "G18": {
+      "kind": "flip-stem",
+      "trace_id": "cloud-new-26",
+      "stratum": "cloud-new"
+    },
+    "G19": {
+      "kind": "flip-nostem",
+      "trace_id": "pilot-23",
+      "stratum": "pilot"
+    },
+    "G20": {
+      "kind": "flip-nostem",
+      "trace_id": "pilot-30",
+      "stratum": "pilot"
+    },
+    "G21": {
+      "kind": "flip-stem",
+      "trace_id": "local-big-110",
+      "stratum": "local-big"
+    },
+    "G22": {
+      "kind": "flip-stem",
+      "trace_id": "cloud-new-22",
+      "stratum": "cloud-new"
+    },
+    "G23": {
+      "kind": "flip-nostem",
+      "trace_id": "holdout-26",
+      "stratum": "holdout-main"
+    },
+    "G24": {
+      "kind": "flip-stem",
+      "trace_id": "local-new-37",
+      "stratum": "local-new"
+    },
+    "G25": {
+      "kind": "flip-nostem",
+      "trace_id": "pilot-25",
+      "stratum": "pilot"
+    }
+  },
+  "analysis_plan": "overall agreement + Wilson 95% CI; stem/stemless split; all 25 guarded=TRUE per evidence; '存疑' reported separately, excluded in sensitivity analysis"
+}

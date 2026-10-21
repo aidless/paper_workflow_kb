@@ -1,0 +1,8 @@
+{
+  "matcher": "label_match_v32.tolerant_match_v32 (v3.1 + empty-guard raw-fallback)",
+  "n_rows": 470,
+  "n_diff_vs_v31": 0,
+  "diff": [],
+  "n_unexpected": 0,
+  "unexpected": []
+}

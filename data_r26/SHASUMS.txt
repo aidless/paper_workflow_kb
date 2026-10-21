@@ -1,0 +1,3 @@
+ef94fac6db0541e5bb5b27020d067a8b13b1c1ffc52717e836832e02aaed87b9  data_r26/triviaqa-rc.tar.gz
+015eb64a12fa2f9b2f95d2c78bba69779e0d200dbbd4b0772f3ce57bc00da9c5  data_r26/entityquestions-dataset.zip
+853fbe7922f70c59629f06a39e8d9ca440c3d740e760fd3b87a5ddf3dcba2436  data_boolq/BoolQ.zip

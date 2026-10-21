@@ -1,0 +1,613 @@
+{
+  "seed": 100,
+  "mapping": {
+    "H01": {
+      "kind": "nonflip",
+      "trace_id": "cloud-new-49",
+      "stratum": "cloud-new",
+      "guarded_outcome": 1
+    },
+    "H02": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-46",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H03": {
+      "kind": "flip-confirmed",
+      "trace_id": "powLL-130",
+      "stratum": "powrep-loose",
+      "guarded_outcome": 1
+    },
+    "H04": {
+      "kind": "flip-confirmed",
+      "trace_id": "local-new-09",
+      "stratum": "local-new",
+      "guarded_outcome": 1
+    },
+    "H05": {
+      "kind": "nonflip",
+      "trace_id": "holdout-18",
+      "stratum": "holdout-main",
+      "guarded_outcome": 0
+    },
+    "H06": {
+      "kind": "flip-confirmed",
+      "trace_id": "gr18-57",
+      "stratum": "hetero",
+      "guarded_outcome": 1
+    },
+    "H07": {
+      "kind": "flip-confirmed",
+      "trace_id": "gr18-23",
+      "stratum": "hetero",
+      "guarded_outcome": 1
+    },
+    "H08": {
+      "kind": "nonflip",
+      "trace_id": "pilot-04",
+      "stratum": "pilot",
+      "guarded_outcome": 1
+    },
+    "H09": {
+      "kind": "nonflip",
+      "trace_id": "pow2-105",
+      "stratum": "powrep",
+      "guarded_outcome": 0
+    },
+    "H10": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-40",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H11": {
+      "kind": "nonflip",
+      "trace_id": "en-new-027",
+      "stratum": "local-en",
+      "guarded_outcome": 1
+    },
+    "H12": {
+      "kind": "flip-confirmed",
+      "trace_id": "powL-122",
+      "stratum": "powrep",
+      "guarded_outcome": 1
+    },
+    "H13": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-29",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H14": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-35",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H15": {
+      "kind": "nonflip",
+      "trace_id": "en-new-029",
+      "stratum": "local-en",
+      "guarded_outcome": 1
+    },
+    "H16": {
+      "kind": "flip-confirmed",
+      "trace_id": "powLL-012",
+      "stratum": "powrep-loose",
+      "guarded_outcome": 1
+    },
+    "H17": {
+      "kind": "nonflip",
+      "trace_id": "xdomain-22",
+      "stratum": "xtight",
+      "guarded_outcome": 0
+    },
+    "H18": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-29",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H19": {
+      "kind": "flip-confirmed",
+      "trace_id": "pilot-05",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H20": {
+      "kind": "flip-confirmed",
+      "trace_id": "powL-074",
+      "stratum": "powrep",
+      "guarded_outcome": 1
+    },
+    "H21": {
+      "kind": "nonflip",
+      "trace_id": "local-new-28",
+      "stratum": "local-new",
+      "guarded_outcome": 1
+    },
+    "H22": {
+      "kind": "nonflip",
+      "trace_id": "xdomain-57",
+      "stratum": "xtight",
+      "guarded_outcome": 1
+    },
+    "H23": {
+      "kind": "flip-confirmed",
+      "trace_id": "powLL-131",
+      "stratum": "powrep-loose",
+      "guarded_outcome": 1
+    },
+    "H24": {
+      "kind": "nonflip",
+      "trace_id": "cloud-math-27",
+      "stratum": "math",
+      "guarded_outcome": 0
+    },
+    "H25": {
+      "kind": "flip-confirmed",
+      "trace_id": "pilot-30",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H26": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-21",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H27": {
+      "kind": "nonflip",
+      "trace_id": "cloud-math-19",
+      "stratum": "math",
+      "guarded_outcome": 1
+    },
+    "H28": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-47",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H29": {
+      "kind": "nonflip",
+      "trace_id": "pow2L-005",
+      "stratum": "powrep-loose",
+      "guarded_outcome": 0
+    },
+    "H30": {
+      "kind": "nonflip",
+      "trace_id": "cloud-new-27",
+      "stratum": "cloud-new",
+      "guarded_outcome": 1
+    },
+    "H31": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-51",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H32": {
+      "kind": "flip-confirmed",
+      "trace_id": "gr18-17",
+      "stratum": "hetero",
+      "guarded_outcome": 1
+    },
+    "H33": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-45",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H34": {
+      "kind": "flip-excluded",
+      "trace_id": "cloud-new-42",
+      "stratum": "cloud-new",
+      "guarded_outcome": 0
+    },
+    "H35": {
+      "kind": "flip-confirmed",
+      "trace_id": "cloud-new-07",
+      "stratum": "cloud-new",
+      "guarded_outcome": 1
+    },
+    "H36": {
+      "kind": "nonflip",
+      "trace_id": "local-big-104",
+      "stratum": "local-big",
+      "guarded_outcome": 0
+    },
+    "H37": {
+      "kind": "nonflip",
+      "trace_id": "xdomain-58",
+      "stratum": "xtight",
+      "guarded_outcome": 0
+    },
+    "H38": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-08",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H39": {
+      "kind": "nonflip",
+      "trace_id": "pilot-10",
+      "stratum": "pilot",
+      "guarded_outcome": 1
+    },
+    "H40": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-28",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H41": {
+      "kind": "flip-confirmed",
+      "trace_id": "pow1-045",
+      "stratum": "powrep",
+      "guarded_outcome": 1
+    },
+    "H42": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-60",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H43": {
+      "kind": "nonflip",
+      "trace_id": "pow1-075",
+      "stratum": "powrep",
+      "guarded_outcome": 1
+    },
+    "H44": {
+      "kind": "flip-confirmed",
+      "trace_id": "pow2-133",
+      "stratum": "powrep",
+      "guarded_outcome": 1
+    },
+    "H45": {
+      "kind": "nonflip",
+      "trace_id": "gr18-02",
+      "stratum": "hetero",
+      "guarded_outcome": 0
+    },
+    "H46": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-21",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H47": {
+      "kind": "flip-excluded",
+      "trace_id": "lr18-54",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H48": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-25",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H49": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-39",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H50": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-25",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H51": {
+      "kind": "nonflip",
+      "trace_id": "cloud-new-35",
+      "stratum": "cloud-new",
+      "guarded_outcome": 0
+    },
+    "H52": {
+      "kind": "flip-confirmed",
+      "trace_id": "xdomain-43",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H53": {
+      "kind": "flip-confirmed",
+      "trace_id": "holdout-26",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H54": {
+      "kind": "nonflip",
+      "trace_id": "local-new-46",
+      "stratum": "local-new",
+      "guarded_outcome": 1
+    },
+    "H55": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-15",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H56": {
+      "kind": "nonflip",
+      "trace_id": "local-new-33",
+      "stratum": "local-new",
+      "guarded_outcome": 0
+    },
+    "H57": {
+      "kind": "flip-confirmed",
+      "trace_id": "holdout-7",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H58": {
+      "kind": "flip-confirmed",
+      "trace_id": "pilot-27",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H59": {
+      "kind": "nonflip",
+      "trace_id": "pilot-28",
+      "stratum": "pilot",
+      "guarded_outcome": 1
+    },
+    "H60": {
+      "kind": "flip-confirmed",
+      "trace_id": "cloud-new-26",
+      "stratum": "cloud-new",
+      "guarded_outcome": 1
+    },
+    "H61": {
+      "kind": "nonflip",
+      "trace_id": "local-big-115",
+      "stratum": "local-big",
+      "guarded_outcome": 1
+    },
+    "H62": {
+      "kind": "flip-excluded",
+      "trace_id": "gr18-41",
+      "stratum": "hetero",
+      "guarded_outcome": 0
+    },
+    "H63": {
+      "kind": "flip-confirmed",
+      "trace_id": "local-new-48",
+      "stratum": "local-new",
+      "guarded_outcome": 1
+    },
+    "H64": {
+      "kind": "nonflip",
+      "trace_id": "holdout-27",
+      "stratum": "holdout-main",
+      "guarded_outcome": 0
+    },
+    "H65": {
+      "kind": "nonflip",
+      "trace_id": "en-new-004",
+      "stratum": "local-en",
+      "guarded_outcome": 1
+    },
+    "H66": {
+      "kind": "nonflip",
+      "trace_id": "lr18-03",
+      "stratum": "r18",
+      "guarded_outcome": 0
+    },
+    "H67": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-34",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H68": {
+      "kind": "flip-excluded",
+      "trace_id": "lr18-42",
+      "stratum": "r18",
+      "guarded_outcome": 0
+    },
+    "H69": {
+      "kind": "flip-confirmed",
+      "trace_id": "pilot-13",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H70": {
+      "kind": "nonflip",
+      "trace_id": "cloud-new-38",
+      "stratum": "cloud-new",
+      "guarded_outcome": 0
+    },
+    "H71": {
+      "kind": "flip-excluded",
+      "trace_id": "gr18-45",
+      "stratum": "hetero",
+      "guarded_outcome": 0
+    },
+    "H72": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-31",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H73": {
+      "kind": "flip-confirmed",
+      "trace_id": "gr18-33",
+      "stratum": "hetero",
+      "guarded_outcome": 1
+    },
+    "H74": {
+      "kind": "flip-confirmed",
+      "trace_id": "local-new-31",
+      "stratum": "local-new",
+      "guarded_outcome": 1
+    },
+    "H75": {
+      "kind": "flip-confirmed",
+      "trace_id": "gr18-09",
+      "stratum": "hetero",
+      "guarded_outcome": 1
+    },
+    "H76": {
+      "kind": "flip-confirmed",
+      "trace_id": "pilot-07",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H77": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-37",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H78": {
+      "kind": "nonflip",
+      "trace_id": "pow1-042",
+      "stratum": "powrep",
+      "guarded_outcome": 1
+    },
+    "H79": {
+      "kind": "nonflip",
+      "trace_id": "gr18-08",
+      "stratum": "hetero",
+      "guarded_outcome": 0
+    },
+    "H80": {
+      "kind": "nonflip",
+      "trace_id": "lr18-17",
+      "stratum": "r18",
+      "guarded_outcome": 0
+    },
+    "H81": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-23",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H82": {
+      "kind": "flip-excluded",
+      "trace_id": "gr18-42",
+      "stratum": "hetero",
+      "guarded_outcome": 0
+    },
+    "H83": {
+      "kind": "flip-confirmed",
+      "trace_id": "local-big-110",
+      "stratum": "local-big",
+      "guarded_outcome": 1
+    },
+    "H84": {
+      "kind": "flip-confirmed",
+      "trace_id": "pilot-23",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H85": {
+      "kind": "flip-excluded",
+      "trace_id": "lr18-55",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H86": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-35",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H87": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-07",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H88": {
+      "kind": "nonflip",
+      "trace_id": "local-new-32",
+      "stratum": "local-new",
+      "guarded_outcome": 0
+    },
+    "H89": {
+      "kind": "nonflip",
+      "trace_id": "cloud-math-16",
+      "stratum": "math",
+      "guarded_outcome": 0
+    },
+    "H90": {
+      "kind": "flip-confirmed",
+      "trace_id": "xloose-43",
+      "stratum": "xdomain",
+      "guarded_outcome": 1
+    },
+    "H91": {
+      "kind": "nonflip",
+      "trace_id": "local-big-017",
+      "stratum": "local-big",
+      "guarded_outcome": 1
+    },
+    "H92": {
+      "kind": "nonflip",
+      "trace_id": "holdout-24",
+      "stratum": "holdout-main",
+      "guarded_outcome": 1
+    },
+    "H93": {
+      "kind": "flip-confirmed",
+      "trace_id": "lr18-02",
+      "stratum": "r18",
+      "guarded_outcome": 1
+    },
+    "H94": {
+      "kind": "flip-confirmed",
+      "trace_id": "pow1-043",
+      "stratum": "powrep",
+      "guarded_outcome": 1
+    },
+    "H95": {
+      "kind": "nonflip",
+      "trace_id": "local-big-106",
+      "stratum": "local-big",
+      "guarded_outcome": 0
+    },
+    "H96": {
+      "kind": "flip-confirmed",
+      "trace_id": "holdout-25",
+      "stratum": "prior",
+      "guarded_outcome": 1
+    },
+    "H97": {
+      "kind": "nonflip",
+      "trace_id": "pow2-078",
+      "stratum": "powrep",
+      "guarded_outcome": 0
+    },
+    "H98": {
+      "kind": "flip-confirmed",
+      "trace_id": "local-big-097",
+      "stratum": "local-big",
+      "guarded_outcome": 1
+    },
+    "H99": {
+      "kind": "nonflip",
+      "trace_id": "xloose-59",
+      "stratum": "xloose",
+      "guarded_outcome": 0
+    },
+    "H100": {
+      "kind": "nonflip",
+      "trace_id": "xloose-18",
+      "stratum": "xloose",
+      "guarded_outcome": 0
+    }
+  },
+  "counts": {
+    "n_items": 100,
+    "n_stem": 79,
+    "n_confirmed": 55,
+    "n_excluded": 7,
+    "n_nonflip": 38
+  },
+  "note": "guarded outcomes sealed for decode; grader sees no outcomes. R22 v33 promotion: H62/H68/H71/H82 guarded_outcome 1->0 (single-CJK-substring guard); other 96 rows recomputed identical under v32 and v33."
+}

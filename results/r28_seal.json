@@ -1,0 +1,46 @@
+{
+ "arm_a_degenerate": {
+  "n": 40,
+  "n_exact": 39,
+  "n_guard": 40,
+  "n_flips": 1,
+  "flip_rate": 0.025,
+  "over_fire": 0,
+  "flip_rows": [
+   {
+    "trace_id": "r28-a-08",
+    "predicted": "125.0",
+    "gold": "125"
+   }
+  ]
+ },
+ "arm_b_uncovered": {
+  "n": 40,
+  "n_exact": 18,
+  "n_guard": 18,
+  "n_flips": 0,
+  "flip_rate": 0.0,
+  "n_miss_candidates": 22,
+  "n_miss": 21,
+  "n_correct_reject": 1,
+  "miss_rate": 0.525,
+  "miss_wilson95": [
+   0.375,
+   0.6706
+  ]
+ },
+ "gates": {
+  "p_i": {
+   "strict_zero_flip_met": false,
+   "descriptive_direction_met": true,
+   "verdict": "REFINE",
+   "note": "1/40 flip = numeric '.0' suffix (125.0 vs 125) covered by numeric branch; degenerate space -> ~zero flips except numeric-format variants covered by R"
+  },
+  "p_ii": {
+   "flip_zero_met": true,
+   "miss_positive_met": true,
+   "verdict": "MET",
+   "note": "0 flips, 21/40 miss (English unit variants present but R covers only Chinese units)"
+  }
+ }
+}

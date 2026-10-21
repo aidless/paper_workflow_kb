@@ -1,0 +1,10 @@
+{
+  "N": 9.5,
+  "S": 8.5,
+  "Si": 8.5,
+  "C": 10.0,
+  "reason_N": "The manuscript demonstrates a thorough approach with multiple significant p-values and transparent reporting, though it lacks mathematical formalization.",
+  "reason_S": "The study includes comprehensive judge families and recalibration but falls short on achieving higher ceilings and addressing FNR/FPR calibration.",
+  "reason_Si": "The manuscript shows strong significance with multiple p-values and cross-model replication but fails to meet the descriptive bar.",
+  "reason_C": "The manuscript is complete, consistent, honest, and uses only tables without figures."
+}

@@ -1,0 +1,47 @@
+{
+  "n": 60,
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "exact_string_agreement": 0.9833,
+  "exact_correct_test": 48,
+  "exact_correct_retest": 48,
+  "mcnemar_b": 0,
+  "mcnemar_c": 0,
+  "mcnemar_p_two": 1.0,
+  "guarded_agreement": 1.0,
+  "guarded_mcnemar_b": 0,
+  "guarded_mcnemar_c": 0,
+  "guarded_mcnemar_p_two": 1.0,
+  "flip_set_test": [
+    "光速约每秒多少公里？只答数字。",
+    "地球绕太阳一周约多少天？只答数字。",
+    "氧气的化学符号是？",
+    "美国的首都是哪里？只答地名。",
+    "长江长约多少公里？只答数字。"
+  ],
+  "flip_set_retest": [
+    "光速约每秒多少公里？只答数字。",
+    "地球绕太阳一周约多少天？只答数字。",
+    "氧气的化学符号是？",
+    "美国的首都是哪里？只答地名。",
+    "长江长约多少公里？只答数字。"
+  ],
+  "n_flip_test": 5,
+  "n_flip_retest": 5,
+  "flip_set_overlap": 5,
+  "confidence_mean_abs_drift": 0.0107,
+  "n_differing_strings": 1,
+  "differing": [
+    {
+      "question": "光速约每秒多少公里？只答数字。",
+      "test_pred": "300000",
+      "retest_pred": "299792.458",
+      "test_conf": 0.9,
+      "retest_conf": 0.458,
+      "test_exact": false,
+      "retest_exact": false,
+      "test_guarded": true,
+      "retest_guarded": true
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "labels": "author-labeled synthetic (F/A/C) + sealed judge rows (R)",
+  "guard_rule": "v3.1 formula guard + v3.3 CJK single-char substring guard (see label_match_v33.V33_RULE)",
+  "results": {
+    "design": "F=12 true-reject formula; A=12 true-accept; C=8 true-reject CJK",
+    "classes": {
+      "F": {
+        "n": 12,
+        "v3_accept": 12,
+        "guarded_accept": 0,
+        "recall_target_class": "12/12 blocked",
+        "precision": "12/12 (no A-class blocked; see below)"
+      },
+      "A": {
+        "n": 12,
+        "guarded_accept": 12,
+        "specificity_accepts": "12/12 (zero over-fire)"
+      },
+      "C": {
+        "n": 8,
+        "guarded_accept": 0,
+        "catch_rate": "8/8 rejected under v33 (R22 patch); was 8/8 missed under v3.1/v3.2 by construction"
+      },
+      "R_confirmed": {
+        "n": 92,
+        "guarded_accept": 92,
+        "recall_confirmed": "92/92"
+      },
+      "R_excluded": {
+        "n": 6,
+        "guarded_accept": 2,
+        "note": "R22 v33: 2 accepted-but-excluded (lr18-54/55 echo rows: judge-majority excluded, author-noted correct: instrument divergence, see text) + 4 guard-caught (G06 formula FP + gr18-41/42/45 CJK fragments now rejected by the CJK single-char guard); lr18-42 no longer a flip under v33"
+      }
+    }
+  },
+  "summary": {
+    "formula_recall": "12/12",
+    "formula_precision": "12/12",
+    "accept_specificity": "12/12",
+    "cjk_catch": "8/8 rejected (v33 patch)",
+    "confirmed_recall": "92/92",
+    "excluded_inventory": "2/6 accept + 4 guard-caught",
+    "v32_v33_diffs": "11/130 (all single-CJK class)"
+  },
+  "validation_log": [
+    "[OK] F.v3_all_accept: got=12 want=12",
+    "[OK] F.guarded_all_block: got=0 want=0",
+    "[OK] A.guarded_all_accept: got=12 want=12",
+    "[OK] C.guarded_all_caught: got=0 want=0",
+    "[INFO] confirmed flips reconstructed: 92",
+    "[OK] confirmed_n: got=92 want=92",
+    "[OK] confirmed_guarded_all_accept: got=92 want=92",
+    "[OK] excluded_n: got=6 want=6",
+    "[OK] excluded_guarded_accept: got=2 want=2",
+    "[OK] excluded_G06_guard_caught: got=0 want=0",
+    "[OK] anchor_pilot03_accept: got=1 want=1",
+    "[OK] anchor_cn48_accept: got=1 want=1",
+    "[OK] anchor_cn42_reject: got=0 want=0",
+    "[INFO] v3.2-vs-v3.3 diffs on 130 rows: 11",
+    "[OK] v32_v33_diffs: got=11 want=11"
+  ]
+}

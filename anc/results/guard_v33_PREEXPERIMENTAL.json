@@ -1,0 +1,82 @@
+{
+  "matcher": "v33 PRE-EXPERIMENTAL (PRE-EXPERIMENTAL: v3.2 body verbatim + ONE extra guard in the SUBSTRING branch only (mirror of the v3.1 short-ASCII formula guard): block acceptance iff sides differ and min(len)==1 with the single-char side CJK. Empty-guard raw-fallback, negation-synonym (不会/否), echo-inclusion, numeric and exact branches untouched.)",
+  "n_rows": 120,
+  "n_changed_vs_v32": 0,
+  "changed": [],
+  "mcnemar_v32_vs_v33": {
+    "b": 0,
+    "c": 0,
+    "p_two": 1.0
+  },
+  "regression": {
+    "cloud-new-42_rejected": true,
+    "pilot-03_kept": true,
+    "cloud-new-48_kept": true
+  },
+  "gold100_flip_excluded_under_v33": [
+    {
+      "h_id": "H34",
+      "predicted": "O",
+      "gold": "O2",
+      "user": "错",
+      "v32": false,
+      "v33": false,
+      "adjudicated_basis": "错(exact)"
+    },
+    {
+      "h_id": "H47",
+      "predicted": "文天祥字宋瑞，又字履善。0.9",
+      "gold": "履善",
+      "user": "对",
+      "v32": true,
+      "v33": true,
+      "adjudicated_basis": "错(exact)"
+    },
+    {
+      "h_id": "H62",
+      "predicted": "白",
+      "gold": "太白",
+      "user": "错",
+      "v32": true,
+      "v33": false,
+      "adjudicated_basis": "错(exact)"
+    },
+    {
+      "h_id": "H68",
+      "predicted": "牧",
+      "gold": "牧之",
+      "user": "错",
+      "v32": true,
+      "v33": false,
+      "adjudicated_basis": "错(exact)"
+    },
+    {
+      "h_id": "H71",
+      "predicted": "玄",
+      "gold": "玄德",
+      "user": "错",
+      "v32": true,
+      "v33": false,
+      "adjudicated_basis": "错(exact)"
+    },
+    {
+      "h_id": "H82",
+      "predicted": "子",
+      "gold": "子美",
+      "user": "错",
+      "v32": true,
+      "v33": false,
+      "adjudicated_basis": "错(exact)"
+    },
+    {
+      "h_id": "H85",
+      "predicted": "海瑞字汝贤",
+      "gold": "汝贤",
+      "user": "对",
+      "v32": true,
+      "v33": true,
+      "adjudicated_basis": "错(exact)"
+    }
+  ],
+  "verdict": "PROMOTE-CANDIDATE"
+}

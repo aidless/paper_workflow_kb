@@ -1,0 +1,95 @@
+{
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "n": 11,
+  "rows": [
+    {
+      "trace_id": "gr18-09",
+      "question": "一公里等于多少米？",
+      "predicted": "1000米",
+      "gold": "1000",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-17",
+      "question": "一世纪等于多少年？",
+      "predicted": "100年",
+      "gold": "100",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-23",
+      "question": "蝙蝠会飞吗？",
+      "predicted": "是的。",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-33",
+      "question": "鱼用鳃呼吸吗？",
+      "predicted": "是的。",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-37",
+      "question": "太阳是恒星吗？",
+      "predicted": "是的。",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-41",
+      "question": "李白字什么？",
+      "predicted": "白",
+      "gold": "太白",
+      "judge_verdict": "incorrect",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-42",
+      "question": "杜甫字什么？",
+      "predicted": "子",
+      "gold": "子美",
+      "judge_verdict": "incorrect",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-45",
+      "question": "刘备字什么？",
+      "predicted": "玄",
+      "gold": "玄德",
+      "judge_verdict": "incorrect",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-56",
+      "question": "端午节是农历哪一天？",
+      "predicted": "农五月初五",
+      "gold": "五月初五",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-57",
+      "question": "中秋节是农历哪一天？",
+      "predicted": "农历八月十五",
+      "gold": "八月十五",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "gr18-59",
+      "question": "清明节是农历还是公历节日？",
+      "predicted": "公历节日",
+      "gold": "公历",
+      "judge_verdict": "correct",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "seed": 20260909,
+  "n": 30,
+  "mapping": {
+    "S01": {
+      "h_id": "H75",
+      "kind": "flip-confirmed"
+    },
+    "S02": {
+      "h_id": "H68",
+      "kind": "flip-excluded"
+    },
+    "S03": {
+      "h_id": "H98",
+      "kind": "flip-confirmed"
+    },
+    "S04": {
+      "h_id": "H86",
+      "kind": "flip-confirmed"
+    },
+    "S05": {
+      "h_id": "H38",
+      "kind": "flip-confirmed"
+    },
+    "S06": {
+      "h_id": "H94",
+      "kind": "flip-confirmed"
+    },
+    "S07": {
+      "h_id": "H26",
+      "kind": "flip-confirmed"
+    },
+    "S08": {
+      "h_id": "H62",
+      "kind": "flip-excluded"
+    },
+    "S09": {
+      "h_id": "H64",
+      "kind": "nonflip"
+    },
+    "S10": {
+      "h_id": "H34",
+      "kind": "flip-excluded"
+    },
+    "S11": {
+      "h_id": "H52",
+      "kind": "flip-confirmed"
+    },
+    "S12": {
+      "h_id": "H09",
+      "kind": "nonflip"
+    },
+    "S13": {
+      "h_id": "H02",
+      "kind": "flip-confirmed"
+    },
+    "S14": {
+      "h_id": "H21",
+      "kind": "nonflip"
+    },
+    "S15": {
+      "h_id": "H71",
+      "kind": "flip-excluded"
+    },
+    "S16": {
+      "h_id": "H39",
+      "kind": "nonflip"
+    },
+    "S17": {
+      "h_id": "H59",
+      "kind": "nonflip"
+    },
+    "S18": {
+      "h_id": "H82",
+      "kind": "flip-excluded"
+    },
+    "S19": {
+      "h_id": "H47",
+      "kind": "flip-excluded"
+    },
+    "S20": {
+      "h_id": "H58",
+      "kind": "flip-confirmed"
+    },
+    "S21": {
+      "h_id": "H60",
+      "kind": "flip-confirmed"
+    },
+    "S22": {
+      "h_id": "H85",
+      "kind": "flip-excluded"
+    },
+    "S23": {
+      "h_id": "H49",
+      "kind": "flip-confirmed"
+    },
+    "S24": {
+      "h_id": "H81",
+      "kind": "flip-confirmed"
+    },
+    "S25": {
+      "h_id": "H01",
+      "kind": "nonflip"
+    },
+    "S26": {
+      "h_id": "H67",
+      "kind": "flip-confirmed"
+    },
+    "S27": {
+      "h_id": "H31",
+      "kind": "flip-confirmed"
+    },
+    "S28": {
+      "h_id": "H16",
+      "kind": "flip-confirmed"
+    },
+    "S29": {
+      "h_id": "H12",
+      "kind": "flip-confirmed"
+    },
+    "S30": {
+      "h_id": "H95",
+      "kind": "nonflip"
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "n": 60,
+  "raw_flips": 26,
+  "excluded": [
+    "lr18-54",
+    "lr18-55"
+  ],
+  "adjudicated_flips": 24,
+  "adjudicated_guarded_correct": 39,
+  "adjudicated_guarded_acc": 0.65,
+  "adjudicated_ece_equalwidth": 0.2425,
+  "calls": {
+    "lr18-02": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-05": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-07": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-08": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-15": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-21": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-22": {
+      "reads": [
+        "ERROR",
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "leak-artifact resolved (xdomain precedent)"
+    },
+    "lr18-23": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-24": {
+      "reads": [
+        "incorrect",
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "leak-artifact resolved (xdomain precedent)"
+    },
+    "lr18-25": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-26": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-27": {
+      "reads": [
+        "incorrect",
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "leak-artifact resolved (xdomain precedent)"
+    },
+    "lr18-28": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-29": {
+      "reads": [
+        "incorrect",
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "leak-artifact resolved (xdomain precedent)"
+    },
+    "lr18-30": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-34": {
+      "reads": [
+        "ERROR",
+        "ERROR",
+        "ERROR",
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-35": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-36": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-38": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-39": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-42": {
+      "reads": [
+        "incorrect",
+        "incorrect"
+      ],
+      "call": "EXCLUDED",
+      "note": "judge-rejected (0c/2i of ['incorrect', 'incorrect'])"
+    },
+    "lr18-45": {
+      "reads": [
+        "incorrect",
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "leak-artifact resolved (xdomain precedent)"
+    },
+    "lr18-46": {
+      "reads": [
+        "ERROR",
+        "ERROR",
+        "ERROR",
+        "ERROR"
+      ],
+      "call": "confirmed-author",
+      "note": "judge-ERROR x3; author echo-standard (cf 47/51)"
+    },
+    "lr18-47": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-51": {
+      "reads": [
+        "correct"
+      ],
+      "call": "confirmed",
+      "note": "judge 1c/0i"
+    },
+    "lr18-54": {
+      "reads": [
+        "incorrect",
+        "incorrect",
+        "correct"
+      ],
+      "call": "EXCLUDED",
+      "note": "judge-rejected (1c/2i of ['incorrect', 'incorrect', 'correct'])"
+    },
+    "lr18-55": {
+      "reads": [
+        "incorrect",
+        "incorrect",
+        "incorrect"
+      ],
+      "call": "EXCLUDED",
+      "note": "judge-rejected (0c/3i of ['incorrect', 'incorrect', 'incorrect'])"
+    }
+  }
+}

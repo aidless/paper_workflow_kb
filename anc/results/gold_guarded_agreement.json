@@ -1,0 +1,256 @@
+{
+  "reference": "guarded (v3.1) outcomes; disagreeing item G06/cloud-new-42",
+  "diverges_from_preregistered_decode": "analyze_gold.py assumed all-25 guarded-correct; false exactly on G06",
+  "n": 25,
+  "agree": 24,
+  "agreement": 0.96,
+  "wilson95": [
+    0.8045552759497747,
+    0.9929039496133009
+  ],
+  "stem": {
+    "a": 13,
+    "n": 14,
+    "agreement": 0.9285714285714286,
+    "wilson95": [
+      0.6853073044604219,
+      0.9872781138877085
+    ]
+  },
+  "stemless": {
+    "a": 11,
+    "n": 11,
+    "agreement": 1.0,
+    "wilson95": [
+      0.7411599827511859,
+      1.0
+    ]
+  },
+  "per_item": [
+    {
+      "id": "G01",
+      "trace_id": "local-big-096",
+      "stratum": "local-big",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G02",
+      "trace_id": "cloud-new-07",
+      "stratum": "cloud-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G03",
+      "trace_id": "holdout-10",
+      "stratum": "holdout-main",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G04",
+      "trace_id": "local-big-097",
+      "stratum": "local-big",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G05",
+      "trace_id": "local-new-31",
+      "stratum": "local-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G06",
+      "trace_id": "cloud-new-42",
+      "stratum": "cloud-new",
+      "kind": "flip-stem",
+      "guarded_correct": false,
+      "user_grade": "对",
+      "agree_vs_guarded": false
+    },
+    {
+      "id": "G07",
+      "trace_id": "cloud-new-48",
+      "stratum": "cloud-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G08",
+      "trace_id": "pilot-01",
+      "stratum": "pilot",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G09",
+      "trace_id": "pilot-05",
+      "stratum": "pilot",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G10",
+      "trace_id": "local-big-103",
+      "stratum": "local-big",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G11",
+      "trace_id": "holdout-23",
+      "stratum": "holdout-main",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G12",
+      "trace_id": "local-new-09",
+      "stratum": "local-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G13",
+      "trace_id": "local-new-26",
+      "stratum": "local-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G14",
+      "trace_id": "holdout-25",
+      "stratum": "holdout-main",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G15",
+      "trace_id": "local-new-48",
+      "stratum": "local-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G16",
+      "trace_id": "holdout-7",
+      "stratum": "holdout-main",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G17",
+      "trace_id": "pilot-27",
+      "stratum": "pilot",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G18",
+      "trace_id": "cloud-new-26",
+      "stratum": "cloud-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G19",
+      "trace_id": "pilot-23",
+      "stratum": "pilot",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G20",
+      "trace_id": "pilot-30",
+      "stratum": "pilot",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G21",
+      "trace_id": "local-big-110",
+      "stratum": "local-big",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G22",
+      "trace_id": "cloud-new-22",
+      "stratum": "cloud-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G23",
+      "trace_id": "holdout-26",
+      "stratum": "holdout-main",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G24",
+      "trace_id": "local-new-37",
+      "stratum": "local-new",
+      "kind": "flip-stem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    },
+    {
+      "id": "G25",
+      "trace_id": "pilot-25",
+      "stratum": "pilot",
+      "kind": "flip-nostem",
+      "guarded_correct": true,
+      "user_grade": "对",
+      "agree_vs_guarded": true
+    }
+  ]
+}

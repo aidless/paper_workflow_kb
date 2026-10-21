@@ -1,0 +1,602 @@
+[
+  {
+    "trace_id": "xdomain-01",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一刻钟等于多少分钟？只答数字。",
+    "predicted_label": "15",
+    "gold_answer": "15",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-02",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一旬等于多少天？只答数字。",
+    "predicted_label": "10",
+    "gold_answer": "10",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-03",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一打等于几个？只答数字。",
+    "predicted_label": "50",
+    "gold_answer": "12",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-04",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一罗等于几打？只答数字。",
+    "predicted_label": "12",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-05",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一斤等于多少克？只答数字。",
+    "predicted_label": "500",
+    "gold_answer": "500",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-06",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一两等于多少克？只答数字。",
+    "predicted_label": "31.25",
+    "gold_answer": "50",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-07",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一公斤等于多少克？只答数字。",
+    "predicted_label": "1000",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-08",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一米等于多少厘米？只答数字。",
+    "predicted_label": "100",
+    "gold_answer": "100",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-09",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一公里等于多少米？只答数字。",
+    "predicted_label": "1000",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-10",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一平方米等于多少平方厘米？只答数字。",
+    "predicted_label": "100",
+    "gold_answer": "10000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-11",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一升等于多少毫升？只答数字。",
+    "predicted_label": "1000",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-12",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一吨等于多少公斤？只答数字。",
+    "predicted_label": "1000",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-13",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一小时等于多少秒？只答数字。",
+    "predicted_label": "3600",
+    "gold_answer": "3600",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-14",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一天等于多少小时？只答数字。",
+    "predicted_label": "24",
+    "gold_answer": "24",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-15",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一周等于多少天？只答数字。",
+    "predicted_label": "7",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-16",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一年有多少个月？只答数字。",
+    "predicted_label": "12",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-17",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一世纪等于多少年？只答数字。",
+    "predicted_label": "100",
+    "gold_answer": "100",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-18",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一双等于几只？只答数字。",
+    "predicted_label": "2",
+    "gold_answer": "2",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-19",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "一对等于几个？只答数字。",
+    "predicted_label": "2",
+    "gold_answer": "2",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-20",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "半打等于几个？只答数字。",
+    "predicted_label": "6",
+    "gold_answer": "6",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-21",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "蜘蛛是昆虫吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-22",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "鲸鱼是鱼吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-23",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "蝙蝠会飞吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-24",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "企鹅会飞吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-25",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "竹子是草吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-26",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "花生是坚果吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-27",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "西红柿是水果吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-28",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "土豆是蔬菜吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-29",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "乌龟是两栖动物吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-30",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "青蛙是两栖动物吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-31",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "蚊子是昆虫吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-32",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "蜗牛有外壳吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-33",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "鱼用鳃呼吸吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-34",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "鸟类是恒温动物吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-35",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "蛇是恒温动物吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-36",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "月亮自己会发光吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-37",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "太阳是恒星吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-38",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "地球是行星吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-39",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "水在零摄氏度会结冰吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-40",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "铁会被磁铁吸引吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-41",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "李白字什么？只答表字。",
+    "predicted_label": "太白",
+    "gold_answer": "太白",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-42",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "杜甫字什么？只答表字。",
+    "predicted_label": "子美",
+    "gold_answer": "子美",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-43",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "苏轼号什么？只答别号。",
+    "predicted_label": "东坡居士",
+    "gold_answer": "东坡",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-44",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "关羽字什么？只答表字。",
+    "predicted_label": "云长",
+    "gold_answer": "云长",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-45",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "刘备字什么？只答表字。",
+    "predicted_label": "玄德",
+    "gold_answer": "玄德",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-46",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "曹操字什么？只答表字。",
+    "predicted_label": "孟德",
+    "gold_answer": "孟德",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-47",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "诸葛亮字什么？只答表字。",
+    "predicted_label": "孔明",
+    "gold_answer": "孔明",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-48",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "鲁迅原名是什么？只答姓名。",
+    "predicted_label": "周树人",
+    "gold_answer": "周树人",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-49",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "巴金原名是什么？只答姓名。",
+    "predicted_label": "李尧棠",
+    "gold_answer": "李尧棠",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-50",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "老舍原名是什么？只答姓名。",
+    "predicted_label": "舒庆春",
+    "gold_answer": "舒庆春",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-51",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "冰心原名是什么？只答姓名。",
+    "predicted_label": "谢婉莹",
+    "gold_answer": "谢婉莹",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-52",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "茅盾原名是什么？只答姓名。",
+    "predicted_label": "沈德鸿",
+    "gold_answer": "沈德鸿",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-53",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "中国的首都是哪里？只答地名。",
+    "predicted_label": "北京",
+    "gold_answer": "北京",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-54",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "日本的首都是哪里？只答地名。",
+    "predicted_label": "东京",
+    "gold_answer": "东京",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-55",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "法国的首都是哪里？只答地名。",
+    "predicted_label": "巴黎",
+    "gold_answer": "巴黎",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-56",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "端午节是农历哪一天？只答日期。",
+    "predicted_label": "五月初五",
+    "gold_answer": "五月初五",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-57",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "中秋节是农历哪一天？只答日期。",
+    "predicted_label": "八月十五",
+    "gold_answer": "八月十五",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-58",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "春节是农历哪一天？只答日期。",
+    "predicted_label": "正月十五",
+    "gold_answer": "正月初一",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-59",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "清明节是农历还是公历节日？只答农历或公历。",
+    "predicted_label": "农历",
+    "gold_answer": "公历",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "xdomain-60",
+    "source": "xdomain",
+    "model": "qwen2.5:7b",
+    "question": "重阳节是农历哪一天？只答日期。",
+    "predicted_label": "九月九日",
+    "gold_answer": "九月初九",
+    "confidence": 0.9,
+    "error": null
+  }
+]

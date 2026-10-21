@@ -1,0 +1,147 @@
+{
+  "matcher": "label_match_v33.tolerant_match_v33",
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "note": "cross-domain: measure-words + yes-no rephrasing + name variants; tight = format-constrained prompt, loose = paraphrase regime",
+  "tight": {
+    "n": 60,
+    "n_exact": 50,
+    "n_guarded": 51,
+    "acc_exact": 0.8333333333333334,
+    "acc_guarded": 0.85,
+    "n_flips": 1,
+    "flip_rate": 0.016666666666666666,
+    "mcnemar_b": 1,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 1.0,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.05333333333333337,
+    "ece10_guarded": 0.03666666666666669,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "xdomain-43",
+        "predicted": "东坡居士",
+        "gold": "东坡"
+      }
+    ]
+  },
+  "loose": {
+    "n": 60,
+    "n_exact": 25,
+    "n_guarded": 45,
+    "acc_exact": 0.4166666666666667,
+    "acc_guarded": 0.75,
+    "n_flips": 20,
+    "flip_rate": 0.3333333333333333,
+    "mcnemar_b": 20,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 1.9073486328125e-06,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.4766666666666667,
+    "ece10_guarded": 0.14333333333333334,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "xloose-09",
+        "predicted": "1000米",
+        "gold": "1000"
+      },
+      {
+        "trace_id": "xloose-13",
+        "predicted": "3600秒",
+        "gold": "3600"
+      },
+      {
+        "trace_id": "xloose-21",
+        "predicted": "不是。0.9",
+        "gold": "否"
+      },
+      {
+        "trace_id": "xloose-23",
+        "predicted": "会",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-24",
+        "predicted": "不会。",
+        "gold": "否"
+      },
+      {
+        "trace_id": "xloose-25",
+        "predicted": "是的。0.9",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-29",
+        "predicted": "不是。0.9",
+        "gold": "否"
+      },
+      {
+        "trace_id": "xloose-31",
+        "predicted": "是的。0.9",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-33",
+        "predicted": "是的。0.9",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-34",
+        "predicted": "是的",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-35",
+        "predicted": "不是",
+        "gold": "否"
+      },
+      {
+        "trace_id": "xloose-37",
+        "predicted": "是的",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-38",
+        "predicted": "是的",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-39",
+        "predicted": "会结冰。0.9",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-40",
+        "predicted": "会",
+        "gold": "是"
+      },
+      {
+        "trace_id": "xloose-43",
+        "predicted": "东坡居士",
+        "gold": "东坡"
+      },
+      {
+        "trace_id": "xloose-56",
+        "predicted": "端午节通常在农历五月初五。0.9",
+        "gold": "五月初五"
+      },
+      {
+        "trace_id": "xloose-57",
+        "predicted": "农历八月十五日",
+        "gold": "八月十五"
+      },
+      {
+        "trace_id": "xloose-58",
+        "predicted": "春节日期每年不同，通常在农历正月初一。0.9",
+        "gold": "正月初一"
+      },
+      {
+        "trace_id": "xloose-60",
+        "predicted": "农历九月初九",
+        "gold": "九月初九"
+      }
+    ]
+  }
+}

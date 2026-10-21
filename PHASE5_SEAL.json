@@ -1,0 +1,62 @@
+{
+ "artifacts": {
+  "CLAIM_LEDGER.md": "d0ffb01ffd0aa4a5adc69efcd2c7562aa3a9520bebb2a7fbcf0c707903a39dcc",
+  "SELF_ASSESSMENT.md": "ed875760f58cbdd493ddef10afdc0b77c56296658796770e3d23b572d9a138b3",
+  "paper/main.tex": "62a7e2af9e280986c5d86cca63993df80463233e82af75f2bbf12cb15129797a",
+  "paper/main.pdf": "b70cdd2efe8ed3383aef1770f1cefb5f0812effe1cfdfd15f0633fa121794a88",
+  "submission/submission_tmlr_r25.zip": "05d03a61a99f96fb05e2bdbce94a6d30b24bf106c27371d284b958cd92102332"
+ },
+ "r26": {
+  "sources": {
+   "PREREG_R26_EXTERNAL.md": "65a87fe7afff885931c9b250c293017858fa8155c9729d802e5bde9b57f7d74d",
+   "ROUND_R26.md": "2b80fd5ee1fd64b165d1f2c072c33686cf8294298c65a5e32d03561f95ee5ad2",
+   "R26_ADJUDICATION_REVIEW.md": "64cb6672994d1813656b4ff599658e0cec1cf9132da81b70fec9a65ca618a421",
+   "r26_flip_pack_entity.csv": "cd1b37e0e7455b10ad3c30f70388db3a77087c829efd34852ed3963119b43f2b",
+   "r26_miss_pack_entity.csv": "c48dee9e37cb641114803a66ac02fbe4cbae1ebaacc60074bde80b9e7e471806",
+   "r26_flip_pack_trivia.csv": "489ca5fad22357d439a0f6ce3ec06921f3abdc9a1eeb7b14f200fe66e96a4357",
+   "r26_miss_pack_trivia.csv": "e33c6a2bb9d40ec798ed7522176a89dc82c533b770783b8a7ee8b27de085700b",
+   "scripts/r26_sample.py": "e6344f1a920419af5771c72e9a031f1062356896334ed46d3e165fcf4050f072",
+   "scripts/r26_sample_trivia.py": "cce2d3e9c4413de3fe457c3b6162fc137874319cf7dc4f5f32f757c49cd4016c",
+   "scripts/r26_answer.py": "9a47f6ed85db37e88acfb4434dcbd351d8d8ed6668b23688cc5c16442c1a1fda",
+   "scripts/r26_score.py": "658019265195c0c656a61f8b75950a88b027c68a63754ff24092baca8e402161",
+   "scripts/fill_r26_verdict.py": "c57e52dfa323cc17c3b6d13a458bbe03657a3dc331384d9e93c7ffdd2193a353",
+   "scripts/seal_R26.py": "0ff5e2db70c97c53e6fac4cc6c35adbddce9d976539ec93236a23cdda2f5778c",
+   "results/r26_answers_entity.jsonl": "fb98d3c84617334b9b3bd34d4292ea7e4d0b2b8eb8399227046d7b10810f2ec0",
+   "results/r26_answers_trivia.jsonl": "341f8f573d7303dabe98a2f4a0ecef20a3ab4c60acec283889f36e109dee59f4",
+   "results/r26_external.json": "2cf70525cab9afb5e5d14a453c3cb5b2e5b7b875648e067411f40e6b3c2aef2b",
+   "results/r26_seal.json": "d010d8c75f87d7e4ce00613090a39b2df019ffdbb15b482625d1a7461cc2a115",
+   "evidence/r26_entity_sample.jsonl": "f1d9b10ce3729152812b1dc03a38918f7aa28e10d329191e819547d16a08b5aa",
+   "evidence/r26_trivia_sample.jsonl": "c8632552932416d5b54395647fdbed61bb64cc13d8310cc97a5ecf89e5e820f4",
+   "writing_session.jsonl": "3b493333693192502a67bd0e49fd48d300350271fa8dca7bca2e1e77ae093322",
+   "STATE_SNAPSHOT.md": "7bdd6ca67d56e430e7e5df7889bba156b2307ca2b8a51232cec4914925956ff1"
+  },
+  "datasets": {
+   "data_r26/triviaqa-rc.tar.gz": {
+    "size": 2665779500,
+    "note": "external download, size recorded (not hashed)"
+   },
+   "data_r26/entityquestions-dataset.zip": {
+    "size": 4828858,
+    "note": "external download, size recorded (not hashed)"
+   }
+  },
+  "combined": {
+   "miss_drop": 2,
+   "overfire_increase": 0,
+   "adopt_v34": false,
+   "verdict": "negative: miss drop 2 < 5, v3.4 not cut, v3.3 remains baseline",
+   "total_over_fire": 5
+  },
+  "adoption_bar": {
+   "miss_drop_required": 5,
+   "overfire_increase_allowed": 2
+  }
+ },
+ "gates": "10/10 PASS (gates_history.jsonl last run ts=2026-09-08T23:05:14, all_pass=true)",
+ "ledger": "71 PASS / 0 FAIL / 1 WARN (C08)",
+ "manifest": "411 entries / TOTAL: 411 PASS, 0 FAIL, 0 WARN",
+ "manifest_ok": true,
+ "zip_invariant": "HELD: r25 zip sha == R25 sealed value (not rebuilt by R26)",
+ "note": "R26-external seal. main.tex + CLAIM_LEDGER.md re-frozen at R26 state; SELF_ASSESSMENT.md, paper/main.pdf, and submission_tmlr_r25.zip unchanged (main.pdf still R25 — R26 prose lives in source main.tex only, PDF rebuilt at next package freeze). R26 source ledger (21 files) + datasets (size-recorded) folded in. v3.4 verdict negative: miss drop 2 < 5, v3.3 remains baseline; R26 is a descriptive external-validity supplement and does not block submission.",
+ "round": "R26-external"
+}

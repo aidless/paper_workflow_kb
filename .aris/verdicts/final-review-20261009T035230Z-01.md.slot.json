@@ -1,0 +1,8 @@
+{
+  "path": ".aris/verdicts/final-review-20261009T035230Z-01.md",
+  "phase": "final-review",
+  "allocated_utc": "2026-10-09T03:52:30Z",
+  "dispatch": "qoder-subagent:QDR-X2-20261009T035228Z",
+  "evidence_digest": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "verdict_file_present_at_allocation": false
+}

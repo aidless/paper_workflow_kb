@@ -1,0 +1,602 @@
+[
+  {
+    "trace_id": "cloud-new-01",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "法国的首都是哪里？只答地名。",
+    "predicted_label": "巴黎",
+    "gold_answer": "巴黎",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-02",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "日本的首都是哪里？只答地名。",
+    "predicted_label": "东京",
+    "gold_answer": "东京",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-03",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "水的化学式是什么？",
+    "predicted_label": "H2O",
+    "gold_answer": "H2O",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-04",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一年有多少天（平年取整）？只答数字。",
+    "predicted_label": "365",
+    "gold_answer": "365",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-05",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一天有多少小时？只答数字。",
+    "predicted_label": "24",
+    "gold_answer": "24",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-06",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "珠穆朗玛峰高约多少米（取整）？只答数字。",
+    "predicted_label": "8848",
+    "gold_answer": "8848",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-07",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "光速约每秒多少公里？只答数字。",
+    "predicted_label": "300000",
+    "gold_answer": "30万",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-08",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "太阳系最大的行星是？",
+    "predicted_label": "木星",
+    "gold_answer": "木星",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-09",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "莎士比亚是哪国人？答：英国。",
+    "predicted_label": "英国",
+    "gold_answer": "英国",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-10",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "会下雨吗（假设不会）？答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-11",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "这件事你会做吗（假设不会）？答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-12",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "这个说法对吗（假设不对）？答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-13",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一年有多少个月？只答数字。",
+    "predicted_label": "12",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-14",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一周有多少天？只答数字。",
+    "predicted_label": "7",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-15",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "1+1等于几？只答数字。",
+    "predicted_label": "2",
+    "gold_answer": "2",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-16",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "10的平方是几？只答数字。",
+    "predicted_label": "100",
+    "gold_answer": "100",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-17",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "北京是中国的首都吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-18",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "水会流动吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-19",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "鱼会游泳吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-20",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "鸟会飞吗（一般情况）？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-21",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "长城长约多少公里（取整万）？只答数字。",
+    "predicted_label": "2万",
+    "gold_answer": "2万",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-22",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "长江长约多少公里？只答数字。",
+    "predicted_label": "6300公里",
+    "gold_answer": "6300",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-23",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "黄河长约多少公里？只答数字。",
+    "predicted_label": "5464公里",
+    "gold_answer": "5400",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-24",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "地球直径约多少公里？只答数字。",
+    "predicted_label": "12742",
+    "gold_answer": "12742",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-25",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "月球绕地球一周约多少天？只答数字。",
+    "predicted_label": "27.3",
+    "gold_answer": "27",
+    "confidence": 0.3,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-26",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "地球绕太阳一周约多少天？只答数字。",
+    "predicted_label": "365.25",
+    "gold_answer": "365",
+    "confidence": 0.25,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-27",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "人民币100元等于多少元？只答数字。",
+    "predicted_label": "100",
+    "gold_answer": "100",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-28",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一小时等于多少分钟？只答数字。",
+    "predicted_label": "60",
+    "gold_answer": "60",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-29",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一分钟等于多少秒？只答数字。",
+    "predicted_label": "60",
+    "gold_answer": "60",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-30",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一公里等于多少米？只答数字。",
+    "predicted_label": "1000",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-31",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "曹雪芹写了哪部小说？只答书名。",
+    "predicted_label": "红楼梦",
+    "gold_answer": "红楼梦",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-32",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "李白是哪个朝代的诗人？",
+    "predicted_label": "唐朝",
+    "gold_answer": "唐",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-33",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "杜甫是哪个朝代的诗人？",
+    "predicted_label": "唐朝",
+    "gold_answer": "唐",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-34",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "孔子是哪个学派的创始人？",
+    "predicted_label": "儒家",
+    "gold_answer": "儒家",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-35",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "秦始皇统一六国在哪一年（公元前取整）？只答数字。",
+    "predicted_label": "公元前221年",
+    "gold_answer": "221",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-36",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "辛亥革命在哪一年？只答数字。",
+    "predicted_label": "1911",
+    "gold_answer": "1911",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-37",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "新中国成立在哪一年？只答数字。",
+    "predicted_label": "1949",
+    "gold_answer": "1949",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-38",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "人有几根手指（双手共）？只答数字。",
+    "predicted_label": "20",
+    "gold_answer": "10",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-39",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "人有几颗牙齿（成人正常）？只答数字。",
+    "predicted_label": "32",
+    "gold_answer": "32",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-40",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "水的沸点是多少摄氏度？只答数字。",
+    "predicted_label": "100",
+    "gold_answer": "100",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-41",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "水的冰点是多少摄氏度？只答数字。",
+    "predicted_label": "0",
+    "gold_answer": "0",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-42",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "氧气的化学符号是？",
+    "predicted_label": "O",
+    "gold_answer": "O2",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-43",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "二氧化碳的化学式是？",
+    "predicted_label": "CO2",
+    "gold_answer": "CO2",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-44",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "铁的化学符号是？",
+    "predicted_label": "Fe",
+    "gold_answer": "Fe",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-45",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "金的化学符号是？",
+    "predicted_label": "Au",
+    "gold_answer": "Au",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-46",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "盐的主要成分化学式是？",
+    "predicted_label": "NaCl",
+    "gold_answer": "NaCl",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-47",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "中国的首都是哪里？只答地名。",
+    "predicted_label": "北京",
+    "gold_answer": "北京",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-48",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "美国的首都是哪里？只答地名。",
+    "predicted_label": "华盛顿特区",
+    "gold_answer": "华盛顿",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-49",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "英国的首都是哪里？只答地名。",
+    "predicted_label": "伦敦",
+    "gold_answer": "伦敦",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-50",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "德国的首都是哪里？只答地名。",
+    "predicted_label": "柏林",
+    "gold_answer": "柏林",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-51",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "俄罗斯的首都是哪里？只答地名。",
+    "predicted_label": "莫斯科",
+    "gold_answer": "莫斯科",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-52",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "猫会叫吗？答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-53",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "狗会跑吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-54",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "石头会浮在水面吗（一般）？答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-55",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "太阳会从西边升起吗？答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-56",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "一年有四个季节吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-57",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "水是液体吗（常温）？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-58",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "冰是固体吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-59",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "人需要呼吸吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "cloud-new-60",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "植物需要阳光吗？答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  }
+]

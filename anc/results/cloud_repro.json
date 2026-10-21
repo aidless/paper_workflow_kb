@@ -1,0 +1,21 @@
+{
+  "host": "seetacloud-h3 (RTX 3090)",
+  "n_files": 14,
+  "n_identical": 14,
+  "files": [
+    "results/analysis.json",
+    "results/cloud_new.json",
+    "results/analysis_120.json",
+    "results/local_new.json",
+    "results/analysis_180.json",
+    "results/guard_v31.json",
+    "results/tempscale.json",
+    "results/isotonic.json",
+    "results/ablation.json",
+    "results/flips.json",
+    "results/flips_new60.json",
+    "results/flips_local60.json",
+    "results/power_update_120.json",
+    "results/power_local60.json"
+  ]
+}

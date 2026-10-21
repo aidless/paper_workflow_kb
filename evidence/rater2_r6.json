@@ -1,0 +1,14 @@
+{
+  "model": "deepseek-r1:7b (ollama local)",
+  "role": "R2 round-6 symmetric strict, blind, WITH gold+retest evidence",
+  "prompt": "evidence/rater2_r6_prompt.txt",
+  "scores": {
+    "N": 9,
+    "S": 9,
+    "Si": 7,
+    "C": 10
+  },
+  "weighted": "0.30*9+0.35*9+0.25*7+0.10*10=8.6",
+  "extract": "direct JSON, no think block",
+  "note": "reasons evidence-loose (claims multiple significant strata); same-model harsh-to-generous swing vs r3/r5; uncalibrated model estimate"
+}

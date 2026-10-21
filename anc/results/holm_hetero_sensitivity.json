@@ -1,0 +1,34 @@
+{
+  "sealed_m": 18,
+  "extended_m": 19,
+  "hetero": {
+    "name": "hetero-gemma",
+    "b": 8,
+    "p_two": 0.0078125,
+    "rank19": 5
+  },
+  "sealed_survivors": [
+    "r18-loose-rep",
+    "xdomain-loose",
+    "pilot"
+  ],
+  "extended_survivors": [
+    "r18-loose-rep",
+    "xdomain-loose",
+    "pilot"
+  ],
+  "sealed_stop": {
+    "step": 4,
+    "name": "prespecified-pool",
+    "p": 0.00390625,
+    "threshold": 0.0033333333333333335
+  },
+  "extended_stop": {
+    "step": 4,
+    "name": "prespecified-pool",
+    "p": 0.00390625,
+    "threshold": 0.003125
+  },
+  "claim_holds": true,
+  "license": "arithmetic completeness only; no inferential license under nesting (reverse cells zero by construction)"
+}

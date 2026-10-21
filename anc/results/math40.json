@@ -1,0 +1,21 @@
+{
+  "n": 40,
+  "n_exact": 37,
+  "n_guarded": 37,
+  "acc_exact": 0.925,
+  "acc_guarded": 0.925,
+  "n_flips": 0,
+  "flip_rate": 0.0,
+  "mcnemar_b": 0,
+  "mcnemar_c": 0,
+  "mcnemar_p_two": 1.0,
+  "mcnemar_note": "degenerate: no discordant pairs",
+  "ece10_exact": 0.025,
+  "ece10_guarded": 0.025,
+  "ece_note": "equal-width 10 bins (sibling of live strata); all 40 rows carry confidences",
+  "H1": "NOT-SUPPORT (0.0 <= 0.05): boundary condition, no adjudication per G006",
+  "power_note": "ceiling not computable from zero discordants; no assumed effect plugged in",
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "host": "cloud seetacloud-h3 RTX 3090"
+}

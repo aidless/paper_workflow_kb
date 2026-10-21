@@ -1,0 +1,15 @@
+{
+ "model": "qwen2:7b",
+ "n_flips": 35,
+ "n_flip_correct": 35,
+ "n_over_fire": 0,
+ "n_rejects": 10,
+ "n_miss": 0,
+ "n_correct_reject": 10,
+ "n_errors": 0,
+ "error_ids": [],
+ "reject_len_max": 150,
+ "reject_census": "<= 150 chars",
+ "miss_ids": [],
+ "over_fire_ids": []
+}

@@ -1,0 +1,14 @@
+{
+  "n": 220,
+  "n_exact": 196,
+  "acc_exact": 0.8909,
+  "n_guarded": 205,
+  "acc_guarded": 0.9318,
+  "n_flips": 9,
+  "flip_rate": 0.0409,
+  "mcnemar_b": 9,
+  "mcnemar_c": 0,
+  "mcnemar_p_two": 0.00390625,
+  "power_note": "n=220 >= n_ceil=217 (OR=4 placeholder); FIRST powered McNemar in this paper",
+  "pool": "local-new(60, same 60 questions as cloud-new) + local-big(160, new questions); same model qwen2:7b temp 0; pre-specified"
+}

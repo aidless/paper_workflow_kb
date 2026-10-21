@@ -1,0 +1,177 @@
+{
+  "model": "deepseek-r1:7b",
+  "temperature": 0,
+  "n": 21,
+  "n_correct": 16,
+  "n_incorrect": 3,
+  "rows": [
+    {
+      "trace_id": "xdomain-43",
+      "layer": "tight",
+      "predicted": "东坡居士",
+      "gold": "东坡",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-09",
+      "layer": "loose",
+      "predicted": "1000米",
+      "gold": "1000",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-13",
+      "layer": "loose",
+      "predicted": "3600秒",
+      "gold": "3600",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-21",
+      "layer": "loose",
+      "predicted": "不是。0.9",
+      "gold": "否",
+      "judge_verdict": "incorrect",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-23",
+      "layer": "loose",
+      "predicted": "会",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-24",
+      "layer": "loose",
+      "predicted": "不会。",
+      "gold": "否",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-25",
+      "layer": "loose",
+      "predicted": "是的。0.9",
+      "gold": "是",
+      "judge_verdict": "ERROR",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-29",
+      "layer": "loose",
+      "predicted": "不是。0.9",
+      "gold": "否",
+      "judge_verdict": "incorrect",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-31",
+      "layer": "loose",
+      "predicted": "是的。0.9",
+      "gold": "是",
+      "judge_verdict": "incorrect",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-33",
+      "layer": "loose",
+      "predicted": "是的。0.9",
+      "gold": "是",
+      "judge_verdict": "ERROR",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-34",
+      "layer": "loose",
+      "predicted": "是的",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-35",
+      "layer": "loose",
+      "predicted": "不是",
+      "gold": "否",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-37",
+      "layer": "loose",
+      "predicted": "是的",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-38",
+      "layer": "loose",
+      "predicted": "是的",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-39",
+      "layer": "loose",
+      "predicted": "会结冰。0.9",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-40",
+      "layer": "loose",
+      "predicted": "会",
+      "gold": "是",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-43",
+      "layer": "loose",
+      "predicted": "东坡居士",
+      "gold": "东坡",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-56",
+      "layer": "loose",
+      "predicted": "端午节通常在农历五月初五。0.9",
+      "gold": "五月初五",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-57",
+      "layer": "loose",
+      "predicted": "农历八月十五日",
+      "gold": "八月十五",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-58",
+      "layer": "loose",
+      "predicted": "春节日期每年不同，通常在农历正月初一。0.9",
+      "gold": "正月初一",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "xloose-60",
+      "layer": "loose",
+      "predicted": "农历九月初九",
+      "gold": "九月初九",
+      "judge_verdict": "correct",
+      "error": null
+    }
+  ]
+}

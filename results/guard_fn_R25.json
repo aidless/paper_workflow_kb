@@ -1,0 +1,13 @@
+{
+ "n_1062": 1062,
+ "n_guarded_correct_adjudicated": 922,
+ "guard_reject_pool": 140,
+ "gold100_n": 100,
+ "gold100_flip_rows": 62,
+ "gold100_nonflip_rows": 38,
+ "gold100_guard_false_negatives": 9,
+ "conditional_fn_rate_nonflip": 0.2368,
+ "no_population_rate_claim": true,
+ "direction": "guard FNs make reported guarded accuracy conservative (a lower bound on semantic accuracy)",
+ "patch_plan": "no new guard version; the 9 rows stay on record in the GOLD-100 grade files as regression targets"
+}

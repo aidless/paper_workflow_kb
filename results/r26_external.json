@@ -1,0 +1,24 @@
+{
+ "rule33": "label_match_v33.tolerant_match_v33",
+ "rule34": "label_match_v34.tolerant_match_v34 (candidate)",
+ "splits": {
+  "entity": {
+   "n": 200,
+   "n_exact": 25,
+   "n_guard33": 57,
+   "n_guard34": 57,
+   "n_flips33": 32,
+   "n_rejects33": 143,
+   "n_miss_sample": 60
+  },
+  "trivia": {
+   "n": 200,
+   "n_exact": 95,
+   "n_guard33": 123,
+   "n_guard34": 125,
+   "n_flips33": 28,
+   "n_rejects33": 77,
+   "n_miss_sample": 60
+  }
+ }
+}

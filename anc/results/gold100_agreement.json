@@ -1,0 +1,40 @@
+{
+  "n": 100,
+  "agree": 90,
+  "agreement": 0.9,
+  "wilson95": [
+    0.8256,
+    0.9448
+  ],
+  "stem": {
+    "a": 71,
+    "n": 79,
+    "wilson95": [
+      0.8127,
+      0.9478
+    ]
+  },
+  "flips": {
+    "a": 62,
+    "n": 62,
+    "wilson95": [
+      0.9417,
+      1.0
+    ]
+  },
+  "negatives_bothwrong": {
+    "a": 11,
+    "n": 21
+  },
+  "fp_exclusions_vindicated": [],
+  "agree_adjudicated": 88,
+  "agreement_adjudicated": 0.88,
+  "wilson95_adjudicated": [
+    0.8019,
+    0.93
+  ],
+  "adjudicated_divergences": [
+    "H47",
+    "H85"
+  ]
+}

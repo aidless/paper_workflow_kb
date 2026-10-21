@@ -1,0 +1,200 @@
+{"id": "entity-P106-0", "prediction": "Martin Ittner is a professional footballer.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-0", "prediction": "Ferdinand Porsche founded Porsche Automobil Holding SE.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-0", "prediction": "Gannett Co., Inc.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-0", "prediction": "Mueang Lampang is located in Lampang Province, Thailand. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-0", "prediction": "Jazz", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-0", "prediction": "Outblaze headquarters is in San Mateo, California.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-0", "prediction": "United States\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-0", "prediction": "Jimeoin: Over The Top was created by Jimeoin.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-0", "prediction": "David Bowie\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-0", "prediction": "General Dynamics\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-0", "prediction": "Gabriella Hall was born in Sydney, Australia.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-0", "prediction": "Edmund Burke died in Paris, France.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-0", "prediction": "Lugalbanda is married to Tia Dacal.\n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-0", "prediction": "Universal Music Group\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-0", "prediction": "France\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-0", "prediction": "Berry, Georgia\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-0", "prediction": "Napoleon Bonaparte\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-0", "prediction": "English\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-0", "prediction": "Defender\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-0", "prediction": "United States\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-0", "prediction": "Dan Brown\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-0", "prediction": "Kushal Chakraborty was educated at the Indian Institute of Management Bangalore.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-0", "prediction": "Hello, Blue Roses was founded in Sweden.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-0", "prediction": "Mike Patton is famous for being the lead vocalist of Faith No More and Mr. Bungle. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-1", "prediction": "Mark Roth is an artist. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-1", "prediction": "Rebecca Charnin\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-1", "prediction": "The ownership of Thomasville Times-Enterprise is not specified in the given context.\n\n0.5", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-1", "prediction": "Fogo Island is located in the province of Newfoundland and Labrador, Canada.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-1", "prediction": "Heavy metal\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-1", "prediction": "Castlemaine Brewery, Western Australia headquarters: Midland, Western Australia.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-1", "prediction": "Czech Republic\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-1", "prediction": "Sir Henry Bishop created the Lady Tennant Stradivarius. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-1", "prediction": "Lost Time was performed by the band The xx.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-1", "prediction": "Boeing\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-1", "prediction": "John Kay was born in Scotland.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-1", "prediction": "Ernest Cosson died in Paris, France.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-1", "prediction": "Debra Feuer is married to Michael Douglas.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-1", "prediction": "Nuclear Blast\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-1", "prediction": "Convention on preventing and combating violence against women and domestic violence is located in the United Nations headquarters.\n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-1", "prediction": "Chisinau\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-1", "prediction": "William Cockerill's child is William Cockerill II.\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-1", "prediction": "French\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-1", "prediction": "Defensive Tackle\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-1", "prediction": "Romania\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-1", "prediction": "Richard Dawkins\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-1", "prediction": "Sanjay Ayre was educated at the University of California, Los Angeles (UCLA).\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-1", "prediction": "Sobeys was founded in St. John's, Newfoundland and Labrador, Canada.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-1", "prediction": "Wes Anderson is famous for his distinctive style in filmmaking. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-2", "prediction": "Sophie Bryant is a mathematician and educator.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-2", "prediction": "Vladimir Nabokov founded Iliad.\n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-2", "prediction": "MBC Action is owned by the Middle East Media Corporation (MBC).\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-2", "prediction": "Ćwikielnia is located in Poland.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-2", "prediction": "Pop music\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-2", "prediction": "WareValley's headquarters is located in Austin, Texas.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-2", "prediction": "United States\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-2", "prediction": "Stan Lee and Steve Ditko\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-2", "prediction": "El Existential was performed by the band The Specials.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-2", "prediction": "Fiat Chrysler Automobiles\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-2", "prediction": "Zoran Urumov was born in Skopje, Macedonia.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-2", "prediction": "Ron Haydock died in Manchester, England.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-2", "prediction": "Shabana Azmi is married to Kaajol. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-2", "prediction": "Fueled by Ramen\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-2", "prediction": "The Metropolitan Museum of Art, New York City\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-2", "prediction": "El Aaiun\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-2", "prediction": "Gina Torvalds\n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-2", "prediction": "Turkish\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-2", "prediction": "Defender\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-2", "prediction": "United States\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-2", "prediction": "Irwin Shaw\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-2", "prediction": "Karen Kwan was educated at the Chinese High School in Singapore.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-2", "prediction": "Iskra was founded in Poland. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-2", "prediction": "John Crowley is famous for his science fiction and fantasy novels, including the \"Ghost Road\" trilogy and \"The万物之书\" series. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-3", "prediction": "Huang Ta-chou is a professional baseball player.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-3", "prediction": "Alfred V. Loomis and John Robert \"Jack\" Knight founded the Aerial Experiment Association.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-3", "prediction": "The City of High Point, North Carolina owns L.P. Frans Stadium.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-3", "prediction": "Hidden Bay Airport is located in the Bahamas.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-3", "prediction": "Synth-pop and electronic music. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-3", "prediction": "London, UK\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-3", "prediction": "Iran\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-3", "prediction": "Brian May and Freddie Mercury created Queen. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-3", "prediction": "The Smiths\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-3", "prediction": "Toyota\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-3", "prediction": "Salt Lake City, Utah\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-3", "prediction": "Copenhagen, Denmark\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-3", "prediction": "Robert Erskine Childers was married to Kathleen Norton.\n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-3", "prediction": "Sony Music\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-3", "prediction": "Augusta National Golf Club, Augusta, Georgia\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-3", "prediction": "Tabriz\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-3", "prediction": "Teti's child is Gianni. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-3", "prediction": "French\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-3", "prediction": "Goalkeeper\n\n1", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-3", "prediction": "United States\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-3", "prediction": "Dorothy L. Sayers\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-3", "prediction": "Stanford University\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-3", "prediction": "Kuehne + Nagel was founded in Switzerland.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-3", "prediction": "Kazi Nazrul Islam is famous for being a poet, writer, and freedom fighter. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-4", "prediction": "Bruce Smith is a football coach.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-4", "prediction": "Sir Thomas Barnardo\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-4", "prediction": "Norwegian Media Corporation\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-4", "prediction": "Edamulackal is located in Kerala, India.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-4", "prediction": "Pop and dance music. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-4", "prediction": "Traction: Toronto, Canada\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-4", "prediction": "Switzerland\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-4", "prediction": "Babes was created by the American company, RC2 Corporation. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-4", "prediction": "Ricky Martin performed \"El Miedo a la Libertad\".\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-4", "prediction": "BMW Group\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-4", "prediction": "Richard Semon was born in Berlin, Germany.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-4", "prediction": "Hugo Treffner died in Berlin, Germany.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-4", "prediction": "Bastiaan Ragas is married to Marjan van Eupen.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-4", "prediction": "Sub Pop Records\n\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-4", "prediction": "Bari, Italy\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-4", "prediction": "Huesca\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-4", "prediction": "Eudes of Brittany\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-4", "prediction": "German\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-4", "prediction": "Pitcher\n\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-4", "prediction": "United States\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-4", "prediction": "Lynne Reid Banks\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-4", "prediction": "Richard G. Stern was educated at Harvard University and the University of California, Berkeley. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-4", "prediction": "Topper's Pizza was founded in Sarnia, Ontario, Canada.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-4", "prediction": "Lemon Jelly is famous for their electronic music and the song \"Sundial.\" \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-5", "prediction": "Bruce Foxton is a musician.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-5", "prediction": "St. Stephen I\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-5", "prediction": "Sony Corporation\n\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-5", "prediction": "Vatani Stadium is located in Iran.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-5", "prediction": "Jazz\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-5", "prediction": "Beitar Tel Aviv Ramla F.C. headquarters is in Tel Aviv, Israel.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-5", "prediction": "Poland\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-5", "prediction": "Jesus Christ", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-5", "prediction": "Era was performed by Celine Dion.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-5", "prediction": "Samsung\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-5", "prediction": "Elizabeth Shepherd was born in London, England.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-5", "prediction": "Hermann Osthoff died in Berlin, Germany.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-5", "prediction": "Lord Randolph Churchill\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-5", "prediction": "Sony Music Latin\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-5", "prediction": "Treaty of Saint-Germain-en-Laye is located in Austria.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-5", "prediction": "Plaza de la Revolución\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-5", "prediction": "Burchard I, Duke of Swabia's child is Burchard II, Duke of Swabia.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-5", "prediction": "English\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-5", "prediction": "Midfielder\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-5", "prediction": "Japan\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-5", "prediction": "Samuel Johnson\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-5", "prediction": "Michael New was educated at the University of Virginia.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-5", "prediction": "As One was founded in South Korea.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-5", "prediction": "Alan Warner is famous for his novels, particularly \"The Sopranos\" and \"The国际化 Man of Feeling\". \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-6", "prediction": "Luc Bürgin is a Swiss politician. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-6", "prediction": "Walt Disney founded Walt Disney Pictures.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-6", "prediction": "Google owns Google Public Alerts.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-6", "prediction": "Greensboro, North Carolina, United States.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-6", "prediction": "Indie Folk\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-6", "prediction": "Tokyo, Japan\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-6", "prediction": "Romania\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-6", "prediction": "Luc Besson\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-6", "prediction": "Rory Gallagher performed Rory Gallagher. \n\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-6", "prediction": "Renault\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-6", "prediction": "Robert Moorhouse was born in Manchester, England.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-6", "prediction": "Vienna, Austria\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-6", "prediction": "Hunter Foster is married to Megan Lawrence.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-6", "prediction": "Touched by a Polka is represented by Sony Music.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-6", "prediction": "Armstrong Cork Company building is located in Lancaster, Pennsylvania.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-6", "prediction": "Gothenburg\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-6", "prediction": "James Roosevelt McKim\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-6", "prediction": "Italian\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-6", "prediction": "Defender\n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-6", "prediction": "United States\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-6", "prediction": "Georges Bataille\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-6", "prediction": "Samuel T. Richardson was educated at the University of Pennsylvania.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-6", "prediction": "Roomrunner was founded in Denmark.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-6", "prediction": "Gilean McVean is famous for his contributions to population genetics. \n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-7", "prediction": "Parsaram Meghwal is a traditional Indian folk artist known for his expertise in various art forms including painting, sculpture, and puppetry.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-7", "prediction": "Sridhar Palagapati and Jean Drèze founded SELCO India.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-7", "prediction": "Pernod Ricard owns Irish Distillers. \n\n1.0", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-7", "prediction": "Drumnadrochit is located in the Scottish Highlands, near Loch Ness. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-7", "prediction": "Cumbia\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-7", "prediction": "New York City\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-7", "prediction": "Bhutan\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-7", "prediction": "Madonna was not directly associated with the creation of \"Glory with Seraphim.\" 0.1", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P175-7", "prediction": "Bobby Darin\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P176-7", "prediction": "SEAT Alhambra is produced by the Spanish automobile manufacturer, SEAT.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P19-7", "prediction": "Graham Hood was born in England.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P20-7", "prediction": "Paris, France\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P26-7", "prediction": "Archduke Franz von Habsburg\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P264-7", "prediction": "Sony Music\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P276-7", "prediction": "International Screenwriters' Festival is located in London, UK.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P36-7", "prediction": "Geneva\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P40-7", "prediction": "George Herbert Walker Bush\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P407-7", "prediction": "French\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P413-7", "prediction": "Midfielder\n\n0.8", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P495-7", "prediction": "Zimbabwe\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P50-7", "prediction": "George Orwell\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P69-7", "prediction": "Christian Friedrich Henrici was educated at the University of Halle-Wittenberg.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P740-7", "prediction": "Servite Order was founded in Italy.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P800-7", "prediction": "Muhammad Husayn Tabatabaei is famous for being the grandson of Ayatollah Khomeini and a prominent Shia scholar. \n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P106-8", "prediction": "Ian McColl, Baron McColl of Dulwich, works as a crossbench member of the House of Lords, focusing on public policy and healthcare issues.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P112-8", "prediction": "Clyde C. DeForest\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P127-8", "prediction": "Crown Media Family Networks owns Hallmark Channel.\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P131-8", "prediction": "Quch Palang is located in Iran.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P136-8", "prediction": "Hip-hop/Rap", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P159-8", "prediction": "Erani Filiatra's headquarters is located in Jakarta, Indonesia.\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P17-8", "prediction": "Laos\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}
+{"id": "entity-P170-8", "prediction": "Gordon Douglas and Hal Wallis\n\n0.9", "model": "qwen2:7b", "digest": "9d468147c0aa91b4"}

@@ -1,0 +1,15 @@
+{
+  "matcher": "label_match_v3 vendored (v3+R3)",
+  "pilot": {
+    "n": 30,
+    "n_tolerant": 30,
+    "acc_tolerant": 1.0,
+    "ece10_tolerant": 0.0037
+  },
+  "holdout-main": {
+    "n": 30,
+    "n_tolerant": 24,
+    "acc_tolerant": 0.8,
+    "ece10_tolerant": 0.205
+  }
+}

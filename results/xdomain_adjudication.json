@@ -1,0 +1,10 @@
+{
+  "n": 21,
+  "pass1_correct": 16,
+  "pass1_incorrect": 3,
+  "pass1_error": 2,
+  "pass2_n": 5,
+  "pass2_correct": 5,
+  "content_correct": 21,
+  "rule": "pass-1 incorrects were same-line confidence leaks; pass 2 strips the trailing float and re-judges; content basis = pass-1 corrects + pass-2 corrects"
+}

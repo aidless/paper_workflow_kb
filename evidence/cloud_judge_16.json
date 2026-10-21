@@ -1,0 +1,119 @@
+{
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "n": 16,
+  "rows": [
+    {
+      "trace_id": "pilot-01",
+      "predicted": "1789年",
+      "gold": "1789",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-03",
+      "predicted": "威廉·莎士比亚",
+      "gold": "莎士比亚",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-05",
+      "predicted": "约30万公里/秒",
+      "gold": "299792",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-07",
+      "predicted": "8848.86米",
+      "gold": "8848",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-09",
+      "predicted": "约24小时",
+      "gold": "24",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-13",
+      "predicted": "80元",
+      "gold": "80",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-21",
+      "predicted": "不会",
+      "gold": "否",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-23",
+      "predicted": "不是",
+      "gold": "否",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-25",
+      "predicted": "不是",
+      "gold": "否",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-27",
+      "predicted": "不是，光年是长度单位（距离单位），不是时间单位。",
+      "gold": "否",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pilot-30",
+      "predicted": "会",
+      "gold": "是",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "holdout-7",
+      "predicted": "8848.86米",
+      "gold": "8848",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "holdout-10",
+      "predicted": "365.25",
+      "gold": "365",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "holdout-23",
+      "predicted": "不会",
+      "gold": "否",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "holdout-25",
+      "predicted": "不是",
+      "gold": "否",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "holdout-26",
+      "predicted": "不是",
+      "gold": "否",
+      "cloud_verdict": "correct",
+      "error": null
+    }
+  ]
+}

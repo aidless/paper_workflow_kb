@@ -1,0 +1,10 @@
+{
+  "N": 9.5,
+  "S": 9.5,
+  "Si": 9,
+  "C": 8.5,
+  "reason_N": "The manuscript presents multiple significant findings across various dimensions, including proved theorems, cross-domain tests, and robust validation methods, indicating a high number of significant results.",
+  "reason_S": "The methodology employed is robust, with pre-registered tests, external validation, and multiple judge families contributing to a strong methodological approach.",
+  "reason_Si": "The manuscript demonstrates thorough replication and cross-family testing, with proved theorems and a formalized framework, showcasing high specificity and internal consistency despite minor issues.",
+  "reason_C": "While the manuscript contains a wealth of technical details, it lacks a clear narrative structure, which could enhance readability and coherence."
+}

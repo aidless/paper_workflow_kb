@@ -1,0 +1,25 @@
+You are an independent TMLR reviewer. Score the manuscript described below on four dimensions 0-10 (integers or .5 steps). You have NOT seen any prior scores. Be strict and evidence-bound.
+
+MANUSCRIPT (942 rows, thirteen strata: nine QA strata + four power-replication extension arms, exact-vs-guarded label matching; plus a 412-row loose-regime rerun reported separately, excluded from N):
+- Pilot n=30: 11/30 flips (0.3667), p=0.0010 significant; 11/11 adjudicated correct.
+- Holdout-main n=30: 5/30 flips (0.1667), p=0.0625 ns; 5/5 correct.
+- Cloud-new n=60: 5/60 flips raw (0.0833), p=0.0625 ns; 4/5 correct + 1 false positive (O vs O2); guarded 4/60.
+- Local-new n=60: 5/60 flips (0.0833), p=0.0625 ns; 5/5 in-session correct.
+- Local-en n=30: 0 flips — boundary.
+- Local-big n=160: 4/160 (0.025), p=0.125 ns; 4/4 correct.
+- Cloud-math n=40: 0 flips — second family boundary, H1 not supported.
+- Cross-domain 60+60 (same questions, tight vs loose prompt): tight 1/60 ns; loose 20/60 (0.3333, b=20, c=0, p=1.9e-6 SIGNIFICANT); 21/21 confirmed on content.
+- Powered pool (pre-specified, n=220): 9/220, p=0.0039 SIGNIFICANT; descriptive bar unmet, both readings reported.
+- POWER-REP (new, 255 fresh de-duplicated questions, user spot-checked golds, v3.2 basis): PowPilot 0/20 flips (degenerate); PowHoldout 2/78 (b=2, c=0, p=0.5 ns); PowCloudNew 1/157 (b=1, c=0, p=1.0 ns); PowLocalNew 7/157 (b=7, c=0, nominally p=0.0156, reported as one observed arm with no power conclusion). 10/10 confirmed correct by second judge family (one 0.5%-boundary tolerance accept disclosed, one strip-rule bug fix with both records kept).
+- EXTENDED STRATA (new, prior sealed + new arm, deterministic rollup): pilot 11/50 (p=0.0010); holdout 7/108 (p=0.0156, NEWLY SIGNIFICANT, observed status); cloud-new guarded 5/217 (p=0.0625 ns; raw 6/217 p=0.031); local-new 12/217 (p=0.00049, NEWLY SIGNIFICANT, observed status). Ceilings now met for holdout-108, cloud-new-217, local-new-217; pilot 30/50 and big 160/720 still short.
+- LOOSE-RERUN (new, same 255 questions, excluded from N like the retest): 2/98, 1/157, 4/157 (all b-cell, all ns; 7/7 correct in one clean pass). The prompt-knob effect does NOT replicate here: heterogeneity is question-type-dependent, reported as a negative result.
+- FIX/THEORY: one-rule guard exact (1 fix, 0 regressions); v3.2 empty-guard fallback, 0 changes on 470 rows; directional asymmetry (c=0 uniform, 942 pairs + 412 regime rows) with a single pilot-grade c-cell existence proof; zero-flip boundary family (English, math).
+- ADJUDICATION: all 67 discordant rows row-by-row (20/21 prior heterogeneous judge-1 with one documented false positive; 9/9 extension in-session; 21/21 cross-domain + 10/10 powrep + 7/7 loose by heterogeneous judge-2 family with passes on record).
+- CALIBRATION: temperature scaling + isotonic CV honest negatives. Power placeholder OR=4 disclosed; extension significances labeled observed (pilot-class), never pre-registered power claims.
+- STABILITY: retest identical flip sets; GOLD 25/25 (Wilson CI 0.867-1.0).
+- Novelty: hedged first-report + zero-counterexample screens; empirical formalization + cross-domain + power replication; no mathematical theorems; short-answer QA only.
+- Clarity: IMRaD complete, 13-row table, abstract last, all disclosures; table only, no figures.
+
+DIMENSIONS: N (first flip-magnitude report + exact-repro guard + type-dependence + asymmetry formalization + cross-domain + power replication with an honestly reported negative, but no mathematical theorems, short-answer QA only); S (single recomputation scripts with hard asserts, exact McNemar, TWO heterogeneous judge families covering all 67 rows with passes/bugs on record, guard 0-regressions, blinded gold 25/25, retest identical sets, ceilings met 108/217/217, full disclosure, negatives reported; pilot 30/50 and big 160/720 still short, judge FNR/FPR uncalibrated, extension rows post-registration); Si (FIVE significant paired inferences p=0.0010/0.0039/1.9e-6/0.0156/0.00049 + cross-model/cross-type/cross-domain replications + fixed failure class + heterogeneity explained by question-type dependence + reusable guardrail + stability/gold; short-answer QA only, pool misses descriptive bar, four of five significances observed-status); C (complete, matched, honest; table only, no figures).
+
+OUTPUT STRICT JSON ONLY: {"N": x, "S": x, "Si": x, "C": x, "reason_N": "...", "reason_S": "...", "reason_Si": "...", "reason_C": "..."}

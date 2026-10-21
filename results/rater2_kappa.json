@@ -1,0 +1,18 @@
+{
+  "n_graded": 30,
+  "n_unsure": 0,
+  "agree": 29,
+  "agreement": 0.9667,
+  "wilson95": [
+    0.8333,
+    0.9941
+  ],
+  "confusion": {
+    "both_correct": 22,
+    "r1_only": 1,
+    "r2_only": 0,
+    "both_wrong": 7
+  },
+  "expected_agreement": 0.6244,
+  "cohens_kappa": 0.9112
+}

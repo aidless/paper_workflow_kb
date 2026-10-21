@@ -1,0 +1,1572 @@
+[
+  {
+    "trace_id": "powL-001",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "尼日利亚的首都是哪里？只答地名。",
+    "predicted_label": "阿布贾",
+    "gold_answer": "阿布贾",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-002",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "智利的首都是哪里？只答地名。",
+    "predicted_label": "圣地亚哥",
+    "gold_answer": "圣地亚哥",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-003",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "巴西的首都是哪里？只答地名。",
+    "predicted_label": "巴西利亚",
+    "gold_answer": "巴西利亚",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-004",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "哥伦比亚的首都是哪里？只答地名。",
+    "predicted_label": "波哥大",
+    "gold_answer": "波哥大",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-005",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "印度尼西亚的首都是哪里？只答地名。",
+    "predicted_label": "雅加达",
+    "gold_answer": "雅加达",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-006",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "埃及的首都是哪里？只答地名。",
+    "predicted_label": "开罗",
+    "gold_answer": "开罗",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-007",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "古巴的首都是哪里？只答地名。",
+    "predicted_label": "哈瓦那",
+    "gold_answer": "哈瓦那",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-008",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "马来西亚的首都是哪里？只答地名。",
+    "predicted_label": "吉隆坡",
+    "gold_answer": "吉隆坡",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-009",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "菲律宾的首都是哪里？只答地名。",
+    "predicted_label": "马尼拉",
+    "gold_answer": "马尼拉",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-010",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "朝鲜的首都是哪里？只答地名。",
+    "predicted_label": "平壤",
+    "gold_answer": "平壤",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-011",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "蒙古的首都是哪里？只答地名。",
+    "predicted_label": "乌兰巴托",
+    "gold_answer": "乌兰巴托",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-012",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "秘鲁的首都是哪里？只答地名。",
+    "predicted_label": "利马 0.9",
+    "gold_answer": "利马",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-013",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "墨西哥的首都是哪里？只答地名。",
+    "predicted_label": "墨西哥城",
+    "gold_answer": "墨西哥城",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-014",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "阿根廷的首都是哪里？只答地名。",
+    "predicted_label": "布宜诺斯艾利斯",
+    "gold_answer": "布宜诺斯艾利斯",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-015",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "孟加拉国的首都是哪里？只答地名。",
+    "predicted_label": "达卡",
+    "gold_answer": "达卡",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-016",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "肯尼亚的首都是哪里？只答地名。",
+    "predicted_label": "内罗毕",
+    "gold_answer": "内罗毕",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-017",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "土耳其的首都是哪里？只答地名。",
+    "predicted_label": "安卡拉",
+    "gold_answer": "安卡拉",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-018",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "沙特阿拉伯的首都是哪里？只答地名。",
+    "predicted_label": "利雅得",
+    "gold_answer": "利雅得",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-019",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "伊朗的首都是哪里？只答地名。",
+    "predicted_label": "德黑兰",
+    "gold_answer": "德黑兰",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-020",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "巴基斯坦的首都是哪里？只答地名。",
+    "predicted_label": "伊斯兰堡",
+    "gold_answer": "伊斯兰堡",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-021",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "甲烷的化学式是？只答化学式。",
+    "predicted_label": "CH4",
+    "gold_answer": "CH4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-022",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "氨气的化学式是？只答化学式。",
+    "predicted_label": "NH3",
+    "gold_answer": "NH3",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-023",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "硫酸的化学式是？只答化学式。",
+    "predicted_label": "H2SO4",
+    "gold_answer": "H2SO4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-024",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "盐酸的化学式是？只答化学式。",
+    "predicted_label": "HCl",
+    "gold_answer": "HCl",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-025",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "氢氧化钠的化学式是？只答化学式。",
+    "predicted_label": "NaOH",
+    "gold_answer": "NaOH",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-026",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "碳酸钙的化学式是？只答化学式。",
+    "predicted_label": "CaCO3",
+    "gold_answer": "CaCO3",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-027",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "双氧水的化学式是？只答化学式。",
+    "predicted_label": "H2O2",
+    "gold_answer": "H2O2",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-028",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一氧化碳的化学式是？只答化学式。",
+    "predicted_label": "CO",
+    "gold_answer": "CO",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-029",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "二氧化硫的化学式是？只答化学式。",
+    "predicted_label": "SO2",
+    "gold_answer": "SO2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-030",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "氧化钙的化学式是？只答化学式。",
+    "predicted_label": "CaO",
+    "gold_answer": "CaO",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-031",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "氯化钾的化学式是？只答化学式。",
+    "predicted_label": "KCl",
+    "gold_answer": "KCl",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-032",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "硫酸铜的化学式是？只答化学式。",
+    "predicted_label": "CuSO4",
+    "gold_answer": "CuSO4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-033",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "高锰酸钾的化学式是？只答化学式。",
+    "predicted_label": "KMnO4",
+    "gold_answer": "KMnO4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-034",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "乙醇的化学式是？只答化学式。",
+    "predicted_label": "C2H5OH",
+    "gold_answer": "C2H5OH",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-035",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "葡萄糖的化学式是？只答化学式。",
+    "predicted_label": "C6H12O6",
+    "gold_answer": "C6H12O6",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-036",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "硝酸的化学式是？只答化学式。",
+    "predicted_label": "HNO3",
+    "gold_answer": "HNO3",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-037",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "太阳系有几颗行星？只答数字。",
+    "predicted_label": "8",
+    "gold_answer": "8",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "trace_id": "powL-038",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "中国有几个自治区？只答数字。",
+    "predicted_label": "5",
+    "gold_answer": "5",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-039",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "中国有几个直辖市？只答数字。",
+    "predicted_label": "4",
+    "gold_answer": "4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-040",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "天干有几个？只答数字。",
+    "predicted_label": "10",
+    "gold_answer": "10",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-041",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "地支有几个？只答数字。",
+    "predicted_label": "12",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-042",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一小时有几刻？只答数字。",
+    "predicted_label": "60",
+    "gold_answer": "4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-043",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "人的颈椎有几块？只答数字。",
+    "predicted_label": "7",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-044",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "人的肋骨有几对？只答数字。",
+    "predicted_label": "12",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-045",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "英文字母有几个？只答数字。",
+    "predicted_label": "26",
+    "gold_answer": "26",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-046",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "汉语拼音声母有几个？只答数字。",
+    "predicted_label": "21",
+    "gold_answer": "23",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-047",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "汉语拼音韵母有几个？只答数字。",
+    "predicted_label": "24",
+    "gold_answer": "24",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-048",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "世界有几大洲？只答数字。",
+    "predicted_label": "7",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-049",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "中国有几个民族？只答数字。",
+    "predicted_label": "56",
+    "gold_answer": "56",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-050",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "普通话有几个声调？只答数字。",
+    "predicted_label": "4",
+    "gold_answer": "4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-051",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "八卦有几卦？只答数字。",
+    "predicted_label": "8",
+    "gold_answer": "8",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-052",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "北斗七星有几颗？只答数字。",
+    "predicted_label": "7",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-053",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一个月最多有几天？只答数字。",
+    "predicted_label": "31",
+    "gold_answer": "31",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-054",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一年中大月有几个？只答数字。",
+    "predicted_label": "7",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-055",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一年中小月有几个？只答数字。",
+    "predicted_label": "4",
+    "gold_answer": "4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-056",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "闰年二月有几天？只答数字。",
+    "predicted_label": "29",
+    "gold_answer": "29",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-057",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "十七乘三等于几？只答数字。",
+    "predicted_label": "51",
+    "gold_answer": "51",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-058",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "十九乘二等于几？只答数字。",
+    "predicted_label": "38",
+    "gold_answer": "38",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-059",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "二十一乘三等于几？只答数字。",
+    "predicted_label": "63",
+    "gold_answer": "63",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-060",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "二十五乘四等于几？只答数字。",
+    "predicted_label": "100",
+    "gold_answer": "100",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-061",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一百二十五乘八等于几？只答数字。",
+    "predicted_label": "1000",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-062",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "十五乘十五等于几？只答数字。",
+    "predicted_label": "225",
+    "gold_answer": "225",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-063",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "十三乘四等于几？只答数字。",
+    "predicted_label": "52",
+    "gold_answer": "52",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-064",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "十四乘五等于几？只答数字。",
+    "predicted_label": "70",
+    "gold_answer": "70",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-065",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "十六乘六等于几？只答数字。",
+    "predicted_label": "96",
+    "gold_answer": "96",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-066",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "十八乘四等于几？只答数字。",
+    "predicted_label": "72",
+    "gold_answer": "72",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-067",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "二十二乘四等于几？只答数字。",
+    "predicted_label": "88",
+    "gold_answer": "88",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-068",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "三十三乘三等于几？只答数字。",
+    "predicted_label": "99",
+    "gold_answer": "99",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-069",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一百零一乘五等于几？只答数字。",
+    "predicted_label": "505",
+    "gold_answer": "505",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-070",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一千零一减一等于几？只答数字。",
+    "predicted_label": "999",
+    "gold_answer": "1000",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "powL-071",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一百六十九除以十三等于几？只答数字。",
+    "predicted_label": "13",
+    "gold_answer": "13",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "powL-072",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "二百二十五除以十五等于几？只答数字。",
+    "predicted_label": "17.0",
+    "gold_answer": "15",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-073",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "二百五十六除以十六等于几？只答数字。",
+    "predicted_label": "16",
+    "gold_answer": "16",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "trace_id": "powL-074",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一千除以二十五等于几？只答数字。",
+    "predicted_label": "40.0",
+    "gold_answer": "40",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-075",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "九百九十九除以九等于几？只答数字。",
+    "predicted_label": "111",
+    "gold_answer": "111",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-076",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "三百六十除以十五等于几？只答数字。",
+    "predicted_label": "24",
+    "gold_answer": "24",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-077",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "孔雀会开屏吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-078",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "狮子是群居动物吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-079",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "老虎是群居动物吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-080",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "大象有长鼻子吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-081",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "长颈鹿脖子长吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-082",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "熊猫吃竹子吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-083",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "考拉吃桉树叶吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-084",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "蜂蜜是蜜蜂做的吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-085",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "蚕吃桑叶吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-086",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "蜘蛛有八条腿吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-087",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "螃蟹有十条腿吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-088",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "章鱼有八条腕吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-089",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "海星是鱼吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-090",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "海马是鱼吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-091",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "鲨鱼是哺乳动物吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "否",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "trace_id": "powL-092",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "鳄鱼是爬行动物吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "trace_id": "powL-093",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "变色龙会变色吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-094",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "猫头鹰夜间活动吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-095",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "啄木鸟吃虫子吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-096",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "燕子春天向北飞吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-097",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "企鹅生活在南极吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-098",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "北极熊生活在北极吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-099",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "骆驼生活在沙漠吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-100",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "仙人掌耐旱吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-101",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "荷花长在水里吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-102",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "葡萄是水果吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-103",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "石榴有籽吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-104",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "核桃有硬壳吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-105",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "生姜是根吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-106",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "藕长在淤泥里吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-107",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "胡萝卜是根菜吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-108",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "洋葱会让人流泪吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-109",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "土豆长在地下吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-110",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "红薯长在地下吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-111",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "花生结果在地下吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-112",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "水稻长在水田里吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-113",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "小麦是粮食作物吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-114",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "玉米是粮食作物吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-115",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "大豆含蛋白质吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-116",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "大蒜有气味吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-117",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "菠菜含铁吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-118",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "茶叶能泡水喝吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-119",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "唐朝建立在哪一年？只答数字。",
+    "predicted_label": "618.0",
+    "gold_answer": "618",
+    "confidence": 0.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-120",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "宋朝建立在哪一年？只答数字。",
+    "predicted_label": "960",
+    "gold_answer": "960",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-121",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "元朝建立在哪一年？只答数字。",
+    "predicted_label": "1271",
+    "gold_answer": "1271",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "powL-122",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "明朝建立在哪一年？只答数字。",
+    "predicted_label": "1368年",
+    "gold_answer": "1368",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-123",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "清朝建立在哪一年？只答数字。",
+    "predicted_label": "1644",
+    "gold_answer": "1644",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-124",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "赤壁之战在哪一年？只答数字。",
+    "predicted_label": "208",
+    "gold_answer": "208",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-125",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "淝水之战在哪一年？只答数字。",
+    "predicted_label": "383",
+    "gold_answer": "383",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-126",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "鸦片战争开始在哪一年？只答数字。",
+    "predicted_label": "1840",
+    "gold_answer": "1840",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-127",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "甲午战争在哪一年？只答数字。",
+    "predicted_label": "1894",
+    "gold_answer": "1894",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-128",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "五四运动在哪一年？只答数字。",
+    "predicted_label": "1919",
+    "gold_answer": "1919",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-129",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "长征开始在哪一年？只答数字。",
+    "predicted_label": "1934",
+    "gold_answer": "1934",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-130",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "抗日战争全面爆发在哪一年？只答数字。",
+    "predicted_label": "1937年",
+    "gold_answer": "1937",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-131",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "改革开放开始在哪一年？只答数字。",
+    "predicted_label": "1978年",
+    "gold_answer": "1978",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-132",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "香港回归在哪一年？只答数字。",
+    "predicted_label": "1997",
+    "gold_answer": "1997",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-133",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "澳门回归在哪一年？只答数字。",
+    "predicted_label": "1999",
+    "gold_answer": "1999",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-134",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "北京奥运会是哪一年？只答数字。",
+    "predicted_label": "2008",
+    "gold_answer": "2008",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-135",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "水有三种形态吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-136",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "冰比水轻吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-137",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "盐溶于水吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-138",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "糖溶于水吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-139",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "油浮在水上吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-140",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "同体积铁比木头重吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-141",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "钻石最硬吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-142",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "黄金延展性好吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-143",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "磁铁吸铁吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-144",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "摩擦能起电吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-145",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "影子是光被挡住吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-146",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "回声是声音反射吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-147",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "心脏在左边吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-148",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "打雷先见闪电吗？只答是或否。",
+    "predicted_label": "否",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-149",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "水烧开会冒泡吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-150",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "冬天呼气有白雾吗？只答是或否。",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-151",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "中国有几个省级行政区？只答数字。",
+    "predicted_label": "34",
+    "gold_answer": "34",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-152",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "联合国有几个常任理事国？只答数字。",
+    "predicted_label": "5",
+    "gold_answer": "5",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-153",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "联合国安理会有几个非常任理事国？只答数字。",
+    "predicted_label": "5",
+    "gold_answer": "10",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-154",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "奥林匹克几年一届？只答数字。",
+    "predicted_label": "4",
+    "gold_answer": "4",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-155",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "世界杯几年一届？只答数字。",
+    "predicted_label": "4",
+    "gold_answer": "4",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "powL-156",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "闰年每几年一次？只答数字。",
+    "predicted_label": "4",
+    "gold_answer": "4",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "powL-157",
+    "source": "power-rep-local",
+    "model": "qwen2:7b",
+    "question": "一副麻将有多少张？只答数字。",
+    "predicted_label": "144",
+    "gold_answer": "136",
+    "confidence": 0.8,
+    "error": null
+  }
+]

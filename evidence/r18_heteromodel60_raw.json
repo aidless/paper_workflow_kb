@@ -1,0 +1,542 @@
+[
+  {
+    "trace_id": "hr18-01",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一刻钟等于多少分钟？",
+    "predicted_label": "<think>",
+    "gold_answer": "15",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-02",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一旬等于多少天？",
+    "predicted_label": "<think>",
+    "gold_answer": "10",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-03",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一打等于几个？",
+    "predicted_label": "<think>",
+    "gold_answer": "12",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-04",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一罗等于几打？",
+    "predicted_label": "<think>",
+    "gold_answer": "12",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-05",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一斤等于多少克？",
+    "predicted_label": "<think>",
+    "gold_answer": "500",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-06",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一两等于多少克？",
+    "predicted_label": "<think>",
+    "gold_answer": "50",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-07",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一公斤等于多少克？",
+    "predicted_label": "<think>",
+    "gold_answer": "1000",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-08",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一米等于多少厘米？",
+    "predicted_label": "<think>",
+    "gold_answer": "100",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-09",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一公里等于多少米？",
+    "predicted_label": "<think>",
+    "gold_answer": "1000",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-10",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一平方米等于多少平方厘米？",
+    "predicted_label": "<think>",
+    "gold_answer": "10000",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-11",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一升等于多少毫升？",
+    "predicted_label": "<think>",
+    "gold_answer": "1000",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-12",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一吨等于多少公斤？",
+    "predicted_label": "<think>",
+    "gold_answer": "1000",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-13",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一小时等于多少秒？",
+    "predicted_label": "<think>",
+    "gold_answer": "3600",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-14",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一天等于多少小时？",
+    "predicted_label": "<think>",
+    "gold_answer": "24",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-15",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一周等于多少天？",
+    "predicted_label": "<think>",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-16",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一年有多少个月？",
+    "predicted_label": "<think>",
+    "gold_answer": "12",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-17",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一世纪等于多少年？",
+    "predicted_label": "<think>",
+    "gold_answer": "100",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-18",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一双等于几只？",
+    "predicted_label": "<think>",
+    "gold_answer": "2",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-19",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "一对等于几个？",
+    "predicted_label": "<think>",
+    "gold_answer": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-20",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "半打等于几个？",
+    "predicted_label": "<think>",
+    "gold_answer": "6",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-21",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "蜘蛛是昆虫吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-22",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "鲸鱼是鱼吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "否",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-23",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "蝙蝠会飞吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-24",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "企鹅会飞吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "否",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-25",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "竹子是草吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-26",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "花生是坚果吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-27",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "西红柿是水果吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-28",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "土豆是蔬菜吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-29",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "乌龟是两栖动物吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "否",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-30",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "青蛙是两栖动物吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-31",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "蚊子是昆虫吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-32",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "蜗牛有外壳吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-33",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "鱼用鳃呼吸吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-34",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "鸟类是恒温动物吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-35",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "蛇是恒温动物吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-36",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "月亮自己会发光吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "否",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-37",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "太阳是恒星吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-38",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "地球是行星吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-39",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "水在零摄氏度会结冰吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-40",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "铁会被磁铁吸引吗？",
+    "predicted_label": "<think>",
+    "gold_answer": "是",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-41",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "李白字什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "太白",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-42",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "杜甫字什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "子美",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-43",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "苏轼号什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "东坡",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-44",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "关羽字什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "云长",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-45",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "刘备字什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "玄德",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-46",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "曹操字什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "孟德",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-47",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "诸葛亮字什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "孔明",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-48",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "鲁迅原名是什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "周树人",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-49",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "巴金原名是什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "李尧棠",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-50",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "老舍原名是什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "舒庆春",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-51",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "冰心原名是什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "谢婉莹",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-52",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "茅盾原名是什么？",
+    "predicted_label": "<think>",
+    "gold_answer": "沈德鸿",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-53",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "中国的首都是哪里？",
+    "predicted_label": "<think>",
+    "gold_answer": "北京",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "hr18-54",
+    "source": "r18-heteromodel",
+    "model": "deepseek-r1:7b",
+    "question": "日本的首都是哪里？",
+    "predicted_label": "<think>",
+    "gold_answer": "东京",
+    "confidence": 0.8,
+    "error": null
+  }
+]

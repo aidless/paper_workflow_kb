@@ -1,0 +1,56 @@
+{
+  "subsets": {
+    "pilot": {
+      "n": 30,
+      "n_exact": 19,
+      "n_tolerant": 30,
+      "acc_exact": 0.6333,
+      "acc_tolerant": 1.0,
+      "flip_rate": 0.3667,
+      "n_flips": 11,
+      "mcnemar_b": 11,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 0.0009765624999999999,
+      "discordant_rate": 0.3667,
+      "ece10_exact": 0.363,
+      "ece10_tolerant": 0.0037
+    },
+    "holdout-main": {
+      "n": 30,
+      "n_exact": 19,
+      "n_tolerant": 24,
+      "acc_exact": 0.6333,
+      "acc_tolerant": 0.8,
+      "flip_rate": 0.1667,
+      "n_flips": 5,
+      "mcnemar_b": 5,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 0.0625,
+      "discordant_rate": 0.1667,
+      "ece10_exact": 0.3517,
+      "ece10_tolerant": 0.205
+    }
+  },
+  "pooled_descriptive": {
+    "n": 60,
+    "n_exact": 38,
+    "n_tolerant": 54,
+    "acc_exact": 0.6333,
+    "acc_tolerant": 0.9,
+    "flip_rate": 0.2667,
+    "n_flips": 16,
+    "mcnemar_b": 16,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 3.0517578125000014e-05,
+    "discordant_rate": 0.2667,
+    "ece10_exact": 0.3473,
+    "ece10_tolerant": 0.0893
+  },
+  "H1": "flip_rate>5% per subset (paired exact-vs-tolerant, same rows)",
+  "H1_result": {
+    "pilot": "SUPPORT",
+    "holdout-main": "SUPPORT"
+  },
+  "power_note": "N=120 registered still pending (60/120). Observed discordant rates feed power update; do not claim N=120 done.",
+  "N_status": "60/120 snapshot; pre-registration N=120 NOT yet fulfilled"
+}

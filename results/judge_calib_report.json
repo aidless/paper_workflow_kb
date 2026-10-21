@@ -1,0 +1,208 @@
+{
+  "pilot_n": 96,
+  "pilot_human_incorrect": 7,
+  "p2_status": "P2 included: 124/124 ok (qwen2:7b, gemma3:4b); adversarial included: 60/60 ok",
+  "by_judge": {
+    "adversarial:deepseek-r1:7b": {
+      "n": 20,
+      "n_dropped": 0,
+      "n_human_correct": 0,
+      "n_human_incorrect": 20,
+      "fn": 0,
+      "fp": 1,
+      "fnr": null,
+      "fnr_wilson95": [
+        0.0,
+        0.0
+      ],
+      "fpr": 0.05,
+      "fpr_wilson95": [
+        0.0089,
+        0.2361
+      ],
+      "agree": 19,
+      "agreement": 0.95,
+      "agree_wilson95": [
+        0.7639,
+        0.9911
+      ],
+      "enable_decision": "HOLD"
+    },
+    "adversarial:gemma3:4b": {
+      "n": 20,
+      "n_dropped": 0,
+      "n_human_correct": 0,
+      "n_human_incorrect": 20,
+      "fn": 0,
+      "fp": 18,
+      "fnr": null,
+      "fnr_wilson95": [
+        0.0,
+        0.0
+      ],
+      "fpr": 0.9,
+      "fpr_wilson95": [
+        0.699,
+        0.9721
+      ],
+      "agree": 2,
+      "agreement": 0.1,
+      "agree_wilson95": [
+        0.0279,
+        0.301
+      ],
+      "enable_decision": "HOLD"
+    },
+    "adversarial:qwen2:7b": {
+      "n": 20,
+      "n_dropped": 0,
+      "n_human_correct": 0,
+      "n_human_incorrect": 20,
+      "fn": 0,
+      "fp": 7,
+      "fnr": null,
+      "fnr_wilson95": [
+        0.0,
+        0.0
+      ],
+      "fpr": 0.35,
+      "fpr_wilson95": [
+        0.1812,
+        0.5671
+      ],
+      "agree": 13,
+      "agreement": 0.65,
+      "agree_wilson95": [
+        0.4329,
+        0.8188
+      ],
+      "enable_decision": "HOLD"
+    },
+    "deepseek-r1:7b@local": {
+      "n": 64,
+      "n_dropped": 0,
+      "n_human_correct": 61,
+      "n_human_incorrect": 3,
+      "fn": 0,
+      "fp": 1,
+      "fnr": 0.0,
+      "fnr_wilson95": [
+        0.0,
+        0.0592
+      ],
+      "fpr": 0.3333,
+      "fpr_wilson95": [
+        0.0615,
+        0.7923
+      ],
+      "agree": 63,
+      "agreement": 0.9844,
+      "agree_wilson95": [
+        0.9167,
+        0.9972
+      ],
+      "enable_decision": "HOLD"
+    },
+    "gold100-p2:gemma3:4b": {
+      "n": 62,
+      "n_dropped": 0,
+      "n_human_correct": 57,
+      "n_human_incorrect": 5,
+      "fn": 7,
+      "fp": 3,
+      "fnr": 0.1228,
+      "fnr_wilson95": [
+        0.0608,
+        0.2325
+      ],
+      "fpr": 0.6,
+      "fpr_wilson95": [
+        0.2307,
+        0.8824
+      ],
+      "agree": 52,
+      "agreement": 0.8387,
+      "agree_wilson95": [
+        0.7279,
+        0.91
+      ],
+      "enable_decision": "HOLD"
+    },
+    "gold100-p2:qwen2:7b": {
+      "n": 62,
+      "n_dropped": 0,
+      "n_human_correct": 57,
+      "n_human_incorrect": 5,
+      "fn": 2,
+      "fp": 0,
+      "fnr": 0.0351,
+      "fnr_wilson95": [
+        0.0097,
+        0.1192
+      ],
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        0.0,
+        0.4345
+      ],
+      "agree": 60,
+      "agreement": 0.9677,
+      "agree_wilson95": [
+        0.8898,
+        0.9911
+      ],
+      "enable_decision": "HOLD"
+    },
+    "qwen2.5:7b@cloud": {
+      "n": 21,
+      "n_dropped": 0,
+      "n_human_correct": 20,
+      "n_human_incorrect": 1,
+      "fn": 0,
+      "fp": 0,
+      "fnr": 0.0,
+      "fnr_wilson95": [
+        0.0,
+        0.1611
+      ],
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        0.0,
+        0.7935
+      ],
+      "agree": 21,
+      "agreement": 1.0,
+      "agree_wilson95": [
+        0.8454,
+        1.0
+      ],
+      "enable_decision": "HOLD"
+    },
+    "qwen2.5:7b@local": {
+      "n": 11,
+      "n_dropped": 0,
+      "n_human_correct": 8,
+      "n_human_incorrect": 3,
+      "fn": 0,
+      "fp": 0,
+      "fnr": 0.0,
+      "fnr_wilson95": [
+        0.0,
+        0.3244
+      ],
+      "fpr": 0.0,
+      "fpr_wilson95": [
+        0.0,
+        0.5615
+      ],
+      "agree": 11,
+      "agreement": 1.0,
+      "agree_wilson95": [
+        0.7412,
+        1.0
+      ],
+      "enable_decision": "HOLD"
+    }
+  },
+  "method_note": "binary verdicts, no confidence: temperature scaling / ECE N/A (R21-D1); calibration = FNR/FPR + agreement + Wilson CI; FPR needs >=10 human-incorrect denominators to judge 0.10"
+}

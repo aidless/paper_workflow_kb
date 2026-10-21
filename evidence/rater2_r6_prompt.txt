@@ -1,0 +1,24 @@
+You are an independent TMLR reviewer. Score the manuscript described below on four dimensions 0-10 (integers or .5 steps). You have NOT seen any prior scores. Be strict and evidence-bound.
+
+MANUSCRIPT (410 rows, seven QA strata + calibration rows, exact-vs-guarded label matching):
+- Pilot n=30: 11/30 flips (0.3667), McNemar p=0.0010 significant; acc 0.6333->1.0; ECE 0.363->0.0037. 11/11 flips independently adjudicated correct.
+- Holdout-main n=30: 5/30 flips (0.1667), p=0.0625 ns; acc 0.6333->0.8; ECE 0.3517->0.205. 5/5 adjudicated correct.
+- Cloud-new n=60 (fresh questions, qwen2.5:7b cloud temp 0): 5/60 flips (0.0833), p=0.0625 ns; acc 0.8->0.8833 raw; 4/5 correct + 1 false positive (O vs O2); adjudicated 52/60.
+- Local-new n=60 (same 60 questions, qwen2:7b local): 5/60 flips (0.0833), p=0.0625 ns; acc 0.8->0.8833; ECE 0.1255->0.0345; 5/5 in-session correct (failed qwen3:4b judge attempt disclosed).
+- Local-en n=30 (English cross-type): 0 flips, exact accuracy 1.0 — boundary condition.
+- Local-big n=160 (arithmetic-heavy, recomputable golds): 4/160 flips (0.025), p=0.125 ns; 4/4 correct.
+- Cloud-math n=40 (fresh NUMERIC questions, cloud qwen2.5:7b, SECOND question family): 0 flips, acc 0.925 both matchers, ECE 0.025 — H1 not supported, phenomenon is question-type-dependent.
+- Powered pool (pre-specified, local-new+local-big, n=220=meets n_ceil 217): 9/220 flips (0.0409), p=0.0039 SIGNIFICANT; descriptive bar unmet, both readings reported.
+- Ablation: synonymy 7, numeric tolerance 4, unit suffix 3, substring 1, negation prefix 1.
+- FIX: one-rule substring guard reproduces full adjudication EXACTLY (1 fix, 0 regressions across 410 rows).
+- CALIBRATION: temperature scaling (NLL down, ECE up) + isotonic 5-fold CV (ECE up) — honest negatives.
+- Power (OR=4 placeholder disclosed): ceilings 50/108/217/217/720; math no ceiling computable; all disclosed hedged.
+- Cloud byte-reproduction of 14 result files: identical.
+- STABILITY (new): same-60-question cloud retest, same model/prompt/temperature: exact-string agreement 0.9833 on 60 pairs, guarded agreement 1.0, IDENTICAL flip sets (5 and 5), mean confidence drift 0.0107, degenerate McNemar disclosed. Flips are not single-sample jitter.
+- GOLD (new): blinded 25-item set (census of all 14 stem-carrying flips + seeded sample of 11 stemless adjudication-core flips, order shuffled, verdicts sealed, exact non-flips excluded by design with disclosed rationale) graded independently item by item: 25/25 agreement (1.0, Wilson 95% CI 0.867 to 1.0; 14/14 stemmed, 11/11 stemless), covering flips from all four flip-carrying strata. Flip-enriched by design, bounds overturn quality on flip rows only.
+- Novelty: hedged first-report + zero-counterexample screens (374 + 44); narrow QA, no theory.
+- Clarity: IMRaD complete, 7-row stratified table + stability/gold paragraphs, abstract last, flattery/ECE disclosures; table only.
+
+DIMENSIONS: N (first flip-magnitude report + exact-repro guard + type-dependence boundary, but narrow QA no theory); S (recompute scripts, exact McNemar, independent judge 20/21 + cloud confirm, guard 0-regressions, PLUS blinded gold 25/25 AND same-question retest with identical flip sets, full disclosure, negatives reported; underpowered strata); Si (pilot effect + replications + fixed failure class + powered pool p=0.0039 + reusable guardrail + stability/gold evidence; single types, pool misses descriptive bar); C (complete, matched, honest; table only).
+
+OUTPUT STRICT JSON ONLY: {"N": x, "S": x, "Si": x, "C": x, "reason_N": "...", "reason_S": "...", "reason_Si": "...", "reason_C": "..."}

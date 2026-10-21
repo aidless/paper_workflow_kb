@@ -1,0 +1,44 @@
+{
+  "rater": "in-session single-rater (same semantic standard as pilot/holdout; independent-judge confirmation open)",
+  "instrument_note": "qwen3:4b independent-judge attempt FAILED (single-word instruction non-compliance; verdicts echoed instructions; output discarded, not evidence)",
+  "n_adjudicated": 5,
+  "n_correct": 5,
+  "n_incorrect": 0,
+  "rows": [
+    {
+      "trace_id": "local-new-09",
+      "predicted": "英国。0.9",
+      "gold": "英国",
+      "ruling": "correct",
+      "reason": "同行置信后缀，语义为英国（同pilot单位后缀先例，答案正确+格式泄漏）"
+    },
+    {
+      "trace_id": "local-new-26",
+      "predicted": "365.25",
+      "gold": "365",
+      "ruling": "correct",
+      "reason": "数值容差0.068%（同holdout-10先例）"
+    },
+    {
+      "trace_id": "local-new-31",
+      "predicted": "《红楼梦》",
+      "gold": "红楼梦",
+      "ruling": "correct",
+      "reason": "书名括号不改变指称（同pilot-03全名含简称先例）"
+    },
+    {
+      "trace_id": "local-new-37",
+      "predicted": "1949年",
+      "gold": "1949",
+      "ruling": "correct",
+      "reason": "单位后缀年（同pilot-01先例）"
+    },
+    {
+      "trace_id": "local-new-48",
+      "predicted": "华盛顿特区",
+      "gold": "华盛顿",
+      "ruling": "correct",
+      "reason": "全名含简称同城指称（同pilot-03/cloud-new-48先例）"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "N": 7,
+  "S": 9,
+  "Si": 7,
+  "C": 8.5,
+  "reason_N": "The manuscript provides substantial empirical evidence with multiple statistical tests, a formalized measurement-error framework, and a cross-domain test confirming a prediction. However, it lacks formal theorems, relying primarily on empirical results.",
+  "reason_S": "The manuscript demonstrates thorough empirical rigor with single recomputation scripts, blinded gold sets, high external rater agreement, pre-registered methods, and sealed recomputations. However, it includes post-registration extension rows and lacks a public repository.",
+  "reason_Si": "The manuscript employs multiple empirical strategies, including cross-model and cross-type replications, a boundary test, and a falsifiable theory. However, the empirical pool failed Holm-Bonferroni, indicating potential issues with controlling the family-wise error rate.",
+  "reason_C": "The manuscript is well-written with a consistent terminology and formal definitions. It follows a canonical structure with complete disclosures, though it lacks a public artifact link."
+}

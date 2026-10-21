@@ -1,0 +1,10 @@
+{
+  "N": 5,
+  "S": 6,
+  "Si": 7,
+  "C": 4,
+  "reason_N": "The manuscript mentions a 'pilot' with 11/30 success, but the 'first flip-magnitude report' and 'exact repro guard' are not explicitly detailed. The 'cross-domain loose' and other results are significant but do not directly address the 'first report' requirement.",
+  "reason_S": "The manuscript includes multiple statistical tests and recalibrations, but the 'exact repro guard' is not clearly demonstrated. The 'blind gold' and 'retest' are mentioned, but the 'single recomputation scripts' and 'empirical only' aspects are not fully detailed. The 'judge FNR/FPR' calibration issue is a concern.",
+  "reason_Si": "The manuscript includes two significant inferences from the Holm-Bonferroni analysis and some observed significance. The 'cross-model/cross-type/cross-domain replications' are mentioned, but the 'heterogeneity mechanism' and 'guardrail' are not fully detailed. The 'pool misses descriptive bar' issue is a concern.",
+  "reason_C": "The abstract is 330 words but is quite technical and lacks accessibility. The 'unified terminology' is mentioned, but the 'single guarded basis' and 'formal definitions' are not fully detailed. The manuscript does not include a public repository link, which is a significant omission."
+}

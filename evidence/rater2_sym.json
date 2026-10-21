@@ -1,0 +1,13 @@
+{
+ "model": "qwen3:4b (ollama local)",
+ "role": "R2 symmetric-prompt rerun, blind to R1, WITH guard+tempscale evidence",
+ "prompt": "/tmp/rater_prompt_sym.txt (strict, symmetric with R1-strict)",
+ "scores": {
+  "N": 5.5,
+  "S": 7.5,
+  "Si": 8.0,
+  "C": 9.5
+ },
+ "weighted": "0.30*5.5+0.35*7.5+0.25*8.0+0.10*9.5=7.225",
+ "note": "rater misattributed power ceilings in reasons (50/108 swapped); scores stand as uncalibrated model estimates"
+}

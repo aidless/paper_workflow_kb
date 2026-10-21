@@ -1,0 +1,182 @@
+[
+ {
+  "q": "What is the capital of Norway? Answer with the place name only.",
+  "gold": "Oslo",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Sweden? Answer with the place name only.",
+  "gold": "Stockholm",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Finland? Answer with the place name only.",
+  "gold": "Helsinki",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Poland? Answer with the place name only.",
+  "gold": "Warsaw",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Greece? Answer with the place name only.",
+  "gold": "Athens",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Portugal? Answer with the place name only.",
+  "gold": "Lisbon",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Netherlands? Answer with the place name only.",
+  "gold": "Amsterdam",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Belgium? Answer with the place name only.",
+  "gold": "Brussels",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Austria? Answer with the place name only.",
+  "gold": "Vienna",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is the capital of Switzerland? Answer with the place name only.",
+  "gold": "Bern",
+  "by": "hand",
+  "expr": "capital"
+ },
+ {
+  "q": "What is 57 plus 99? Answer with the number only.",
+  "gold": "156",
+  "by": "computed",
+  "expr": "57+99"
+ },
+ {
+  "q": "What is 68 plus 86? Answer with the number only.",
+  "gold": "154",
+  "by": "computed",
+  "expr": "68+86"
+ },
+ {
+  "q": "What is 55 plus 54? Answer with the number only.",
+  "gold": "109",
+  "by": "computed",
+  "expr": "55+54"
+ },
+ {
+  "q": "What is 20 plus 96? Answer with the number only.",
+  "gold": "116",
+  "by": "computed",
+  "expr": "20+96"
+ },
+ {
+  "q": "What is 75 plus 32? Answer with the number only.",
+  "gold": "107",
+  "by": "computed",
+  "expr": "75+32"
+ },
+ {
+  "q": "What is 97 plus 19? Answer with the number only.",
+  "gold": "116",
+  "by": "computed",
+  "expr": "97+19"
+ },
+ {
+  "q": "What is 39 plus 66? Answer with the number only.",
+  "gold": "105",
+  "by": "computed",
+  "expr": "39+66"
+ },
+ {
+  "q": "What is 92 plus 99? Answer with the number only.",
+  "gold": "191",
+  "by": "computed",
+  "expr": "92+99"
+ },
+ {
+  "q": "What is 45 plus 60? Answer with the number only.",
+  "gold": "105",
+  "by": "computed",
+  "expr": "45+60"
+ },
+ {
+  "q": "What is 35 plus 91? Answer with the number only.",
+  "gold": "126",
+  "by": "computed",
+  "expr": "35+91"
+ },
+ {
+  "q": "Is water liquid at room temperature? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Is ice solid? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Do fish swim? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Do birds fly (in general)? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Will the sun rise in the west? Answer yes or no.",
+  "gold": "no",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Does a stone float on water (in general)? Answer yes or no.",
+  "gold": "no",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Is Beijing the capital of China? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Do cats meow? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Do plants need sunlight? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ },
+ {
+  "q": "Are there four seasons in a year? Answer yes or no.",
+  "gold": "yes",
+  "by": "hand",
+  "expr": "yes-no"
+ }
+]

@@ -1,0 +1,10 @@
+{
+  "N": 6.5,
+  "S": 7.5,
+  "Si": 8.5,
+  "C": 9.5,
+  "reason_N": "The manuscript has some significant results, such as the Local-new with 5/5 accuracy and the powered pool with a significant p-value. However, the number of flips varies inconsistently across experiments, and some strata are underpowered.",
+  "reason_S": "The methodology is strong with solid statistical tests and thorough judge families. However, some experiments are underpowered, and the formalization is descriptive without theorems.",
+  "reason_Si": "The manuscript has multiple significant inferences, such as the pilot and loose prompt results. However, some strata lack significance, and the formalization is descriptive.",
+  "reason_C": "The manuscript is complete and well-structured, adhering to IMRaD format. The clarity is high with detailed sections and transparent methodology, though it could benefit from figures."
+}

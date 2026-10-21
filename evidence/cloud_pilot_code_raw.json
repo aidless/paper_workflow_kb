@@ -1,0 +1,122 @@
+[
+  {
+    "trace_id": "code-pilot-01",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中表示空值的关键字是？只答关键字。",
+    "predicted_label": "None",
+    "gold_answer": "None",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-02",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中列表的长度函数是？只答函数名。",
+    "predicted_label": "len",
+    "gold_answer": "len",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-03",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中定义函数的关键字是？只答关键字。",
+    "predicted_label": "def",
+    "gold_answer": "def",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-04",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中整数除法（向下取整）的运算符是？只答运算符。",
+    "predicted_label": "//",
+    "gold_answer": "//",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-05",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中字符串拼接用哪个运算符？只答运算符。",
+    "predicted_label": "+",
+    "gold_answer": "+",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-06",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中判断对象类型的函数是？只答函数名。",
+    "predicted_label": "type",
+    "gold_answer": "type",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-07",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中打开文件的函数是？只答函数名。",
+    "predicted_label": "open",
+    "gold_answer": "open",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-08",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中捕获异常的关键字是？只答关键字。",
+    "predicted_label": "try",
+    "gold_answer": "try",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-09",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中定义类的关键字是？只答关键字。",
+    "predicted_label": "class",
+    "gold_answer": "class",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-10",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中导入模块的关键字是？只答关键字。",
+    "predicted_label": "import",
+    "gold_answer": "import",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-11",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中布尔真值的字面量是？只答字面量。",
+    "predicted_label": "True",
+    "gold_answer": "True",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "code-pilot-12",
+    "source": "code-pilot",
+    "model": "qwen2.5:7b",
+    "question": "Python中注释用的符号是？只答符号。",
+    "predicted_label": "#",
+    "gold_answer": "#",
+    "confidence": 0.9,
+    "error": null
+  }
+]

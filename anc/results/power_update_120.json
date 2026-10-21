@@ -1,0 +1,30 @@
+{
+  "test": "exact McNemar",
+  "alpha": 0.05,
+  "power": 0.8,
+  "or": 4,
+  "strata": {
+    "pilot": {
+      "n": 30,
+      "discordant": 0.3667,
+      "n_ceil": 50
+    },
+    "holdout-main": {
+      "n": 30,
+      "discordant": 0.1667,
+      "n_ceil": 108
+    },
+    "cloud-new": {
+      "n": 60,
+      "discordant": 0.0833,
+      "n_ceil": 217
+    }
+  },
+  "merged": {
+    "n": 120,
+    "n_flips": 21,
+    "flip_rate": 0.175,
+    "n_adjudicated_correct": 20,
+    "n_adjudicated_incorrect": 1
+  }
+}

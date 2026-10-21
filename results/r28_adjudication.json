@@ -1,0 +1,100 @@
+{
+ "arm_a_flip_verdicts": {
+  "r28-a-08": {
+   "verdict": "flip_correct",
+   "note": "125.0 vs 125: numeric .0 suffix, semantic-equal, numeric branch accepts"
+  }
+ },
+ "arm_b_miss_verdicts": {
+  "r28-b-01": {
+   "verdict": "miss",
+   "note": "60 seconds = 60"
+  },
+  "r28-b-04": {
+   "verdict": "miss",
+   "note": "computation yields 1440 minutes = 1440"
+  },
+  "r28-b-05": {
+   "verdict": "miss",
+   "note": "86400 seconds = 86400"
+  },
+  "r28-b-06": {
+   "verdict": "miss",
+   "note": "24 hours = 24"
+  },
+  "r28-b-09": {
+   "verdict": "miss",
+   "note": "52 weeks = 52"
+  },
+  "r28-b-11": {
+   "verdict": "miss",
+   "note": "12 inches = 12"
+  },
+  "r28-b-12": {
+   "verdict": "miss",
+   "note": "3 feet = 3"
+  },
+  "r28-b-14": {
+   "verdict": "miss",
+   "note": "16 ounces = 16"
+  },
+  "r28-b-15": {
+   "verdict": "miss",
+   "note": "2000 pounds = 2000"
+  },
+  "r28-b-16": {
+   "verdict": "miss",
+   "note": "100 centimeters = 100"
+  },
+  "r28-b-17": {
+   "verdict": "miss",
+   "note": "1000 meters = 1000"
+  },
+  "r28-b-18": {
+   "verdict": "miss",
+   "note": "1000 grams = 1000"
+  },
+  "r28-b-19": {
+   "verdict": "miss",
+   "note": "1000 milliliters = 1000"
+  },
+  "r28-b-20": {
+   "verdict": "miss",
+   "note": "360 degrees = 360"
+  },
+  "r28-b-21": {
+   "verdict": "miss",
+   "note": "a triangle has 3 sides = 3"
+  },
+  "r28-b-24": {
+   "verdict": "miss",
+   "note": "8 planets = 8"
+  },
+  "r28-b-29": {
+   "verdict": "miss",
+   "note": "8 bits = 8"
+  },
+  "r28-b-30": {
+   "verdict": "miss",
+   "note": "88 keys = 88"
+  },
+  "r28-b-31": {
+   "verdict": "miss",
+   "note": "206 bones = 206"
+  },
+  "r28-b-34": {
+   "verdict": "miss",
+   "note": "100 years = 100"
+  },
+  "r28-b-37": {
+   "verdict": "miss",
+   "note": "1 billion has 9 zeros = 9"
+  },
+  "r28-b-38": {
+   "verdict": "correct_reject",
+   "note": "model said 6, die pips sum to 21: wrong answer"
+  }
+ },
+ "arm_b_n_miss": 21,
+ "arm_b_n_correct_reject": 1
+}

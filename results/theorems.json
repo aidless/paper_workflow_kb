@@ -1,0 +1,36 @@
+{
+ "theorem1_monotonicity": {
+  "n_rows_checked": 400,
+  "inclusion_violations": 0,
+  "v34_increments": 2,
+  "increment_ids": [
+   "trivia-qb_6127",
+   "trivia-tb_1099"
+  ],
+  "suffixes_cjk_only": true,
+  "n_suffixes": 8,
+  "guard_scope": {
+   "n_pairs": 1700,
+   "n_diffs": 8,
+   "note": "v32->v33 added blocking guards: accept->reject, all single-CJK-substring"
+  }
+ },
+ "theorem2_numeric_boundary": {
+  "n_over_fire_checked": 5,
+  "all_inside_open_interval_0_0005": true,
+  "rel_errors": {
+   "r29-topup-387": 0.00385,
+   "r29-topup-399": 0.000496,
+   "r29-topup-403": 0.002292,
+   "r29-topup-406": 0.001196,
+   "r29-topup-412": 0.004329
+  }
+ },
+ "probes": {
+  "dot_zero_accept": true,
+  "en_unit_reject": false,
+  "en_yes_accept": true,
+  "true_uncovered": false,
+  "div_err_accept": true
+ }
+}

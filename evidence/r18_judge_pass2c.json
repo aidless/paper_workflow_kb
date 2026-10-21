@@ -1,0 +1,20 @@
+[
+  {
+    "trace_id": "lr18-34",
+    "question": "信天翁会飞吗？",
+    "predicted": "会飞",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "judge_raw_tail": "CORRECT",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-46",
+    "question": "王昌龄字什么？",
+    "predicted": "昌龄字少伯",
+    "gold": "少伯",
+    "judge_verdict": "ERROR",
+    "judge_raw_tail": "",
+    "error": null
+  }
+]

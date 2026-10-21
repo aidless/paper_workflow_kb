@@ -1,0 +1,38 @@
+[
+  {
+    "trace_id": "local-big-096",
+    "source": "local-big",
+    "predicted": "23.0",
+    "gold": "23",
+    "confidence": 0.9,
+    "exact": false,
+    "guarded": true
+  },
+  {
+    "trace_id": "local-big-097",
+    "source": "local-big",
+    "predicted": "5.0",
+    "gold": "5",
+    "confidence": 0.9,
+    "exact": false,
+    "guarded": true
+  },
+  {
+    "trace_id": "local-big-103",
+    "source": "local-big",
+    "predicted": "1740.0",
+    "gold": "1740",
+    "confidence": null,
+    "exact": false,
+    "guarded": true
+  },
+  {
+    "trace_id": "local-big-110",
+    "source": "local-big",
+    "predicted": "1200.0",
+    "gold": "1200",
+    "confidence": null,
+    "exact": false,
+    "guarded": true
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "matcher": "label_match_v32.tolerant_match_v32",
+  "golds": "user-approved (全做)",
+  "note": "loose-regime rerun of the same power-rep questions",
+  "pow1L": {
+    "n": 98,
+    "n_rejected": 0,
+    "n_exact": 88,
+    "n_guarded": 90,
+    "acc_exact": 0.8979591836734694,
+    "acc_guarded": 0.9183673469387755,
+    "n_flips": 2,
+    "flip_rate": 0.02040816326530612,
+    "mcnemar_b": 2,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 0.5,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.02653061224489796,
+    "ece10_guarded": 0.04081632653061221,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "pow1L-043",
+        "predicted": "兰州市",
+        "gold": "兰州"
+      },
+      {
+        "trace_id": "pow1L-045",
+        "predicted": "贵阳市",
+        "gold": "贵阳"
+      }
+    ]
+  },
+  "pow2L": {
+    "n": 157,
+    "n_rejected": 0,
+    "n_exact": 145,
+    "n_guarded": 146,
+    "acc_exact": 0.9235668789808917,
+    "acc_guarded": 0.9299363057324841,
+    "n_flips": 1,
+    "flip_rate": 0.006369426751592357,
+    "mcnemar_b": 1,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 1.0,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.03566878980891715,
+    "ece10_guarded": 0.04203821656050957,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "pow2L-133",
+        "predicted": "1999年",
+        "gold": "1999"
+      }
+    ]
+  },
+  "powLL": {
+    "n": 157,
+    "n_rejected": 0,
+    "n_exact": 143,
+    "n_guarded": 147,
+    "acc_exact": 0.910828025477707,
+    "acc_guarded": 0.9363057324840764,
+    "n_flips": 4,
+    "flip_rate": 0.025477707006369428,
+    "mcnemar_b": 4,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 0.125,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.02675159235668789,
+    "ece10_guarded": 0.05222929936305731,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "powLL-012",
+        "predicted": "利马 0.9",
+        "gold": "利马"
+      },
+      {
+        "trace_id": "powLL-122",
+        "predicted": "1368年",
+        "gold": "1368"
+      },
+      {
+        "trace_id": "powLL-130",
+        "predicted": "1937年",
+        "gold": "1937"
+      },
+      {
+        "trace_id": "powLL-131",
+        "predicted": "1978年",
+        "gold": "1978"
+      }
+    ]
+  }
+}

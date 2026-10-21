@@ -1,0 +1,47 @@
+[
+  {
+    "trace_id": "local-new-09",
+    "source": "local-new",
+    "predicted": "英国。0.9",
+    "gold": "英国",
+    "confidence": 0.9,
+    "exact": false,
+    "guarded": true
+  },
+  {
+    "trace_id": "local-new-26",
+    "source": "local-new",
+    "predicted": "365.25",
+    "gold": "365",
+    "confidence": 0.95,
+    "exact": false,
+    "guarded": true
+  },
+  {
+    "trace_id": "local-new-31",
+    "source": "local-new",
+    "predicted": "《红楼梦》",
+    "gold": "红楼梦",
+    "confidence": 0.9,
+    "exact": false,
+    "guarded": true
+  },
+  {
+    "trace_id": "local-new-37",
+    "source": "local-new",
+    "predicted": "1949年",
+    "gold": "1949",
+    "confidence": 0.9,
+    "exact": false,
+    "guarded": true
+  },
+  {
+    "trace_id": "local-new-48",
+    "source": "local-new",
+    "predicted": "华盛顿特区",
+    "gold": "华盛顿",
+    "confidence": 0.9,
+    "exact": false,
+    "guarded": true
+  }
+]

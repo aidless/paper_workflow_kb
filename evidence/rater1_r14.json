@@ -1,0 +1,12 @@
+{
+  "N": 9.5,
+  "S": 9.5,
+  "Si": 9,
+  "C": 9,
+  "reason_N": "The manuscript significantly improves in terms of the first flip-magnitude report, exact-repro guard, formalized measurement-error framework, and cross-domain test confirming prediction (ii). However, it still lacks a cross-paradigm theory and public repository.",
+  "reason_S": "The manuscript demonstrates robustness through sealed recomputation scripts, heterogeneous judge families, guard 0-regressions, and quantified false negatives. The pre-registered tests and sealed recomputations add rigor, and the new over-fire class is a significant addition. However, the pilot size remains a limitation, and there is no public repository.",
+  "reason_Si": "The manuscript shows strong evidence of reliability through three Holm-surviving layers, observed readings, and cross-model/cross-type/cross-domain/cross-family replications. The public-dataset yes/no arm with confirmed flips and fixed failure classes are strong points. However, the theory is QA-rooted, and the Holm pool fails.",
+  "reason_C": "The manuscript is well-structured with consistent abstract, body, table, and caption. It uses unified terms, formal definitions, and complete disclosures, including the new over-fire class. However, there is no public artifact link, which is a significant omission.",
+  "rater_model": "qwen2.5:7b",
+  "note": "R1 rater substituted: muse-spark-1.3 (unavailable) -> qwen2.5:7b (local)"
+}

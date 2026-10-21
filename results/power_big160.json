@@ -1,0 +1,14 @@
+{
+  "test": "exact McNemar",
+  "solve": "n total pairs",
+  "or": 4.0,
+  "p_discordant": 0.025,
+  "alpha": 0.05,
+  "power": 0.8,
+  "n_discordant": 18.0,
+  "n_total": 720.0,
+  "n_ceil": 720,
+  "scipy": true,
+  "gate_rule": "Methods must state alpha, power, effect size, and N; ",
+  "methods_note": "With alpha=0.05 and power=0.8, exact McNemar requires N=720 to detect 4.0 (effect size)."
+}

@@ -1,0 +1,105 @@
+{
+  "n_pairs": 1700,
+  "n_files": 20,
+  "files": [
+    "evidence/cloud_math40_raw.json",
+    "evidence/cloud_new60_raw.json",
+    "evidence/cloud_pilot_code_raw.json",
+    "evidence/cloud_powrep255_loose_raw.json",
+    "evidence/cloud_powrep255_raw.json",
+    "evidence/cloud_retest60_raw.json",
+    "evidence/cloud_xdomain60_loose_raw.json",
+    "evidence/cloud_xdomain60_raw.json",
+    "evidence/d2_60.jsonl",
+    "evidence/local_big_raw.json",
+    "evidence/local_en_raw.json",
+    "evidence/local_new60_raw.json",
+    "evidence/local_powrep157_loose_raw.json",
+    "evidence/local_powrep157_raw.json",
+    "evidence/qa_pool_big.json",
+    "evidence/qa_pool_en.json",
+    "evidence/r18_heteromodel60_raw.json",
+    "evidence/r18_heteromodel_gemma60_raw.json",
+    "evidence/r18_loose_rep60_raw.json",
+    "grades_gold100_user.csv"
+  ],
+  "n_accept_v32": 1453,
+  "n_accept_v33": 1445,
+  "n_diffs": 8,
+  "n_other_class": 0,
+  "diffs": [
+    {
+      "source": "evidence/r18_heteromodel_gemma60_raw.json",
+      "trace_id": "gr18-41",
+      "predicted": "白",
+      "gold": "太白",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    },
+    {
+      "source": "evidence/r18_heteromodel_gemma60_raw.json",
+      "trace_id": "gr18-42",
+      "predicted": "子",
+      "gold": "子美",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    },
+    {
+      "source": "evidence/r18_heteromodel_gemma60_raw.json",
+      "trace_id": "gr18-45",
+      "predicted": "玄",
+      "gold": "玄德",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    },
+    {
+      "source": "evidence/r18_loose_rep60_raw.json",
+      "trace_id": "lr18-42",
+      "predicted": "牧",
+      "gold": "牧之",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    },
+    {
+      "source": "gold100",
+      "trace_id": "H62",
+      "predicted": "白",
+      "gold": "太白",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    },
+    {
+      "source": "gold100",
+      "trace_id": "H68",
+      "predicted": "牧",
+      "gold": "牧之",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    },
+    {
+      "source": "gold100",
+      "trace_id": "H71",
+      "predicted": "玄",
+      "gold": "玄德",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    },
+    {
+      "source": "gold100",
+      "trace_id": "H82",
+      "predicted": "子",
+      "gold": "子美",
+      "v32": true,
+      "v33": false,
+      "class": "single-CJK-substring"
+    }
+  ],
+  "verdict": "PROMOTE-GO"
+}

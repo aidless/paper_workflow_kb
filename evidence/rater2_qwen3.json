@@ -1,0 +1,14 @@
+{
+ "model": "qwen3:4b (ollama local)",
+ "role": "R2 independent TMLR rater, blind to R1",
+ "prompt": "/tmp/rater2_prompt.txt (contains Be strict wording, disclosed as asymmetric)",
+ "scores": {
+  "N": 3.5,
+  "S": 6.5,
+  "Si": 6.0,
+  "C": 9.5
+ },
+ "weighted": "0.30*3.5+0.35*6.5+0.25*6.0+0.10*9.5=5.775",
+ "agreement_vs_R1": "0/4 dimensions, |dTotal|=2.2 -> UNSTABLE",
+ "calibration": "no same-distribution gold set; uncalibrated model estimate per self-assessment-calibration s1.5/s3"
+}

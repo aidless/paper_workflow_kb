@@ -1,0 +1,15 @@
+{
+  "pilot": {
+    "n": 30,
+    "n_exact": 19,
+    "acc_exact": 0.6333,
+    "ece10_exact": 0.363
+  },
+  "holdout-main": {
+    "n": 30,
+    "n_exact": 19,
+    "acc_exact": 0.6333,
+    "ece10_exact": 0.3517
+  },
+  "note": "exact = norm-equality; N=120 pending, this is 60-link snapshot"
+}

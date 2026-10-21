@@ -1,0 +1,12 @@
+{
+  "N": 9.5,
+  "S": 9.0,
+  "Si": 8.5,
+  "C": 8.0,
+  "reason_N": "The manuscript reports a significant advancement in the flip-magnitude framework, including exact reproducibility, formalized measurement error, and cross-domain validation. However, the heterogeneity of the judge families and the presence of a new over-fire class are still underdeveloped.",
+  "reason_S": "The manuscript demonstrates robustness through multiple recomputations, blinded gold standards, and external validation. The closed gap in the local-big dataset is a strong point, but the pilot size remains a limitation, and the lack of a public repository is noted.",
+  "reason_Si": "The manuscript survives multiple layers of Holm-Bonferroni corrections and includes cross-model, cross-type, and cross-domain replications. The fixed failure classes and heterogeneity mechanism are well-documented, but the hetero family replication is descriptive-only.",
+  "reason_C": "The manuscript is well-structured with consistent terminology and formal definitions. However, the lack of a public artifact link and the post-hoc framing of some results slightly detract from the overall clarity and completeness.",
+  "rater_model": "qwen2.5:7b",
+  "note": "R1 rater substituted: muse-spark-1.3 (unavailable) -> qwen2.5:7b (local)"
+}

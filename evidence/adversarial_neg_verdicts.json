@@ -1,0 +1,615 @@
+{
+  "models": [
+    "qwen2:7b",
+    "gemma3:4b",
+    "deepseek-r1:7b"
+  ],
+  "n_pairs": 20,
+  "n_calls": 60,
+  "n_ok": 60,
+  "temperature": 0,
+  "human_basis": "sealed author labels (guard_synth DESIGN)",
+  "prompt": "same-as-local_judge.py",
+  "rows": [
+    {
+      "trace_id": "formula-01",
+      "model": "qwen2:7b",
+      "predicted": "O",
+      "gold": "O2",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-01",
+      "model": "gemma3:4b",
+      "predicted": "O",
+      "gold": "O2",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-01",
+      "model": "deepseek-r1:7b",
+      "predicted": "O",
+      "gold": "O2",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"O\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"O2\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I'LL LOOK AT THE PREDICTED ANSWER, WHI",
+      "error": null
+    },
+    {
+      "trace_id": "formula-02",
+      "model": "qwen2:7b",
+      "predicted": "H",
+      "gold": "H2",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-02",
+      "model": "gemma3:4b",
+      "predicted": "H",
+      "gold": "H2",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-02",
+      "model": "deepseek-r1:7b",
+      "predicted": "H",
+      "gold": "H2",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"H\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"H2\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I KNOW THAT \"H\" IS THE SYMBOL FOR HYDR",
+      "error": null
+    },
+    {
+      "trace_id": "formula-03",
+      "model": "qwen2:7b",
+      "predicted": "C",
+      "gold": "CO",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-03",
+      "model": "gemma3:4b",
+      "predicted": "C",
+      "gold": "CO",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-03",
+      "model": "deepseek-r1:7b",
+      "predicted": "C",
+      "gold": "CO",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"C\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"CO\". LET'S BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I KNOW THAT \"CO\" STANDS FOR CARBON MONO",
+      "error": null
+    },
+    {
+      "trace_id": "formula-04",
+      "model": "qwen2:7b",
+      "predicted": "N",
+      "gold": "N2",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-04",
+      "model": "gemma3:4b",
+      "predicted": "N",
+      "gold": "N2",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-04",
+      "model": "deepseek-r1:7b",
+      "predicted": "N",
+      "gold": "N2",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"N\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"N2\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I'LL LOOK AT THE PREDICTED ANSWER, WHI",
+      "error": null
+    },
+    {
+      "trace_id": "formula-05",
+      "model": "qwen2:7b",
+      "predicted": "O",
+      "gold": "O3",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-05",
+      "model": "gemma3:4b",
+      "predicted": "O",
+      "gold": "O3",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-05",
+      "model": "deepseek-r1:7b",
+      "predicted": "O",
+      "gold": "O3",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"O\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"O3\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I'LL LOOK AT THE PREDICTED ANSWER, WHI",
+      "error": null
+    },
+    {
+      "trace_id": "formula-06",
+      "model": "qwen2:7b",
+      "predicted": "C",
+      "gold": "Ca",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-06",
+      "model": "gemma3:4b",
+      "predicted": "C",
+      "gold": "Ca",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-06",
+      "model": "deepseek-r1:7b",
+      "predicted": "C",
+      "gold": "Ca",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"C\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"CA\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I'LL LOOK AT THE CHARACTERS. \"C\" IS A ",
+      "error": null
+    },
+    {
+      "trace_id": "formula-07",
+      "model": "qwen2:7b",
+      "predicted": "P",
+      "gold": "Pb",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-07",
+      "model": "gemma3:4b",
+      "predicted": "P",
+      "gold": "Pb",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-07",
+      "model": "deepseek-r1:7b",
+      "predicted": "P",
+      "gold": "Pb",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER P IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER PB. LET'S BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I'LL LOOK AT THE PREDICTED ANSWER, WHICH IS",
+      "error": null
+    },
+    {
+      "trace_id": "formula-08",
+      "model": "qwen2:7b",
+      "predicted": "S",
+      "gold": "SO2",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-08",
+      "model": "gemma3:4b",
+      "predicted": "S",
+      "gold": "SO2",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-08",
+      "model": "deepseek-r1:7b",
+      "predicted": "S",
+      "gold": "SO2",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"S\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"SO2\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I KNOW THAT \"SO2\" STANDS FOR SULFUR D",
+      "error": null
+    },
+    {
+      "trace_id": "formula-09",
+      "model": "qwen2:7b",
+      "predicted": "K",
+      "gold": "KCl",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-09",
+      "model": "gemma3:4b",
+      "predicted": "K",
+      "gold": "KCl",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-09",
+      "model": "deepseek-r1:7b",
+      "predicted": "K",
+      "gold": "KCl",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"K\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"KCL\". LET ME BREAK THIS DOWN.\n\nFIRST, I KNOW THAT KCL IS THE CHEMICAL FORMULA FOR POTASS",
+      "error": null
+    },
+    {
+      "trace_id": "formula-10",
+      "model": "qwen2:7b",
+      "predicted": "C",
+      "gold": "Cl",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-10",
+      "model": "gemma3:4b",
+      "predicted": "C",
+      "gold": "Cl",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-10",
+      "model": "deepseek-r1:7b",
+      "predicted": "C",
+      "gold": "Cl",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"C\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"CL\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I'LL LOOK AT THE PREDICTED ANSWER, WHI",
+      "error": null
+    },
+    {
+      "trace_id": "formula-11",
+      "model": "qwen2:7b",
+      "predicted": "N",
+      "gold": "Na",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-11",
+      "model": "gemma3:4b",
+      "predicted": "N",
+      "gold": "Na",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-11",
+      "model": "deepseek-r1:7b",
+      "predicted": "N",
+      "gold": "Na",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"N\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"NA\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I KNOW THAT \"N\" STANDS FOR \"NO\" IN CHI",
+      "error": null
+    },
+    {
+      "trace_id": "formula-12",
+      "model": "qwen2:7b",
+      "predicted": "F",
+      "gold": "Fe",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-12",
+      "model": "gemma3:4b",
+      "predicted": "F",
+      "gold": "Fe",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "formula-12",
+      "model": "deepseek-r1:7b",
+      "predicted": "F",
+      "gold": "Fe",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"F\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"FE\". LET'S BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I KNOW THAT \"FE\" STANDS FOR IRON. IT'S ",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-01",
+      "model": "qwen2:7b",
+      "predicted": "牧",
+      "gold": "牧之",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-01",
+      "model": "gemma3:4b",
+      "predicted": "牧",
+      "gold": "牧之",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-01",
+      "model": "deepseek-r1:7b",
+      "predicted": "牧",
+      "gold": "牧之",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"牧\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"牧之\". THE USER MENTIONED THAT NUMERIC ANSWERS SHOULD MATCH WITH A RELATIVE ERROR LESS THA",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-02",
+      "model": "qwen2:7b",
+      "predicted": "白",
+      "gold": "太白",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-02",
+      "model": "gemma3:4b",
+      "predicted": "白",
+      "gold": "太白",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-02",
+      "model": "deepseek-r1:7b",
+      "predicted": "白",
+      "gold": "太白",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"白\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"太白\". BOTH ARE CHINESE WORDS, SO I'LL THINK ABOUT THEIR MEANINGS.\n\n\"白\" MEANS WHITE. IT'S ",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-03",
+      "model": "qwen2:7b",
+      "predicted": "子",
+      "gold": "子美",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-03",
+      "model": "gemma3:4b",
+      "predicted": "子",
+      "gold": "子美",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-03",
+      "model": "deepseek-r1:7b",
+      "predicted": "子",
+      "gold": "子美",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"子\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"子美\". LET'S BREAK THIS DOWN.\n\nFIRST, I KNOW THAT \"子\" CAN MEAN A SON, A PART, OR A GENERAT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-04",
+      "model": "qwen2:7b",
+      "predicted": "玄",
+      "gold": "玄德",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-04",
+      "model": "gemma3:4b",
+      "predicted": "玄",
+      "gold": "玄德",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-04",
+      "model": "deepseek-r1:7b",
+      "predicted": "玄",
+      "gold": "玄德",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"玄\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"玄德\". LET ME BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I KNOW THAT \"玄\" IN CHINESE CAN MEAN \"C",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-05",
+      "model": "qwen2:7b",
+      "predicted": "李",
+      "gold": "李白",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-05",
+      "model": "gemma3:4b",
+      "predicted": "李",
+      "gold": "李白",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-05",
+      "model": "deepseek-r1:7b",
+      "predicted": "李",
+      "gold": "李白",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"李\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"李白\". BOTH ARE CHINESE NAMES, AND I KNOW THAT 李 USUALLY REFERS TO LI, WHILE 李白 IS THE NAM",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-06",
+      "model": "qwen2:7b",
+      "predicted": "杜",
+      "gold": "杜甫",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-06",
+      "model": "gemma3:4b",
+      "predicted": "杜",
+      "gold": "杜甫",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-06",
+      "model": "deepseek-r1:7b",
+      "predicted": "杜",
+      "gold": "杜甫",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"杜\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"杜甫\". LET'S BREAK THIS DOWN STEP BY STEP.\n\nFIRST, I KNOW THAT \"杜甫\" IS A WELL-KNOWN CHINES",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-07",
+      "model": "qwen2:7b",
+      "predicted": "苏",
+      "gold": "苏轼",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-07",
+      "model": "gemma3:4b",
+      "predicted": "苏",
+      "gold": "苏轼",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-07",
+      "model": "deepseek-r1:7b",
+      "predicted": "苏",
+      "gold": "苏轼",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"苏\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"苏轼\". LET'S BREAK THIS DOWN.\n\nFIRST, I KNOW THAT \"苏\" IS A CHINESE CHARACTER. IN THIS CONT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-08",
+      "model": "qwen2:7b",
+      "predicted": "王",
+      "gold": "王安石",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "INCORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-08",
+      "model": "gemma3:4b",
+      "predicted": "王",
+      "gold": "王安石",
+      "human_says_correct": 0,
+      "judge_verdict": "correct",
+      "raw": "CORRECT",
+      "error": null
+    },
+    {
+      "trace_id": "cjkfrag-08",
+      "model": "deepseek-r1:7b",
+      "predicted": "王",
+      "gold": "王安石",
+      "human_says_correct": 0,
+      "judge_verdict": "incorrect",
+      "raw": "<THINK>\nOKAY, SO I NEED TO DETERMINE IF THE PREDICTED ANSWER \"王\" IS SEMANTICALLY EQUIVALENT TO THE GOLD ANSWER \"王安石\". LET'S BREAK THIS DOWN.\n\nFIRST, I KNOW THAT \"王\" IS A CHINESE CHARACTER THAT CAN MEA",
+      "error": null
+    }
+  ]
+}

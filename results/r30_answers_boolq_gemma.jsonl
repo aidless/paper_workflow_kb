@@ -1,0 +1,100 @@
+{"id": "boolq-1009", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1031", "prediction": "Unknown.\n0.6", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1142", "prediction": "Yes\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1159", "prediction": "", "model": "gemma3:4b", "digest": "a4170ef91c3cf700", "error": "TimeoutError: timed out"}
+{"id": "boolq-1204", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-122", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1227", "prediction": "Yes.\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1283", "prediction": "Yes.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1318", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1364", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1371", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1383", "prediction": "Yes\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-139", "prediction": "Yes.\n\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1410", "prediction": "Yes \n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1438", "prediction": "No.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1440", "prediction": "Yes.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1546", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1549", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1566", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1629", "prediction": "No.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1638", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1639", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1686", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1688", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1705", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1708", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1766", "prediction": "Yes.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1784", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1808", "prediction": "Yes \n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1888", "prediction": "Yes.\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1890", "prediction": "Yes.\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-1946", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2016", "prediction": "Yes.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2037", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2045", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2081", "prediction": "Yes\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2087", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2164", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2171", "prediction": "Yes \n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2236", "prediction": "No.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-224", "prediction": "Yes.\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2337", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2376", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-24", "prediction": "Yes.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2401", "prediction": "Yes.\n\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-241", "prediction": "Yes. \n\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2443", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2444", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2481", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2504", "prediction": "Yes\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2523", "prediction": "No.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2586", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-259", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2601", "prediction": "Yes.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2633", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2667", "prediction": "Yes \n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2680", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-269", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2743", "prediction": "Yes \n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2745", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2752", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-276", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2822", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2848", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-2851", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3015", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3041", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3062", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3123", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3125", "prediction": "Yes \n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3133", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-316", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3175", "prediction": "Yes.\n\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3188", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3206", "prediction": "Yes.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-322", "prediction": "Yes.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3244", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-3259", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-334", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-336", "prediction": "Yes \n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-359", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-380", "prediction": "Yes.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-388", "prediction": "No.\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-45", "prediction": "Yes.\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-451", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-551", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-565", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-571", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-592", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-62", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-644", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-697", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-736", "prediction": "No\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-763", "prediction": "No\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-769", "prediction": "Yes\n0.99\n", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-819", "prediction": "No.\n\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-880", "prediction": "Yes \n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-889", "prediction": "Yes.\n\n0.99", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-922", "prediction": "Yes\n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}
+{"id": "boolq-940", "prediction": "Yes \n0.95", "model": "gemma3:4b", "digest": "a4170ef91c3cf700"}

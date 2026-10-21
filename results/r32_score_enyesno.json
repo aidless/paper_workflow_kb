@@ -1,0 +1,425 @@
+{
+ "n": 60,
+ "n_scored": 60,
+ "n_errors": 0,
+ "error_ids": [],
+ "n_exact": 15,
+ "n_guard": 50,
+ "n_flips": 35,
+ "n_rejects": 10,
+ "form_counts": {
+  "bare": 17,
+  "period_variant": 1,
+  "extended": 42,
+  "other": 0
+ },
+ "flip_rows": [
+  {
+   "id": "boolq-2645",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, Riverdale is based on the Archie Comics.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-663",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, it is possible to do a uterus transplant.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2165",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, staring at a bright light can cause flash blindness.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1418",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, there is a Las Vegas in New Mexico.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1127",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, Attack on Titan has a second season.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2230",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, there are nuclear power plants in Canada.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-3022",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, Stefan turns off his humanity in season 6.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-349",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, the Queen has one sibling, Princess Margaret.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-726",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, there will be a season 4 of The Flash.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1429",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, Dawn Wells, who played Mary Ann Summers on Gilligan's Island, is still alive.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1217",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, there is a season 2 of Case Histories.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-491",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, Belgium has been in the World Cup final.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-213",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, animal cells have cell membranes.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-3215",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, the Data Protection Act 1998 has been superseded.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2201",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, they are present in both processes.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-3060",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, the US has a designated survivor.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-3079",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, you can buy liquor on Sunday in Pennsylvania.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-805",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "Yes, the Calvin cycle is a part of the dark reactions (light-independent reactions) of photosynthesis.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2896",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, it is not a love song.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-856",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, a ship's captain cannot legally marry a couple.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2962",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, you do not have to use all the numbers on Countdown.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-395",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, the cast members are not real gymnasts. They are actors who performed gymnastics stunts.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2942",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, you do not need plumber's tape on compression fittings.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2205",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, it did not apply to all states.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2023",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, the foreword goes before the table of contents.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1402",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, Tara does not die in Sons of Anarchy season 4.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1243",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No.",
+   "exact": false,
+   "guard": true,
+   "form": "period_variant"
+  },
+  {
+   "id": "boolq-3017",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, Mickey and Minnie's House is no longer in the Magic Kingdom.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2879",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, the County Court Business Centre is not a physical court where hearings take place.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1685",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, there is no confirmed third season of Good Morning Call.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-758",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, they do not speak the same Korean.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-3220",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, pool water cannot change color specifically from urine.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2572",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, Nick Massi has passed away.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2258",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, you do not need a visa to visit Svalbard.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2449",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "No, Day of the Dead: Bloodline is not a sequel. It is a remake of the original 1985 film Day of the Dead.",
+   "exact": false,
+   "guard": true,
+   "form": "extended"
+  }
+ ],
+ "reject_rows": [
+  {
+   "id": "boolq-2635",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "No, it is not normal to have motion sickness persisting for months or years after a cruise. This is indicative of Mal de Debarquement Syndrome (MdDS).",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1540",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "No, you do not need to be on US soil to claim asylum.",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1336",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "No",
+   "exact": false,
+   "guard": false,
+   "form": "bare"
+  },
+  {
+   "id": "boolq-429",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "No",
+   "exact": false,
+   "guard": false,
+   "form": "bare"
+  },
+  {
+   "id": "boolq-2370",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "No, you can't mail something without a return address.",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-247",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "No, there is no bird faster than a cheetah.",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-2728",
+   "gold_bool": true,
+   "gold": "Yes",
+   "predicted": "No, Leatherface in the 2017 film is not the same character as the original Leatherface from the 1974 film.",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1269",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "Yes, Crabapple Cove is actually Broad Cove in Bremen, Maine.",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1160",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "Yes, the Bill of Rights is part of the United States Constitution.",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  },
+  {
+   "id": "boolq-1012",
+   "gold_bool": false,
+   "gold": "No",
+   "predicted": "Yes, Air Force One has flown with fighter escort.",
+   "exact": false,
+   "guard": false,
+   "form": "extended"
+  }
+ ]
+}

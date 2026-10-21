@@ -1,0 +1,13 @@
+{
+ "model": "qwen3:4b (ollama local)",
+ "role": "R2 round-4 symmetric strict, blind, WITH six-strata+pool evidence",
+ "prompt": "/tmp/rater_prompt_r4.txt",
+ "scores": {
+  "N": 7.5,
+  "S": 9.0,
+  "Si": 9.5,
+  "C": 10.0
+ },
+ "weighted": "0.30*7.5+0.35*9.0+0.25*9.5+0.10*10.0=8.775",
+ "note": "reasons cite ceilings 50/108/217/217/720 + boundary + failed-instrument disclosure; uncalibrated model estimate"
+}

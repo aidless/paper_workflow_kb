@@ -1,0 +1,38 @@
+[
+  {
+    "trace_id": "lr18-34",
+    "question": "信天翁会飞吗？",
+    "predicted_pass1": "会飞",
+    "predicted_pass2b": "会飞",
+    "gold": "是",
+    "judge_verdict": "ERROR",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-46",
+    "question": "王昌龄字什么？",
+    "predicted_pass1": "昌龄字少伯",
+    "predicted_pass2b": "昌龄字少伯",
+    "gold": "少伯",
+    "judge_verdict": "ERROR",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-54",
+    "question": "文天祥字什么？",
+    "predicted_pass1": "文天祥字宋瑞，又字履善。0.9",
+    "predicted_pass2b": "文天祥字宋瑞，又字履善",
+    "gold": "履善",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-55",
+    "question": "海瑞字什么？",
+    "predicted_pass1": "海瑞字汝贤",
+    "predicted_pass2b": "海瑞字汝贤",
+    "gold": "汝贤",
+    "judge_verdict": "incorrect",
+    "error": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "strata": {
+    "d2_60": {
+      "n": 60,
+      "n_exact": 38,
+      "n_tolerant": 54,
+      "acc_exact": 0.6333,
+      "acc_tolerant": 0.9,
+      "flip_rate": 0.2667,
+      "n_flips": 16,
+      "mcnemar_b": 16,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 3.0517578125000014e-05,
+      "discordant_rate": 0.2667,
+      "ece10_exact": 0.3473,
+      "ece10_tolerant": 0.0893
+    },
+    "cloud_new": {
+      "n": 60,
+      "n_exact": 48,
+      "n_tolerant": 53,
+      "acc_exact": 0.8,
+      "acc_tolerant": 0.8833,
+      "n_flips": 5,
+      "flip_rate": 0.0833,
+      "mcnemar_b": 5,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 0.0625,
+      "discordant_rate": 0.0833,
+      "ece10_exact": 0.1067,
+      "ece10_tolerant": 0.0492,
+      "model": "qwen2.5:7b",
+      "temperature": 0
+    }
+  },
+  "merged_descriptive": {
+    "n": 120,
+    "n_exact": 86,
+    "n_tolerant": 107,
+    "acc_exact": 0.7167,
+    "acc_tolerant": 0.8917,
+    "n_flips": 21,
+    "flip_rate": 0.175
+  },
+  "N_status": "120/120 (60 prior strata + 60 cloud-new live stratum); inference stratified per stratum",
+  "note": "cloud-new is a NEW stratum (fresh questions, qwen2.5:7b live, temp 0), not same-distribution backfill of missing 60; pooled numbers descriptive only"
+}

@@ -1,0 +1,94 @@
+{
+  "model": "deepseek-r1:7b",
+  "temperature": 0,
+  "n": 10,
+  "n_correct": 10,
+  "n_incorrect": 0,
+  "leak_rule": "strip trailing same-line confidence float before judging",
+  "rows": [
+    {
+      "trace_id": "pow1-043",
+      "arm": "pow1_holdout",
+      "predicted": "兰州市",
+      "gold": "兰州",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pow1-045",
+      "arm": "pow1_holdout",
+      "predicted": "贵阳市",
+      "gold": "贵阳",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pow2-133",
+      "arm": "pow2_cloudnew",
+      "predicted": "1999年",
+      "gold": "1999",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powL-012",
+      "arm": "powL_localnew",
+      "predicted": "利马",
+      "gold": "利马",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powL-070",
+      "arm": "powL_localnew",
+      "predicted": "999",
+      "gold": "1000",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powL-074",
+      "arm": "powL_localnew",
+      "predicted": "40.0",
+      "gold": "40",
+      "judge_verdict": "correct",
+      "error": null,
+      "judge_verdict_first_pass_corrupted": "incorrect",
+      "corruption_note": "first pass judged corrupted strip 40.0->4 (strip-rule bug, fixed in script); re-judged on true form below",
+      "rejudge": "true-form 40.0 vs 40 -> correct"
+    },
+    {
+      "trace_id": "powL-119",
+      "arm": "powL_localnew",
+      "predicted": "618",
+      "gold": "618",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powL-122",
+      "arm": "powL_localnew",
+      "predicted": "1368年",
+      "gold": "1368",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powL-130",
+      "arm": "powL_localnew",
+      "predicted": "1937年",
+      "gold": "1937",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powL-131",
+      "arm": "powL_localnew",
+      "predicted": "1978年",
+      "gold": "1978",
+      "judge_verdict": "correct",
+      "error": null
+    }
+  ],
+  "strip_bug_note": "STRIP rule corrupted 40.0->4 on powL-074 (fixed: separator required); both records kept"
+}

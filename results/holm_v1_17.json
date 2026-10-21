@@ -1,0 +1,86 @@
+{
+  "family": "17 analysis tests, guarded basis",
+  "m": 17,
+  "alpha": 0.05,
+  "ordered": [
+    {
+      "name": "xdomain-loose",
+      "p_two": 1.9073486328125e-06
+    },
+    {
+      "name": "pilot",
+      "p_two": 0.0009765624999999999
+    },
+    {
+      "name": "prespecified-pool",
+      "p_two": 0.00390625
+    },
+    {
+      "name": "powL_localnew",
+      "p_two": 0.015625
+    },
+    {
+      "name": "holdout-main",
+      "p_two": 0.0625
+    },
+    {
+      "name": "local-new",
+      "p_two": 0.0625
+    },
+    {
+      "name": "cloud-new-guarded",
+      "p_two": 0.125
+    },
+    {
+      "name": "local-big",
+      "p_two": 0.125
+    },
+    {
+      "name": "powLL",
+      "p_two": 0.125
+    },
+    {
+      "name": "pow1_holdout",
+      "p_two": 0.5
+    },
+    {
+      "name": "pow1L",
+      "p_two": 0.5
+    },
+    {
+      "name": "local-en",
+      "p_two": 1.0
+    },
+    {
+      "name": "math",
+      "p_two": 1.0
+    },
+    {
+      "name": "xdomain-tight",
+      "p_two": 1.0
+    },
+    {
+      "name": "pow1_pilot",
+      "p_two": 1.0
+    },
+    {
+      "name": "pow2_cloudnew",
+      "p_two": 1.0
+    },
+    {
+      "name": "pow2L",
+      "p_two": 1.0
+    }
+  ],
+  "holm_survivors": [
+    "xdomain-loose",
+    "pilot"
+  ],
+  "holm_stop": {
+    "step": 3,
+    "name": "prespecified-pool",
+    "p": 0.00390625,
+    "threshold": 0.0033333333333333335
+  },
+  "note": "rollups excluded (re-views, not new tests)"
+}

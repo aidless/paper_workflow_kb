@@ -1,0 +1,6 @@
+{"consistency": 0.0, "n_pairs": 4, "note": "symmetric-prompt era; R1-strict vs deepseek-r1; exact-dimension agreement 0/4", "round": "r5"}
+{"consistency": 0.0, "n_pairs": 4, "note": "R2 generous swing; agreement 0/4", "round": "r6"}
+{"consistency": 0.0, "n_pairs": 4, "note": "R2 harsh swing-back; agreement 0/4", "round": "r7"}
+{"consistency": 0.0, "n_pairs": 4, "note": "R2 generous swing; 8-point line first pass (noisy); agreement 0/4", "round": "r8"}
+{"consistency": 0.0, "n_pairs": 4, "note": "R2 harsh swing, compressed-prompt artifacts; agreement 0/4", "round": "r9"}
+{"consistency": 0.0, "n_pairs": 4, "note": "R2 flat-8.5, generic reasons, weakest evidence binding; |dTotal|=0.4; 8-point line second pass (noisy, UNSTABLE-adjacent)", "round": "r10"}

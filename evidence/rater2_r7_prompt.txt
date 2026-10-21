@@ -1,0 +1,26 @@
+You are an independent TMLR reviewer. Score the manuscript described below on four dimensions 0-10 (integers or .5 steps). You have NOT seen any prior scores. Be strict and evidence-bound.
+
+MANUSCRIPT (530 rows, nine strata: seven QA strata + two calibration strata, exact-vs-guarded label matching):
+- Pilot n=30: 11/30 flips (0.3667), McNemar p=0.0010 significant; acc 0.6333->1.0; ECE 0.363->0.0037. 11/11 flips independently adjudicated correct.
+- Holdout-main n=30: 5/30 flips (0.1667), p=0.0625 ns; acc 0.6333->0.8; ECE 0.3517->0.205. 5/5 adjudicated correct.
+- Cloud-new n=60 (fresh questions, qwen2.5:7b cloud temp 0): 5/60 flips (0.0833), p=0.0625 ns; 4/5 correct + 1 false positive (O vs O2); adjudicated 52/60.
+- Local-new n=60 (same 60 questions, qwen2:7b local): 5/60 flips (0.0833), p=0.0625 ns; 5/5 in-session correct (failed qwen3:4b judge attempt disclosed).
+- Local-en n=30 (English cross-type): 0 flips, exact accuracy 1.0 — boundary condition.
+- Local-big n=160 (arithmetic-heavy, recomputable golds): 4/160 flips (0.025), p=0.125 ns; 4/4 correct.
+- Cloud-math n=40 (fresh NUMERIC questions, cloud qwen2.5:7b, SECOND question family): 0 flips, acc 0.925 both matchers, ECE 0.025 — H1 not supported, phenomenon is question-type-dependent.
+- Powered pool (pre-specified, local-new+local-big, n=220=meets n_ceil 217): 9/220 flips (0.0409), p=0.0039 SIGNIFICANT; descriptive bar unmet, both readings reported.
+- Ablation: synonymy 7, numeric tolerance 4, unit suffix 3, substring 1, negation prefix 1.
+- FIX: one-rule substring guard reproduces full adjudication EXACTLY (1 fix, 0 regressions); v3.2 adds an empty-guard raw-fallback with 0 decision changes on a 470-row regression; v3.1 stays the reported basis.
+- THEORY (new): directional asymmetry formalized — McNemar c=0 uniformly on all formal strata reporting discordants (11/0, 5/0, 4/0, 5/0, 4/0, pool 9/0), zero-discordant layers (English 0/30, math 0/40, retest) bound the phenomenon to answers carrying units/synonyms/name variants; tolerance is bidirectional in principle (a v3.1 c-cell existence proof on a code pilot: '//' vs '//' both normalizing to empty, closed by v3.2) but one-sided in observation. Descriptive formalization, no theorems.
+- CROSS-DOMAIN (new): two 60-row strata on the SAME 60 fresh questions (measure-word conversions, rephrased yes-no, name variants), cloud qwen2.5:7b temp 0. Tight format-constrained prompt: 1/60 flips (0.0167, b=1, c=0, p=1.0 ns). Loose paraphrase-regime prompt: 20/60 flips (0.3333, b=20, c=0, p=1.9e-6 SIGNIFICANT), acc 0.4167->0.75, ECE 0.4767->0.1433. Instruction format controls the paraphrase surface. Loose layer is post-registration (direction pre-registered in script docstring) with no pre-specified n_ceil — observed significance, same status as pilot.
+- ADJUDICATION: all 50 flips row-by-row. 20/21 prior by heterogeneous judge (qwen2.5:7b); 9/9 extension in-session; 21/21 cross-domain on content by a SECOND heterogeneous judge family (local deepseek-r1:7b vs collection qwen2.5:7b; first pass 16 correct / 3 same-line-confidence-leak rejections / 2 timeouts, second pass 5/5 after stripping the leak; both passes on record).
+- CALIBRATION: temperature scaling (NLL down, ECE up) + isotonic 5-fold CV (ECE up) — honest negatives.
+- Power (OR=4 placeholder disclosed): ceilings 50/108/217/217/720; math no ceiling computable; loose post-reg no ceiling; all disclosed hedged.
+- STABILITY: same-60-question cloud retest: guarded agreement 1.0, IDENTICAL flip sets, drift 0.0107.
+- GOLD: blinded 25-item set graded independently: 25/25 agreement (Wilson 95% CI 0.867 to 1.0).
+- Novelty: hedged first-report + zero-counterexample screens (374 + 44); empirical formalization + cross-domain control knob; no mathematical theory.
+- Clarity: IMRaD complete, 9-row stratified table + stability/gold/cross-domain paragraphs, abstract last, flattery/ECE disclosures; table only, no figures.
+
+DIMENSIONS: N (first flip-magnitude report + exact-repro guard + type-dependence boundary + empirical asymmetry formalization + cross-domain control knob, but no mathematical theory, short-answer QA only); S (single recomputation scripts with hard asserts, exact McNemar, TWO heterogeneous judge families 20/21 + 21/21 with both passes on record + cloud confirm, guard 0-regressions, blinded gold 25/25, retest identical flip sets, full disclosure, negatives reported; several strata underpowered); Si (pilot effect + cross-model/cross-type/cross-domain replications + fixed failure class + TWO significant paired inferences p=0.0010 and p=1.9e-6 + reusable guardrail + stability/gold evidence; short-answer QA only, pool misses descriptive bar, loose post-reg); C (complete, matched, honest; table only, no figures).
+
+OUTPUT STRICT JSON ONLY: {"N": x, "S": x, "Si": x, "C": x, "reason_N": "...", "reason_S": "...", "reason_Si": "...", "reason_C": "..."}

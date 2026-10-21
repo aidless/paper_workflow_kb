@@ -1,0 +1,13 @@
+{
+ "zip_sha256": "1d4b126aefac864ce69e342db37ffbc2a2ddf8bc200c0e250a9b9e9d5cbdc43b",
+ "zip_n_files": 339,
+ "zip_bytes": 5454435,
+ "manifest_total": 532,
+ "manifest_excluded": 194,
+ "pdf_sha256": "00b595e9c4d439dc261146db443184b51bbc29db35448890fd4d9d45679b546d",
+ "anonym_hits": 0,
+ "source_date_epoch": 1754000000,
+ "upload_candidate": "submission_tmlr_r31_core.zip",
+ "upload": "MANUAL (protected layer, not performed)",
+ "self_reference_note": "The package ships evidence_manifest.json, results/r31_manifest_reconciliation.md and this seal file, which describe the package itself. Their shipped copies are one generation behind the final zip hash by construction; the on-disk copies are authoritative and every number in them was recomputed from the frozen inputs, not copied."
+}

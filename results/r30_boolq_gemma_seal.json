@@ -1,0 +1,41 @@
+{
+ "model": "gemma3:4b",
+ "amendment": "PREREG_R30_BOOLQ Amendment A2 (R32 second-model replication)",
+ "n": 100,
+ "n_scored": 99,
+ "n_errors": 1,
+ "error_ids": [
+  "boolq-1159"
+ ],
+ "error_disclosure": "boolq-1159 timed out at collection; kept out of all denominators, not imputed (R5 failure path)",
+ "n_exact": 0,
+ "n_guard": 45,
+ "n_flips": 45,
+ "flip_rate_scored": 0.4545,
+ "mcnemar_b": 45,
+ "mcnemar_c": 0,
+ "over_fire": 0,
+ "n_flip_correct": 45,
+ "n_rejects": 54,
+ "n_miss": 39,
+ "n_correct_reject": 15,
+ "miss_rate": 0.7222,
+ "miss_wilson95": [
+  0.5911,
+  0.8238
+ ],
+ "gold_mapping": "True->是/False->否 (PREREG_R30_BOOLQ R2, frozen, reused verbatim)",
+ "prompt": "frozen Chinese short-answer instruction, reused verbatim from the main arm",
+ "comparison_main_arm": {
+  "model": "qwen2:7b",
+  "n_exact": 0,
+  "n_guard": 55,
+  "n_flips": 55,
+  "n_flip_correct": 55,
+  "n_over_fire": 0,
+  "n_miss": 31,
+  "n_correct_reject": 14
+ },
+ "verdict": "DIRECTION REPLICATES in a second model family: covered yes/no synonym variants flip 45/45 content-correct with zero over-fire (45 of 99 scored), uncovered forms miss 39 of 54 rejects. Magnitude is lower than the main arm (45 vs 55 flips); descriptive observed-status only, no inference.",
+ "scope": "no Holm entry, no power claim, no paired test; main-arm sealed numbers (C78) neither retried nor rewritten"
+}

@@ -1,0 +1,12 @@
+{
+  "source_files": {
+    "results/r18_adjudication.json": "b54f6f4e5c39a0baeca1a5837347b0d8878934556c0c090eded222d2de65665f",
+    "results/r18_loose_rep.json": "4fc74a574346a50c30a9b7b576c9e23a4678a4e048743818552d560e0337917d"
+  },
+  "n": 60,
+  "adjudicated_flips": 24,
+  "adjudicated_flip_rate": 0.4,
+  "raw_flips": 26,
+  "raw_flip_percent_1dp": 43.3,
+  "scope": "arithmetic only; no inferential or novelty claim"
+}

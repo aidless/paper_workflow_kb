@@ -1,0 +1,46 @@
+{
+  "strata": {
+    "prior_180": {
+      "n": 180,
+      "n_exact": 134,
+      "acc_exact": 0.7444,
+      "n_guarded_adjudicated": 159,
+      "acc_guarded": 0.8833,
+      "n_flips_guarded_basis": 25,
+      "flip_rate_guarded_basis": 0.1389,
+      "note": "pooled descriptive only; guarded==adjudicated sets verified per stratum"
+    },
+    "cloud_math": {
+      "n": 40,
+      "n_exact": 37,
+      "n_guarded": 37,
+      "acc_exact": 0.925,
+      "acc_guarded": 0.925,
+      "n_flips": 0,
+      "flip_rate": 0.0,
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 1.0,
+      "mcnemar_note": "degenerate: no discordant pairs",
+      "ece10_exact": 0.025,
+      "ece10_guarded": 0.025,
+      "ece_note": "equal-width 10 bins (sibling of live strata); all 40 rows carry confidences",
+      "H1": "NOT-SUPPORT (0.0 <= 0.05): boundary condition, no adjudication per G006",
+      "power_note": "ceiling not computable from zero discordants; no assumed effect plugged in",
+      "model": "qwen2.5:7b",
+      "temperature": 0,
+      "host": "cloud seetacloud-h3 RTX 3090"
+    }
+  },
+  "merged_descriptive": {
+    "n": 220,
+    "n_exact": 171,
+    "n_guarded_adjudicated": 196,
+    "n_flips_guarded_basis": 25,
+    "note": "pooled descriptive only",
+    "acc_exact": 0.7773,
+    "acc_guarded": 0.8909,
+    "flip_rate_guarded_basis": 0.1136
+  },
+  "N_status": "220 rows in five QA strata + 190 calibration rows (30+30+60+60+40 QA; inference stratified per stratum). Math is a second question family (boundary: H1 not supported)."
+}

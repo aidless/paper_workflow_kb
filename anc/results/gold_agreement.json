@@ -1,0 +1,214 @@
+{
+  "n": 25,
+  "agree": 25,
+  "disagree": 0,
+  "unsure": 0,
+  "agreement": 1.0,
+  "wilson95": [
+    0.8668035060468212,
+    1.0
+  ],
+  "sensitivity_excl_unsure": {
+    "n": 25,
+    "agreement": 1.0,
+    "wilson95": [
+      0.8668035060468212,
+      1.0
+    ]
+  },
+  "stem": {
+    "a": 14,
+    "n": 14,
+    "agreement": 1.0,
+    "wilson95": [
+      0.7846829880728186,
+      1.0
+    ]
+  },
+  "stemless": {
+    "a": 11,
+    "n": 11,
+    "agreement": 1.0,
+    "wilson95": [
+      0.7411599827511859,
+      1.0
+    ]
+  },
+  "per_item": [
+    {
+      "id": "G01",
+      "kind": "flip-stem",
+      "stratum": "local-big",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G02",
+      "kind": "flip-stem",
+      "stratum": "cloud-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G03",
+      "kind": "flip-nostem",
+      "stratum": "holdout-main",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G04",
+      "kind": "flip-stem",
+      "stratum": "local-big",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G05",
+      "kind": "flip-stem",
+      "stratum": "local-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G06",
+      "kind": "flip-stem",
+      "stratum": "cloud-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G07",
+      "kind": "flip-stem",
+      "stratum": "cloud-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G08",
+      "kind": "flip-nostem",
+      "stratum": "pilot",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G09",
+      "kind": "flip-nostem",
+      "stratum": "pilot",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G10",
+      "kind": "flip-stem",
+      "stratum": "local-big",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G11",
+      "kind": "flip-nostem",
+      "stratum": "holdout-main",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G12",
+      "kind": "flip-stem",
+      "stratum": "local-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G13",
+      "kind": "flip-stem",
+      "stratum": "local-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G14",
+      "kind": "flip-nostem",
+      "stratum": "holdout-main",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G15",
+      "kind": "flip-stem",
+      "stratum": "local-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G16",
+      "kind": "flip-nostem",
+      "stratum": "holdout-main",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G17",
+      "kind": "flip-nostem",
+      "stratum": "pilot",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G18",
+      "kind": "flip-stem",
+      "stratum": "cloud-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G19",
+      "kind": "flip-nostem",
+      "stratum": "pilot",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G20",
+      "kind": "flip-nostem",
+      "stratum": "pilot",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G21",
+      "kind": "flip-stem",
+      "stratum": "local-big",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G22",
+      "kind": "flip-stem",
+      "stratum": "cloud-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G23",
+      "kind": "flip-nostem",
+      "stratum": "holdout-main",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G24",
+      "kind": "flip-stem",
+      "stratum": "local-new",
+      "grade": "对",
+      "agree": true
+    },
+    {
+      "id": "G25",
+      "kind": "flip-nostem",
+      "stratum": "pilot",
+      "grade": "对",
+      "agree": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "strata": {
+    "guard_v31_prior_cloud": {
+      "n_guarded": 106
+    },
+    "local_new": {
+      "n": 60,
+      "n_conf_rows": 55,
+      "n_exact": 48,
+      "n_guarded": 53,
+      "acc_exact": 0.8,
+      "acc_guarded": 0.8833,
+      "n_flips": 5,
+      "flip_rate": 0.0833,
+      "mcnemar_b": 5,
+      "mcnemar_c": 0,
+      "mcnemar_p_two": 0.0625,
+      "discordant_rate": 0.0833,
+      "ece10_exact": 0.1255,
+      "ece10_guarded": 0.0345,
+      "ece_note": "equal-width 10 bins (sibling of cloud-new); 5 rows lack confidences, ECE on 55",
+      "model": "qwen2:7b",
+      "temperature": 0,
+      "parse_note": "answer=first non-empty line; 1 flip (local-new-09) carries same-line confidence suffix, semantically correct, disclosed"
+    }
+  },
+  "merged_descriptive": {
+    "n": 180,
+    "n_exact": 134,
+    "acc_exact": 0.7444,
+    "n_guarded_adjudicated": 159,
+    "acc_guarded": 0.8833,
+    "n_flips_guarded_basis": 25,
+    "flip_rate_guarded_basis": 0.1389,
+    "note": "pooled descriptive only; guarded==adjudicated sets verified per stratum"
+  },
+  "N_status": "180 rows in four strata (30+30+60+60); pre-registered 120 fulfilled by first three strata, local-new is a post-registration cross-model extension; inference stratified per stratum"
+}

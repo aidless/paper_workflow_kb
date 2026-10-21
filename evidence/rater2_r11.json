@@ -1,0 +1,10 @@
+{
+  "N": 4.5,
+  "S": 5.5,
+  "Si": 5.5,
+  "C": 9.0,
+  "reason_N": "High flip rates in some cases (e.g., 24/60) indicate a large magnitude of changes, which might be problematic.",
+  "reason_S": "Underpowered studies and limited single-study replication contribute to moderate S.",
+  "reason_Si": "Multiple replication efforts but lack of public repositories moderate Si.",
+  "reason_C": "Comprehensive documentation and transparency contribute to high C."
+}

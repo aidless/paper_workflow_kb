@@ -1,0 +1,30 @@
+{
+  "n_reviewers": 3,
+  "completion_rate": 1.0,
+  "satisfaction_rate": 1.0,
+  "rows": [
+    {
+      "reviewer": "evidence-doubt",
+      "completion": 1,
+      "satisfaction": 1,
+      "note": "mock: has_evidence=True"
+    },
+    {
+      "reviewer": "overclaim",
+      "completion": 1,
+      "satisfaction": 1,
+      "note": "mock: has_evidence=True"
+    },
+    {
+      "reviewer": "mechanism",
+      "completion": 1,
+      "satisfaction": 1,
+      "note": "mock: has_evidence=True"
+    }
+  ],
+  "gate": {
+    "passed": true
+  },
+  "reviewer": "mock",
+  "note": "两阶段正交: 完成度=未回避且有证据;满意度=模拟审稿人接受。任一 0 → 回 Phase 4。"
+}

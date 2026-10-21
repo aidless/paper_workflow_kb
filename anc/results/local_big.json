@@ -1,0 +1,18 @@
+{
+  "n": 160,
+  "n_conf_rows": 156,
+  "n_exact": 148,
+  "n_guarded": 152,
+  "acc_exact": 0.925,
+  "acc_guarded": 0.95,
+  "n_flips": 4,
+  "flip_rate": 0.025,
+  "mcnemar_b": 4,
+  "mcnemar_c": 0,
+  "mcnemar_p_two": 0.125,
+  "ece10_exact": 0.033,
+  "ece10_guarded": 0.0458,
+  "model": "qwen2:7b",
+  "temperature": 0,
+  "note": "powered extension batch (120 computed + 40 hand golds)"
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "trace_id": "lr18-01",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一令纸等于多少张？",
+    "predicted_label": "500张",
+    "gold_answer": "500",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-02",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一纪等于多少年？",
+    "predicted_label": "12年",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-03",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一世等于多少年？",
+    "predicted_label": "一世等于30年。0.9",
+    "gold_answer": "30",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-04",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一刀纸等于多少张？",
+    "predicted_label": "1刀纸等于50张。",
+    "gold_answer": "100",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-05",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "半个世纪等于多少年？",
+    "predicted_label": "50年",
+    "gold_answer": "50",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-06",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一平方公里等于多少平方米？",
+    "predicted_label": "1000000",
+    "gold_answer": "1000000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-07",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一分等于多少秒？",
+    "predicted_label": "60秒",
+    "gold_answer": "60",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-08",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一周等于多少小时？",
+    "predicted_label": "168小时",
+    "gold_answer": "168",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-09",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一天等于多少分钟？",
+    "predicted_label": "1440分钟",
+    "gold_answer": "1440",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-10",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一年等于多少天？",
+    "predicted_label": "365.25天",
+    "gold_answer": "365",
+    "confidence": 0.25,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-11",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一吨水等于多少升？",
+    "predicted_label": "1000升",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-12",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一天有几个时辰？",
+    "predicted_label": "24",
+    "gold_answer": "12",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-13",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一时辰等于几小时？",
+    "predicted_label": "1小时",
+    "gold_answer": "2",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-14",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一个时辰等于多少分钟？",
+    "predicted_label": "60分钟",
+    "gold_answer": "120",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-15",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一海里等于多少米？",
+    "predicted_label": "1852米",
+    "gold_answer": "1852",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-16",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一立方千米等于多少立方米？",
+    "predicted_label": "1000000立方米",
+    "gold_answer": "1000000000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-17",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一毫升等于多少立方厘米？",
+    "predicted_label": "1毫升等于1立方厘米",
+    "gold_answer": "1",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-18",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一升等于多少立方厘米？",
+    "predicted_label": "1000",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-19",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一微米等于多少纳米？",
+    "predicted_label": "1000纳米",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-20",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "一微秒等于多少纳秒？",
+    "predicted_label": "1微秒等于1000纳秒",
+    "gold_answer": "1000",
+    "confidence": 1.0,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-21",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "章鱼有八条腿吗？",
+    "predicted_label": "是的",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-22",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "白蚁是昆虫吗？",
+    "predicted_label": "是的。0.9",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-23",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "萤火虫会发光吗？",
+    "predicted_label": "会发光",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-24",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "蝴蝶是昆虫吗？",
+    "predicted_label": "是的。0.9",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-25",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "蜈蚣是昆虫吗？",
+    "predicted_label": "不是。",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-26",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "蝎子是昆虫吗？",
+    "predicted_label": "不是。0.9",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-27",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "龙虾是鱼吗？",
+    "predicted_label": "不是。0.9",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-28",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "水母是鱼吗？",
+    "predicted_label": "不是。0.9",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-29",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "扇贝是鱼吗？",
+    "predicted_label": "不是。0.9",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-30",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "乌贼会喷墨吗？",
+    "predicted_label": "会",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-31",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "海豹是哺乳动物吗？",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-32",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "考拉是哺乳动物吗？",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-33",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "鸭嘴兽是哺乳动物吗？",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-34",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "信天翁会飞吗？",
+    "predicted_label": "会飞",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-35",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "啄木鸟会飞吗？",
+    "predicted_label": "会",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-36",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "鸵鸟会飞吗？",
+    "predicted_label": "不会",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-37",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "蚂蚁是昆虫吗？",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-38",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "壁虎会断尾吗？",
+    "predicted_label": "会",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-39",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "蜜蜂会酿蜜吗？",
+    "predicted_label": "会",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-40",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "螳螂是昆虫吗？",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-41",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "陶渊明字什么？",
+    "predicted_label": "潜",
+    "gold_answer": "潜",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-42",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "杜牧字什么？",
+    "predicted_label": "牧",
+    "gold_answer": "牧之",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-43",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "李贺字什么？",
+    "predicted_label": "长吉",
+    "gold_answer": "长吉",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-44",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "王勃字什么？",
+    "predicted_label": "子安",
+    "gold_answer": "子安",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-45",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "孟浩然字什么？",
+    "predicted_label": "孟浩然字浩然0.9",
+    "gold_answer": "浩然",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-46",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "王昌龄字什么？",
+    "predicted_label": "昌龄字少伯",
+    "gold_answer": "少伯",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-47",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "高适字什么？",
+    "predicted_label": "高适字达夫",
+    "gold_answer": "达夫",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-48",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "陈子昂字什么？",
+    "predicted_label": "伯玉",
+    "gold_answer": "伯玉",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-49",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "温庭筠字什么？",
+    "predicted_label": "庭筠",
+    "gold_answer": "飞卿",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-50",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "李商隐字什么？",
+    "predicted_label": "义山",
+    "gold_answer": "义山",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-51",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "岳飞字什么？",
+    "predicted_label": "岳飞字鹏举",
+    "gold_answer": "鹏举",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-52",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "辛弃疾字什么？",
+    "predicted_label": "幼安",
+    "gold_answer": "幼安",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-53",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "陆游字什么？",
+    "predicted_label": "务观",
+    "gold_answer": "务观",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-54",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "文天祥字什么？",
+    "predicted_label": "文天祥字宋瑞，又字履善。0.9",
+    "gold_answer": "履善",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-55",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "海瑞字什么？",
+    "predicted_label": "海瑞字汝贤",
+    "gold_answer": "汝贤",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-56",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "戚继光字什么？",
+    "predicted_label": "戚继光字元敬",
+    "gold_answer": "元敬",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-57",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "徐霞客名什么？",
+    "predicted_label": "霞客0.9",
+    "gold_answer": "弘祖",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-58",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "蒲松龄字什么？",
+    "predicted_label": "留仙",
+    "gold_answer": "留仙",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-59",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "吴敬梓字什么？",
+    "predicted_label": "敬轩",
+    "gold_answer": "敏轩",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "lr18-60",
+    "source": "r18-loose-rep",
+    "model": "qwen2.5:7b",
+    "question": "郑板桥原名是什么？",
+    "predicted_label": "郑燮",
+    "gold_answer": "燮",
+    "confidence": 0.9,
+    "error": null
+  }
+]

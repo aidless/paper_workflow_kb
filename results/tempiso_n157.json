@@ -1,0 +1,55 @@
+{
+  "labels": "v3.2-guarded == adjudicated (tight-arm flips 10/10 judge-confirmed)",
+  "arms": {
+    "powcloudnew": {
+      "n": 157,
+      "n_exact": 143,
+      "n_guarded": 144,
+      "b_cell": 1,
+      "tempscale": {
+        "T_star": 0.8928,
+        "NLL_T1": 46.111,
+        "NLL_Tstar": 45.7076,
+        "EW_T1": 0.0268,
+        "EW_Tstar": 0.0241,
+        "dEW": 0.0027
+      },
+      "isotonic": {
+        "n_blocks": 4,
+        "EW_raw": 0.0268,
+        "EW_insample": 0.0,
+        "EW_cv5": 0.0351,
+        "NLL_raw": 46.111,
+        "NLL_cv5": 76.8072
+      }
+    },
+    "powlocalnew": {
+      "n": 157,
+      "n_exact": 140,
+      "n_guarded": 147,
+      "b_cell": 7,
+      "tempscale": {
+        "T_star": 1.4418,
+        "NLL_T1": 73.5696,
+        "NLL_Tstar": 69.566,
+        "EW_T1": 0.0668,
+        "EW_Tstar": 0.1407,
+        "dEW": -0.0739
+      },
+      "isotonic": {
+        "n_blocks": 4,
+        "EW_raw": 0.0668,
+        "EW_insample": 0.0,
+        "EW_cv5": 0.0277,
+        "NLL_raw": 73.5696,
+        "NLL_cv5": 57.1359
+      }
+    }
+  },
+  "validation_log": [
+    "[INFO] powcloudnew: n=157 exact=143 guarded=144 b=1 T*=0.8928 ts_dEW=0.0027 iso_cv=0.0351",
+    "[INFO] powlocalnew: n=157 exact=140 guarded=147 b=7 T*=1.4418 ts_dEW=-0.0739 iso_cv=0.0277",
+    "[OK] powcloudnew_guarded: got=144 want=144",
+    "[OK] powlocalnew_guarded: got=147 want=147"
+  ]
+}

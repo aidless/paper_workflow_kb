@@ -1,0 +1,23 @@
+{
+  "n": 60,
+  "raw_flips": 8,
+  "confirmed": [
+    "gr18-09",
+    "gr18-17",
+    "gr18-23",
+    "gr18-33",
+    "gr18-37",
+    "gr18-56",
+    "gr18-57",
+    "gr18-59"
+  ],
+  "excluded": [
+    "gr18-41",
+    "gr18-42",
+    "gr18-45"
+  ],
+  "adjudicated_flips": 8,
+  "adjudicated_guarded_correct": 29,
+  "adjudicated_guarded_acc": 0.4833,
+  "adjudicated_ece_equalwidth": 0.381
+}

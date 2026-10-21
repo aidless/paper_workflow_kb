@@ -1,0 +1,808 @@
+{
+ "n": 100,
+ "n_scored": 99,
+ "n_errors": 1,
+ "error_ids": [
+  "boolq-1159"
+ ],
+ "n_exact": 0,
+ "n_guard": 45,
+ "n_flips": 45,
+ "n_rejects": 54,
+ "flip_rows": [
+  {
+   "id": "boolq-1142",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-922",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-3125",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2743",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-880",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1410",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1705",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-940",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1688",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2081",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2633",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1383",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2481",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-336",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-3123",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-769",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2848",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2667",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2745",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2037",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1808",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1686",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1204",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-122",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1364",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-62",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-565",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2444",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2822",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2680",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1638",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-3244",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-697",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-644",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-3041",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-3259",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-736",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1546",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2443",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-1566",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2752",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-334",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-571",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2045",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  },
+  {
+   "id": "boolq-2851",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No",
+   "exact": false,
+   "guard": true
+  }
+ ],
+ "reject_rows": [
+  {
+   "id": "boolq-1440",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2401",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-763",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1371",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1766",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-24",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1890",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-3206",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1009",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2376",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-819",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-322",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-889",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-3175",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1031",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Unknown.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-224",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1888",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1784",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-451",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-45",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1227",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2016",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2337",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-241",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-380",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-388",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1629",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1283",
+   "gold_bool": true,
+   "gold": "是",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1946",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-276",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2236",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2586",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1438",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-592",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-3133",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-551",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2087",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-259",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2523",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-269",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2601",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-316",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1318",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-3062",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-3015",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1549",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2164",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1708",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2504",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-359",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-3188",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-139",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "Yes.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-1639",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "No.",
+   "exact": false,
+   "guard": false
+  },
+  {
+   "id": "boolq-2171",
+   "gold_bool": false,
+   "gold": "否",
+   "predicted": "Yes",
+   "exact": false,
+   "guard": false
+  }
+ ]
+}

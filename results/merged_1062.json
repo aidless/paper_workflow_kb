@@ -1,0 +1,115 @@
+{
+  "n": 1062,
+  "n_exact": 830,
+  "n_guarded_adjudicated": 922,
+  "n_flips": 92,
+  "flip_rate": 0.0866,
+  "note": "descriptive sums on the adjudicated basis; no merged inference",
+  "arms": [
+    {
+      "stratum": "pilot",
+      "n": 30,
+      "n_exact": 19,
+      "n_guarded": 30,
+      "n_flips": 11
+    },
+    {
+      "stratum": "holdout-main",
+      "n": 30,
+      "n_exact": 19,
+      "n_guarded": 24,
+      "n_flips": 5
+    },
+    {
+      "stratum": "cloud-new",
+      "n": 60,
+      "n_exact": 48,
+      "n_guarded": 52,
+      "n_flips": 4
+    },
+    {
+      "stratum": "local-new",
+      "n": 60,
+      "n_exact": 48,
+      "n_guarded": 53,
+      "n_flips": 5
+    },
+    {
+      "stratum": "local-en",
+      "n": 30,
+      "n_exact": 30,
+      "n_guarded": 30,
+      "n_flips": 0
+    },
+    {
+      "stratum": "local-big",
+      "n": 160,
+      "n_exact": 148,
+      "n_guarded": 152,
+      "n_flips": 4
+    },
+    {
+      "stratum": "math",
+      "n": 40,
+      "n_exact": 37,
+      "n_guarded": 37,
+      "n_flips": 0
+    },
+    {
+      "stratum": "xtight",
+      "n": 60,
+      "n_exact": 50,
+      "n_guarded": 51,
+      "n_flips": 1
+    },
+    {
+      "stratum": "xloose",
+      "n": 60,
+      "n_exact": 25,
+      "n_guarded": 45,
+      "n_flips": 20
+    },
+    {
+      "stratum": "powpilot",
+      "n": 20,
+      "n_exact": 16,
+      "n_guarded": 16,
+      "n_flips": 0
+    },
+    {
+      "stratum": "powholdout",
+      "n": 78,
+      "n_exact": 71,
+      "n_guarded": 73,
+      "n_flips": 2
+    },
+    {
+      "stratum": "powcloudnew",
+      "n": 157,
+      "n_exact": 143,
+      "n_guarded": 144,
+      "n_flips": 1
+    },
+    {
+      "stratum": "powlocalnew",
+      "n": 157,
+      "n_exact": 140,
+      "n_guarded": 147,
+      "n_flips": 7
+    },
+    {
+      "stratum": "r18",
+      "n": 60,
+      "n_exact": 15,
+      "n_guarded": 39,
+      "n_flips": 24
+    },
+    {
+      "stratum": "hetero-gemma",
+      "n": 60,
+      "n_exact": 21,
+      "n_guarded": 29,
+      "n_flips": 8
+    }
+  ]
+}

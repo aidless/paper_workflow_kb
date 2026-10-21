@@ -1,0 +1,10 @@
+{
+  "N": 8.5,
+  "S": 7.5,
+  "Si": 7.5,
+  "C": 8.5,
+  "reason_N": "Multiple significant findings with several rounds of validation, including theorems and cross-domain testing.",
+  "reason_S": "Robust experimental setup with pre-registered rounds and formalized measurement errors, but some limitations in power and model perfection.",
+  "reason_Si": "Multiple specific findings with proofs and cross-domain replication, but some areas with model limitations.",
+  "reason_C": "Clear and detailed with transparent methods, though technical."
+}

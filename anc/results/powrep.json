@@ -1,0 +1,130 @@
+{
+  "matcher": "label_match_v32.tolerant_match_v32",
+  "rejected_golds": [],
+  "note": "power-replication arms; spot-check gate applies",
+  "pow1_pilot": {
+    "n": 20,
+    "n_rejected": 0,
+    "n_exact": 16,
+    "n_guarded": 16,
+    "acc_exact": 0.8,
+    "acc_guarded": 0.8,
+    "n_flips": 0,
+    "flip_rate": 0.0,
+    "mcnemar_b": 0,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 1.0,
+    "mcnemar_degenerate": true,
+    "ece10_exact": 0.12999999999999992,
+    "ece10_guarded": 0.12999999999999992,
+    "n_errs": 0,
+    "flips": []
+  },
+  "pow1_holdout": {
+    "n": 78,
+    "n_rejected": 0,
+    "n_exact": 71,
+    "n_guarded": 73,
+    "acc_exact": 0.9102564102564102,
+    "acc_guarded": 0.9358974358974359,
+    "n_flips": 2,
+    "flip_rate": 0.02564102564102564,
+    "mcnemar_b": 2,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 0.5,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.026068376068376087,
+    "ece10_guarded": 0.05170940170940168,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "pow1-043",
+        "predicted": "兰州市",
+        "gold": "兰州"
+      },
+      {
+        "trace_id": "pow1-045",
+        "predicted": "贵阳市",
+        "gold": "贵阳"
+      }
+    ]
+  },
+  "pow2_cloudnew": {
+    "n": 157,
+    "n_rejected": 0,
+    "n_exact": 143,
+    "n_guarded": 144,
+    "acc_exact": 0.910828025477707,
+    "acc_guarded": 0.9171974522292994,
+    "n_flips": 1,
+    "flip_rate": 0.006369426751592357,
+    "mcnemar_b": 1,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 1.0,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.020382165605095558,
+    "ece10_guarded": 0.026751592356687837,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "pow2-133",
+        "predicted": "1999年",
+        "gold": "1999"
+      }
+    ]
+  },
+  "powL_localnew": {
+    "n": 157,
+    "n_rejected": 0,
+    "n_exact": 140,
+    "n_guarded": 147,
+    "acc_exact": 0.89171974522293,
+    "acc_guarded": 0.9363057324840764,
+    "n_flips": 7,
+    "flip_rate": 0.044585987261146494,
+    "mcnemar_b": 7,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 0.015625,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.034904458598726124,
+    "ece10_guarded": 0.06675159235668786,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "powL-012",
+        "predicted": "利马 0.9",
+        "gold": "利马"
+      },
+      {
+        "trace_id": "powL-070",
+        "predicted": "999",
+        "gold": "1000"
+      },
+      {
+        "trace_id": "powL-074",
+        "predicted": "40.0",
+        "gold": "40"
+      },
+      {
+        "trace_id": "powL-119",
+        "predicted": "618.0",
+        "gold": "618"
+      },
+      {
+        "trace_id": "powL-122",
+        "predicted": "1368年",
+        "gold": "1368"
+      },
+      {
+        "trace_id": "powL-130",
+        "predicted": "1937年",
+        "gold": "1937"
+      },
+      {
+        "trace_id": "powL-131",
+        "predicted": "1978年",
+        "gold": "1978"
+      }
+    ]
+  }
+}

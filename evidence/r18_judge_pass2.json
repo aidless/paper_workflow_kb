@@ -1,0 +1,92 @@
+[
+  {
+    "trace_id": "lr18-22",
+    "question": "白蚁是昆虫吗？",
+    "predicted_pass1": "是的。0.9",
+    "predicted_pass2": "是的",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-24",
+    "question": "蝴蝶是昆虫吗？",
+    "predicted_pass1": "是的。0.9",
+    "predicted_pass2": "是的",
+    "gold": "是",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-27",
+    "question": "龙虾是鱼吗？",
+    "predicted_pass1": "不是。0.9",
+    "predicted_pass2": "不是",
+    "gold": "否",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-29",
+    "question": "扇贝是鱼吗？",
+    "predicted_pass1": "不是。0.9",
+    "predicted_pass2": "不是",
+    "gold": "否",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-34",
+    "question": "信天翁会飞吗？",
+    "predicted_pass1": "会飞",
+    "predicted_pass2": "会飞",
+    "gold": "是",
+    "judge_verdict": "ERROR",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-42",
+    "question": "杜牧字什么？",
+    "predicted_pass1": "牧",
+    "predicted_pass2": "牧",
+    "gold": "牧之",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-45",
+    "question": "孟浩然字什么？",
+    "predicted_pass1": "孟浩然字浩然0.9",
+    "predicted_pass2": "孟浩然字浩然",
+    "gold": "浩然",
+    "judge_verdict": "correct",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-46",
+    "question": "王昌龄字什么？",
+    "predicted_pass1": "昌龄字少伯",
+    "predicted_pass2": "昌龄字少伯",
+    "gold": "少伯",
+    "judge_verdict": "ERROR",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-54",
+    "question": "文天祥字什么？",
+    "predicted_pass1": "文天祥字宋瑞，又字履善。0.9",
+    "predicted_pass2": "文天祥字宋瑞，又字履善",
+    "gold": "履善",
+    "judge_verdict": "incorrect",
+    "error": null
+  },
+  {
+    "trace_id": "lr18-55",
+    "question": "海瑞字什么？",
+    "predicted_pass1": "海瑞字汝贤",
+    "predicted_pass2": "海瑞字汝贤",
+    "gold": "汝贤",
+    "judge_verdict": "incorrect",
+    "error": null
+  }
+]

@@ -1,0 +1,695 @@
+{
+  "n_pairs": 96,
+  "n_human_incorrect": 7,
+  "by_judge": {
+    "deepseek-r1:7b@local": {
+      "n": 64,
+      "human_incorrect": 3
+    },
+    "qwen2.5:7b@cloud": {
+      "n": 21,
+      "human_incorrect": 1
+    },
+    "qwen2.5:7b@local": {
+      "n": 11,
+      "human_incorrect": 3
+    }
+  },
+  "dropped_notes": [
+    "judge-ERROR dropped (never evidence): deepseek-r1:7b@local lr18-46"
+  ],
+  "pairs": [
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-01",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-03",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-05",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-07",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-09",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-13",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-21",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-23",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-25",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-27",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "pilot-30",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "holdout-7",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "holdout-10",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "holdout-23",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "holdout-25",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "prior16",
+      "trace_id": "holdout-26",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "cloudnew5",
+      "trace_id": "cloud-new-07",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "cloudnew5",
+      "trace_id": "cloud-new-22",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "cloudnew5",
+      "trace_id": "cloud-new-26",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "cloudnew5",
+      "trace_id": "cloud-new-42",
+      "judge_says_correct": 0,
+      "human_says_correct": 0
+    },
+    {
+      "judge": "qwen2.5:7b@cloud",
+      "family": "cloudnew5",
+      "trace_id": "cloud-new-48",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xdomain-43",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-09",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-13",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-21",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-23",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-24",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-25",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-29",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-31",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-33",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-34",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-35",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-37",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-38",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-39",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-40",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-43",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-56",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-57",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-58",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "xdomain",
+      "trace_id": "xloose-60",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "pow1-043",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "pow1-045",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "pow2-133",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "powL-012",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "powL-070",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "powL-074",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "powL-119",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "powL-122",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "powL-130",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep10",
+      "trace_id": "powL-131",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep7",
+      "trace_id": "pow1L-043",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep7",
+      "trace_id": "pow1L-045",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep7",
+      "trace_id": "pow2L-133",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep7",
+      "trace_id": "powLL-012",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep7",
+      "trace_id": "powLL-122",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep7",
+      "trace_id": "powLL-130",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "powrep7",
+      "trace_id": "powLL-131",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-02",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-05",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-07",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-08",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-15",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-21",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-22",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-23",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-24",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-25",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-26",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-27",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-28",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-29",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-30",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-34",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-35",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-36",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-38",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-39",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-42",
+      "judge_says_correct": 0,
+      "human_says_correct": 0
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-45",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-47",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-51",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-54",
+      "judge_says_correct": 1,
+      "human_says_correct": 0
+    },
+    {
+      "judge": "deepseek-r1:7b@local",
+      "family": "r18",
+      "trace_id": "lr18-55",
+      "judge_says_correct": 0,
+      "human_says_correct": 0
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-09",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-17",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-23",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-33",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-37",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-41",
+      "judge_says_correct": 0,
+      "human_says_correct": 0
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-42",
+      "judge_says_correct": 0,
+      "human_says_correct": 0
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-45",
+      "judge_says_correct": 0,
+      "human_says_correct": 0
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-56",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-57",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    },
+    {
+      "judge": "qwen2.5:7b@local",
+      "family": "hetero11",
+      "trace_id": "gr18-59",
+      "judge_says_correct": 1,
+      "human_says_correct": 1
+    }
+  ]
+}

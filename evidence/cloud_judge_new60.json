@@ -1,0 +1,42 @@
+{
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "n": 5,
+  "rows": [
+    {
+      "trace_id": "cloud-new-07",
+      "predicted": "300000",
+      "gold": "30万",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "cloud-new-22",
+      "predicted": "6300公里",
+      "gold": "6300",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "cloud-new-26",
+      "predicted": "365.25",
+      "gold": "365",
+      "cloud_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "cloud-new-42",
+      "predicted": "O",
+      "gold": "O2",
+      "cloud_verdict": "incorrect",
+      "error": null
+    },
+    {
+      "trace_id": "cloud-new-48",
+      "predicted": "华盛顿特区",
+      "gold": "华盛顿",
+      "cloud_verdict": "correct",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+ "arm": "R32 English native yes/no (PREREG_R32_ENYESNO)",
+ "model": "qwen2:7b",
+ "model_digest": "9d468147c0aa91b4",
+ "n": 60,
+ "n_true": 30,
+ "n_false": 30,
+ "overlap_with_r30_sample": 0,
+ "n_scored": 60,
+ "n_errors": 0,
+ "n_exact": 15,
+ "exact_rate": 0.25,
+ "exact_wilson95": [
+  0.1578,
+  0.3723
+ ],
+ "n_guard": 50,
+ "n_flips": 35,
+ "flip_rate_scored": 0.5833,
+ "flip_wilson95": [
+  0.4573,
+  0.6994
+ ],
+ "n_flip_correct": 35,
+ "over_fire": 0,
+ "n_rejects": 10,
+ "n_miss": 0,
+ "n_correct_reject": 10,
+ "reject_census": "all 10 rejects (longest 150 chars; prereg scoped <=60, census is a superset)",
+ "form_counts_not_preregistered": {
+  "bare": 17,
+  "period_variant": 1,
+  "extended": 42,
+  "other": 0
+ },
+ "gold_mapping": "True->Yes / False->No (native, PREREG R2 frozen)",
+ "prompt": "Answer with the shortest answer, then confidence on a new line\n\nPassage: %s\n\nQuestion: %s",
+ "prompt_frozen_instruction": "Answer with the shortest answer, then confidence on a new line",
+ "comparison_r30_main_arm": {
+  "model": "qwen2:7b",
+  "n": 100,
+  "n_exact": 0,
+  "n_guard": 55,
+  "n_flips": 55,
+  "n_miss": 31,
+  "n_correct_reject": 14,
+  "over_fire": 0
+ },
+ "decision_rule_1_exact_zero": "SUPPORTED: exact 15/60 = 0.25 under the native mapping vs 0/100 under True->是/False->否. R30's exact-zero is a mapping artifact; the R30 hedge is upgraded to a mechanism conclusion.",
+ "decision_rule_2_discrimination": "NOT the same form: 0 misses here. With a native gold the guard resolves the trailing-period variant through its substring branch (the single Yes./No. row became a flip), whereas against the Chinese mapping that class was uncovered (R30 miss 31). Recorded as mapping dependence, per PREREG R3.",
+ "scope": "descriptive observed-status; no Holm entry, no power claim, no paired test; different rows and n (60 vs 100) so the arm comparison is not paired; R30 (C78) and A2 (C82) sealed numbers neither retried nor rewritten",
+ "disclosure_prereg_inconsistency": "PREREG R1 says 'same 100-row scale', R2 freezes a new 60-row sample. R2 was executed as the frozen design section; the inconsistency is disclosed rather than silently resolved."
+}

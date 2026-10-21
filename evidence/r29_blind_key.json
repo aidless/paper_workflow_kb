@@ -1,0 +1,24 @@
+{
+ "B01": "r29-topup-399",
+ "B02": "r29-topup-406",
+ "B03": "r29-topup-411",
+ "B04": "r29-topup-387",
+ "B05": "r29-topup-403",
+ "B06": "r29-topup-412",
+ "B07": "local-big-096",
+ "B08": "r29-topup-383",
+ "B09": "r29-topup-558",
+ "B10": "r29-topup-555",
+ "over_fire_ids": [
+  "r29-topup-387",
+  "r29-topup-399",
+  "r29-topup-403",
+  "r29-topup-406",
+  "r29-topup-412"
+ ],
+ "author_key": {
+  "over_fire": "INCORRECT",
+  "flip_correct": "CORRECT"
+ },
+ "note": "key kept from volunteer; volunteer file has no kind column"
+}

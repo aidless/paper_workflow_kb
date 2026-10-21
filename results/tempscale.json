@@ -1,0 +1,40 @@
+{
+  "labels": "adjudicated == v3.1-guarded outcomes (verified identical sets)",
+  "clip": 1e-06,
+  "T_bounds": [
+    0.05,
+    20.0
+  ],
+  "strata": {
+    "pilot": {
+      "n": 30,
+      "T_star": 0.207,
+      "NLL_T1": 0.1127,
+      "NLL_Tstar": 0.0,
+      "dNLL": 0.1127,
+      "ECE_T1": 0.0037,
+      "ECE_Tstar": 0.0,
+      "dECE": 0.0037
+    },
+    "holdout-main": {
+      "n": 30,
+      "T_star": 6.3983,
+      "NLL_T1": 38.2609,
+      "NLL_Tstar": 15.0676,
+      "dNLL": 23.1933,
+      "ECE_T1": 0.205,
+      "ECE_Tstar": 0.2805,
+      "dECE": -0.0755
+    },
+    "cloud-new": {
+      "n": 60,
+      "T_star": 1.7756,
+      "NLL_T1": 35.2309,
+      "NLL_Tstar": 31.6158,
+      "dNLL": 3.6151,
+      "ECE_T1": 0.1692,
+      "ECE_Tstar": 0.2272,
+      "dECE": -0.058
+    }
+  }
+}

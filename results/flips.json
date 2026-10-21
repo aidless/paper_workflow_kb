@@ -1,0 +1,162 @@
+[
+  {
+    "trace_id": "pilot-01",
+    "source": "pilot",
+    "predicted": "1789年",
+    "gold": "1789",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-03",
+    "source": "pilot",
+    "predicted": "威廉·莎士比亚",
+    "gold": "莎士比亚",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-05",
+    "source": "pilot",
+    "predicted": "约30万公里/秒",
+    "gold": "299792",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-07",
+    "source": "pilot",
+    "predicted": "8848.86米",
+    "gold": "8848",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-09",
+    "source": "pilot",
+    "predicted": "约24小时",
+    "gold": "24",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-13",
+    "source": "pilot",
+    "predicted": "80元",
+    "gold": "80",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-21",
+    "source": "pilot",
+    "predicted": "不会",
+    "gold": "否",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-23",
+    "source": "pilot",
+    "predicted": "不是",
+    "gold": "否",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-25",
+    "source": "pilot",
+    "predicted": "不是",
+    "gold": "否",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-27",
+    "source": "pilot",
+    "predicted": "不是，光年是长度单位（距离单位），不是时间单位。",
+    "gold": "否",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "pilot-30",
+    "source": "pilot",
+    "predicted": "会",
+    "gold": "是",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "holdout-7",
+    "source": "holdout-main",
+    "predicted": "8848.86米",
+    "gold": "8848",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "holdout-10",
+    "source": "holdout-main",
+    "predicted": "365.25",
+    "gold": "365",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "holdout-23",
+    "source": "holdout-main",
+    "predicted": "不会",
+    "gold": "否",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "holdout-25",
+    "source": "holdout-main",
+    "predicted": "不是",
+    "gold": "否",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  },
+  {
+    "trace_id": "holdout-26",
+    "source": "holdout-main",
+    "predicted": "不是",
+    "gold": "否",
+    "exact": false,
+    "tolerant": true,
+    "source_outcome": 1,
+    "adjudication": "pending-except-pilot-src-v2"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "rater": "in-session single-rater (same semantic standard)",
+  "n_adjudicated": 4,
+  "n_correct": 4,
+  "n_incorrect": 0,
+  "rows": [
+    {
+      "trace_id": "local-big-096",
+      "predicted": "23.0",
+      "gold": "23",
+      "ruling": "correct",
+      "reason": "数值等价 trailing .0（同pilot-05数值先例）"
+    },
+    {
+      "trace_id": "local-big-097",
+      "predicted": "5.0",
+      "gold": "5",
+      "ruling": "correct",
+      "reason": "数值等价 trailing .0"
+    },
+    {
+      "trace_id": "local-big-103",
+      "predicted": "1740.0",
+      "gold": "1740",
+      "ruling": "correct",
+      "reason": "数值等价 trailing .0"
+    },
+    {
+      "trace_id": "local-big-110",
+      "predicted": "1200.0",
+      "gold": "1200",
+      "ruling": "correct",
+      "reason": "数值等价 trailing .0"
+    }
+  ]
+}

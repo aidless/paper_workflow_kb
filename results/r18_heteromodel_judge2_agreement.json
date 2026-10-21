@@ -1,0 +1,23 @@
+{
+ "n": 11,
+ "agree_first_judge": 8,
+ "n_disagree_first_judge": 2,
+ "disagree_first_judge": [
+  "gr18-42",
+  "gr18-56"
+ ],
+ "n_error_rows": 1,
+ "error_rows": [
+  "gr18-09"
+ ],
+ "agree_author": 8,
+ "disagree_author": [
+  "gr18-42",
+  "gr18-56"
+ ],
+ "excluded_disagreements": [
+  "gr18-42"
+ ],
+ "limitations_trigger": false,
+ "framing": "reliability across judge families only; no overturn of sealed adjudication, no validity claim"
+}

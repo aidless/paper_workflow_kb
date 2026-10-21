@@ -1,0 +1,40 @@
+{
+  "note": "extended strata = prior sealed + power-rep arm; post-registration extension, observed significance only",
+  "strata": {
+    "pilot50": {
+      "n": 50,
+      "b": 11,
+      "c": 0,
+      "mcnemar_p_two": 0.0009765625,
+      "mcnemar_degenerate": false
+    },
+    "holdout108": {
+      "n": 108,
+      "b": 7,
+      "c": 0,
+      "mcnemar_p_two": 0.015625,
+      "mcnemar_degenerate": false
+    },
+    "cloudnew217_raw": {
+      "n": 217,
+      "b": 6,
+      "c": 0,
+      "mcnemar_p_two": 0.03125,
+      "mcnemar_degenerate": false
+    },
+    "cloudnew217_guarded": {
+      "n": 217,
+      "b": 5,
+      "c": 0,
+      "mcnemar_p_two": 0.0625,
+      "mcnemar_degenerate": false
+    },
+    "localnew217": {
+      "n": 217,
+      "b": 12,
+      "c": 0,
+      "mcnemar_p_two": 0.00048828125,
+      "mcnemar_degenerate": false
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "matcher": "label_match_v33 tolerant_match_v33 (v3.2 + CJK single-char substring guard)",
+  "guard_rule": "substring-branch CJK single-char guard: block iff sides differ and min(len)==1 with the single-char side CJK; v3.1 formula guard and v3.2 raw-fallback retained",
+  "n_checks": 13,
+  "checks": [
+    {
+      "name": "R1 O/O2 rejected",
+      "pass": true
+    },
+    {
+      "name": "R2a pilot-03 kept",
+      "pass": true
+    },
+    {
+      "name": "R2b cloud-new-48 kept",
+      "pass": true
+    },
+    {
+      "name": "R3 U1 raw-fallback",
+      "pass": true
+    },
+    {
+      "name": "R4 U4 raw differs",
+      "pass": true
+    },
+    {
+      "name": "R5a 不会/否",
+      "pass": true
+    },
+    {
+      "name": "R5b 不是/否",
+      "pass": true
+    },
+    {
+      "name": "R5c 会/是",
+      "pass": true
+    },
+    {
+      "name": "R6a 白/太白 rejected",
+      "pass": true
+    },
+    {
+      "name": "R6b 牧/牧之 rejected",
+      "pass": true
+    },
+    {
+      "name": "R6c 玄/玄德 rejected",
+      "pass": true
+    },
+    {
+      "name": "R6d 子/子美 rejected",
+      "pass": true
+    },
+    {
+      "name": "R7 no transcription drift (1700 pairs)",
+      "pass": true
+    }
+  ],
+  "n_global_pairs": 1700
+}

@@ -1,0 +1,66 @@
+{
+  "model": "deepseek-r1:7b",
+  "temperature": 0,
+  "n": 7,
+  "n_correct": 7,
+  "n_incorrect": 0,
+  "leak_rule": "fixed separator-required STRIP (post powL-074 lesson)",
+  "rows": [
+    {
+      "trace_id": "pow1L-043",
+      "arm": "pow1L",
+      "predicted": "兰州市",
+      "gold": "兰州",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pow1L-045",
+      "arm": "pow1L",
+      "predicted": "贵阳市",
+      "gold": "贵阳",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "pow2L-133",
+      "arm": "pow2L",
+      "predicted": "1999年",
+      "gold": "1999",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powLL-012",
+      "arm": "powLL",
+      "predicted": "利马",
+      "gold": "利马",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powLL-122",
+      "arm": "powLL",
+      "predicted": "1368年",
+      "gold": "1368",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powLL-130",
+      "arm": "powLL",
+      "predicted": "1937年",
+      "gold": "1937",
+      "judge_verdict": "correct",
+      "error": null
+    },
+    {
+      "trace_id": "powLL-131",
+      "arm": "powLL",
+      "predicted": "1978年",
+      "gold": "1978",
+      "judge_verdict": "correct",
+      "error": null
+    }
+  ]
+}

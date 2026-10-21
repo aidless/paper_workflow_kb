@@ -1,0 +1,154 @@
+{
+  "matcher": "label_match_v33.tolerant_match_v33",
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "note": "R18 pre-registered loose-regime replication: 20 measure-word + 20 rephrased yes-no + 20 name-variant fresh questions; loose prompt identical to xdomain-loose; McNemar p is an arithmetic record, not an inference license",
+  "loose_rep": {
+    "n": 60,
+    "n_exact": 15,
+    "n_guarded": 41,
+    "acc_exact": 0.25,
+    "acc_guarded": 0.6833333333333333,
+    "n_flips": 26,
+    "flip_rate": 0.43333333333333335,
+    "mcnemar_b": 26,
+    "mcnemar_c": 0,
+    "mcnemar_p_two": 2.9802322387695312e-08,
+    "mcnemar_degenerate": false,
+    "ece10_exact": 0.6425,
+    "ece10_guarded": 0.2091666666666666,
+    "n_errs": 0,
+    "flips": [
+      {
+        "trace_id": "lr18-02",
+        "predicted": "12年",
+        "gold": "12"
+      },
+      {
+        "trace_id": "lr18-05",
+        "predicted": "50年",
+        "gold": "50"
+      },
+      {
+        "trace_id": "lr18-07",
+        "predicted": "60秒",
+        "gold": "60"
+      },
+      {
+        "trace_id": "lr18-08",
+        "predicted": "168小时",
+        "gold": "168"
+      },
+      {
+        "trace_id": "lr18-15",
+        "predicted": "1852米",
+        "gold": "1852"
+      },
+      {
+        "trace_id": "lr18-21",
+        "predicted": "是的",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-22",
+        "predicted": "是的。0.9",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-23",
+        "predicted": "会发光",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-24",
+        "predicted": "是的。0.9",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-25",
+        "predicted": "不是。",
+        "gold": "否"
+      },
+      {
+        "trace_id": "lr18-26",
+        "predicted": "不是。0.9",
+        "gold": "否"
+      },
+      {
+        "trace_id": "lr18-27",
+        "predicted": "不是。0.9",
+        "gold": "否"
+      },
+      {
+        "trace_id": "lr18-28",
+        "predicted": "不是。0.9",
+        "gold": "否"
+      },
+      {
+        "trace_id": "lr18-29",
+        "predicted": "不是。0.9",
+        "gold": "否"
+      },
+      {
+        "trace_id": "lr18-30",
+        "predicted": "会",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-34",
+        "predicted": "会飞",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-35",
+        "predicted": "会",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-36",
+        "predicted": "不会",
+        "gold": "否"
+      },
+      {
+        "trace_id": "lr18-38",
+        "predicted": "会",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-39",
+        "predicted": "会",
+        "gold": "是"
+      },
+      {
+        "trace_id": "lr18-45",
+        "predicted": "孟浩然字浩然0.9",
+        "gold": "浩然"
+      },
+      {
+        "trace_id": "lr18-46",
+        "predicted": "昌龄字少伯",
+        "gold": "少伯"
+      },
+      {
+        "trace_id": "lr18-47",
+        "predicted": "高适字达夫",
+        "gold": "达夫"
+      },
+      {
+        "trace_id": "lr18-51",
+        "predicted": "岳飞字鹏举",
+        "gold": "鹏举"
+      },
+      {
+        "trace_id": "lr18-54",
+        "predicted": "文天祥字宋瑞，又字履善。0.9",
+        "gold": "履善"
+      },
+      {
+        "trace_id": "lr18-55",
+        "predicted": "海瑞字汝贤",
+        "gold": "汝贤"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+# KB-grounded Manuscript from 130-paper Obsidian Library environment lock file (FM-22)
+# R20-measured pins (verify: python3 -c "import numpy,scipy"; torch NOT required —
+# only scripts/test_pyramid.py imports it and it is outside the recompute path)
+numpy==2.5.2
+scipy==1.18.1

@@ -1,0 +1,200 @@
+{"id": "entity-P106-0", "relation": "P106", "question": "What kind of work does Martin Ittner do?", "aliases": ["chemist"]}
+{"id": "entity-P112-0", "relation": "P112", "question": "Who founded Porsche Automobil Holding SE?", "aliases": ["Ferdinand Porsche"]}
+{"id": "entity-P127-0", "relation": "P127", "question": "Who owns Times West Virginian?", "aliases": ["Community Newspaper Holdings"]}
+{"id": "entity-P131-0", "relation": "P131", "question": "Where is Mueang Lampang located?", "aliases": ["Lampang"]}
+{"id": "entity-P136-0", "relation": "P136", "question": "What type of music does Arlene play?", "aliases": ["country music"]}
+{"id": "entity-P159-0", "relation": "P159", "question": "Where is the headquarter of Outblaze?", "aliases": ["Hong Kong"]}
+{"id": "entity-P17-0", "relation": "P17", "question": "Which country is Hanging Lake located in?", "aliases": ["United States of America"]}
+{"id": "entity-P170-0", "relation": "P170", "question": "Who was Jimeoin: Over The Top created by?", "aliases": ["Jimeoin"]}
+{"id": "entity-P175-0", "relation": "P175", "question": "Who performed Sweet Thing?", "aliases": ["David Bowie"]}
+{"id": "entity-P176-0", "relation": "P176", "question": "Which company is USCGC Polar Star produced by?", "aliases": ["Lockheed Shipbuilding and Construction Company"]}
+{"id": "entity-P19-0", "relation": "P19", "question": "Where was Gabriella Hall born?", "aliases": ["Los Angeles"]}
+{"id": "entity-P20-0", "relation": "P20", "question": "Where did Edmund Burke die?", "aliases": ["Beaconsfield"]}
+{"id": "entity-P26-0", "relation": "P26", "question": "Who is Lugalbanda married to?", "aliases": ["Ninsun"]}
+{"id": "entity-P264-0", "relation": "P264", "question": "What music label is A'Cappella ExpreSSS represented by?", "aliases": ["Universal Music Group"]}
+{"id": "entity-P276-0", "relation": "P276", "question": "Where is Battle of Abbeville located?", "aliases": ["Abbeville"]}
+{"id": "entity-P36-0", "relation": "P36", "question": "What is the capital of Twiggs County?", "aliases": ["Jeffersonville"]}
+{"id": "entity-P40-0", "relation": "P40", "question": "Who is Carlos Bonaparte's child?", "aliases": ["Caroline Bonaparte", "Elisa Bonaparte", "Louis Bonaparte", "Lucien Bonaparte", "Napoleon", "Pauline Bonaparte"]}
+{"id": "entity-P407-0", "relation": "P407", "question": "Which language was The Chieftains 2 written in?", "aliases": ["Irish"]}
+{"id": "entity-P413-0", "relation": "P413", "question": "What position does Diogo Rosado play?", "aliases": ["midfielder"]}
+{"id": "entity-P495-0", "relation": "P495", "question": "Which country was Haunted Poland created in?", "aliases": ["Poland"]}
+{"id": "entity-P50-0", "relation": "P50", "question": "Who is the author of The Sigma Protocol?", "aliases": ["Robert Ludlum"]}
+{"id": "entity-P69-0", "relation": "P69", "question": "Where was Kushal Chakraborty educated?", "aliases": ["Jadavpur University"]}
+{"id": "entity-P740-0", "relation": "P740", "question": "Where was Hello, Blue Roses founded?", "aliases": ["Vancouver"]}
+{"id": "entity-P800-0", "relation": "P800", "question": "What is Mike Patton famous for?", "aliases": ["Adult Themes for Voice"]}
+{"id": "entity-P106-1", "relation": "P106", "question": "What kind of work does Mark Roth do?", "aliases": ["biochemist"]}
+{"id": "entity-P112-1", "relation": "P112", "question": "Who founded Hadassah Women's Zionist Organization of America?", "aliases": ["Henrietta Szold"]}
+{"id": "entity-P127-1", "relation": "P127", "question": "Who owns Thomasville Times-Enterprise?", "aliases": ["Community Newspaper Holdings"]}
+{"id": "entity-P131-1", "relation": "P131", "question": "Where is Fogo Island located?", "aliases": ["Newfoundland and Labrador"]}
+{"id": "entity-P136-1", "relation": "P136", "question": "What type of music does Edge of the Axe play?", "aliases": ["horror film"]}
+{"id": "entity-P159-1", "relation": "P159", "question": "Where is the headquarter of Castlemaine Brewery, Western Australia?", "aliases": ["East Fremantle"]}
+{"id": "entity-P17-1", "relation": "P17", "question": "Which country is Libětice located in?", "aliases": ["Czech Republic"]}
+{"id": "entity-P170-1", "relation": "P170", "question": "Who was Lady Tennant Stradivarius created by?", "aliases": ["Antonio Stradivari"]}
+{"id": "entity-P175-1", "relation": "P175", "question": "Who performed Lost Time?", "aliases": ["12 Rods"]}
+{"id": "entity-P176-1", "relation": "P176", "question": "Which company is Türksat 3A produced by?", "aliases": ["Thales Alenia Space"]}
+{"id": "entity-P19-1", "relation": "P19", "question": "Where was John Kay born?", "aliases": ["Sovetsk"]}
+{"id": "entity-P20-1", "relation": "P20", "question": "Where did Ernest Cosson die?", "aliases": ["Paris"]}
+{"id": "entity-P26-1", "relation": "P26", "question": "Who is Debra Feuer married to?", "aliases": ["Mickey Rourke"]}
+{"id": "entity-P264-1", "relation": "P264", "question": "What music label is Unleashed represented by?", "aliases": ["Sugar Hill Records"]}
+{"id": "entity-P276-1", "relation": "P276", "question": "Where is Convention on preventing and combating violence against women and domestic violence located?", "aliases": ["Istanbul"]}
+{"id": "entity-P36-1", "relation": "P36", "question": "What is the capital of Orhei District?", "aliases": ["Orhei"]}
+{"id": "entity-P40-1", "relation": "P40", "question": "Who is William Cockerill's child?", "aliases": ["John Cockerill"]}
+{"id": "entity-P407-1", "relation": "P407", "question": "Which language was Édouard written in?", "aliases": ["French"]}
+{"id": "entity-P413-1", "relation": "P413", "question": "What position does Behn Wilson play?", "aliases": ["defenceman"]}
+{"id": "entity-P495-1", "relation": "P495", "question": "Which country was The Pest created in?", "aliases": ["United States of America"]}
+{"id": "entity-P50-1", "relation": "P50", "question": "Who is the author of On Human Nature?", "aliases": ["Edward O. Wilson"]}
+{"id": "entity-P69-1", "relation": "P69", "question": "Where was Sanjay Ayre educated?", "aliases": ["Auburn University"]}
+{"id": "entity-P740-1", "relation": "P740", "question": "Where was Sobeys founded?", "aliases": ["Stellarton"]}
+{"id": "entity-P800-1", "relation": "P800", "question": "What is Wes Anderson famous for?", "aliases": ["Bottle Rocket", "Hotel Chevalier", "Moonrise Kingdom", "Rushmore", "The Darjeeling Limited", "The Grand Budapest Hotel", "The Life Aquatic with Steve Zissou", "The Royal Tenenbaums"]}
+{"id": "entity-P106-2", "relation": "P106", "question": "What kind of work does Sophie Bryant do?", "aliases": ["mathematician"]}
+{"id": "entity-P112-2", "relation": "P112", "question": "Who founded Iliad?", "aliases": ["Xavier Niel"]}
+{"id": "entity-P127-2", "relation": "P127", "question": "Who owns MBC Action?", "aliases": ["Middle East Broadcasting Center"]}
+{"id": "entity-P131-2", "relation": "P131", "question": "Where is Ćwikielnia located?", "aliases": ["Gmina Stawiguda"]}
+{"id": "entity-P136-2", "relation": "P136", "question": "What type of music does Again play?", "aliases": ["J-pop"]}
+{"id": "entity-P159-2", "relation": "P159", "question": "Where is the headquarter of WareValley?", "aliases": ["Seoul"]}
+{"id": "entity-P17-2", "relation": "P17", "question": "Which country is Fredericktown-Millsboro located in?", "aliases": ["United States of America"]}
+{"id": "entity-P170-2", "relation": "P170", "question": "Who was Acton created by?", "aliases": ["James Turrell"]}
+{"id": "entity-P175-2", "relation": "P175", "question": "Who performed El Existential?", "aliases": ["Grupo Fantasma"]}
+{"id": "entity-P176-2", "relation": "P176", "question": "Which company is Fiat Idea produced by?", "aliases": ["Fiat"]}
+{"id": "entity-P19-2", "relation": "P19", "question": "Where was Zoran Urumov born?", "aliases": ["Belgrade"]}
+{"id": "entity-P20-2", "relation": "P20", "question": "Where did Ron Haydock die?", "aliases": ["Victorville"]}
+{"id": "entity-P26-2", "relation": "P26", "question": "Who is Shabana Azmi married to?", "aliases": ["Javed Akhtar"]}
+{"id": "entity-P264-2", "relation": "P264", "question": "What music label is The Upsides represented by?", "aliases": ["Hopeless Records"]}
+{"id": "entity-P276-2", "relation": "P276", "question": "Where is Portrait of a Lady located?", "aliases": ["National Gallery of Art"]}
+{"id": "entity-P36-2", "relation": "P36", "question": "What is the capital of Tagant Region?", "aliases": ["Tidjikja"]}
+{"id": "entity-P40-2", "relation": "P40", "question": "Who is Ole Torvalds's child?", "aliases": ["Nils Torvalds"]}
+{"id": "entity-P407-2", "relation": "P407", "question": "Which language was Batuhan written in?", "aliases": ["Turkish"]}
+{"id": "entity-P413-2", "relation": "P413", "question": "What position does Dave Mossman play?", "aliases": ["midfielder"]}
+{"id": "entity-P495-2", "relation": "P495", "question": "Which country was Gateways created in?", "aliases": ["United States of America"]}
+{"id": "entity-P50-2", "relation": "P50", "question": "Who is the author of America Hurrah?", "aliases": ["Jean-Claude van Itallie"]}
+{"id": "entity-P69-2", "relation": "P69", "question": "Where was Karen Kwan educated?", "aliases": ["Boston University"]}
+{"id": "entity-P740-2", "relation": "P740", "question": "Where was Iskra founded?", "aliases": ["Victoria"]}
+{"id": "entity-P800-2", "relation": "P800", "question": "What is John Crowley famous for?", "aliases": ["Little, Big"]}
+{"id": "entity-P106-3", "relation": "P106", "question": "What kind of work does Huang Ta-chou do?", "aliases": ["politician"]}
+{"id": "entity-P112-3", "relation": "P112", "question": "Who founded Aerial Experiment Association?", "aliases": ["Alexander Graham Bell", "Glenn Curtiss"]}
+{"id": "entity-P127-3", "relation": "P127", "question": "Who owns L. P. Frans Stadium?", "aliases": ["Hickory Crawdads"]}
+{"id": "entity-P131-3", "relation": "P131", "question": "Where is Hidden Bay Airport located?", "aliases": ["Saskatchewan"]}
+{"id": "entity-P136-3", "relation": "P136", "question": "What type of music does Steven Universe play?", "aliases": ["science fiction"]}
+{"id": "entity-P159-3", "relation": "P159", "question": "Where is the headquarter of Aspinal of London?", "aliases": ["London"]}
+{"id": "entity-P17-3", "relation": "P17", "question": "Which country is Geleh Mahalleh located in?", "aliases": ["Iran"]}
+{"id": "entity-P170-3", "relation": "P170", "question": "Who was Queen created by?", "aliases": ["Brothers Grimm"]}
+{"id": "entity-P175-3", "relation": "P175", "question": "Who performed Present the Paisley Reich?", "aliases": ["Times New Viking"]}
+{"id": "entity-P176-3", "relation": "P176", "question": "Which company is Toyota G1 produced by?", "aliases": ["Toyota"]}
+{"id": "entity-P19-3", "relation": "P19", "question": "Where was William H. Horsfall born?", "aliases": ["Newport"]}
+{"id": "entity-P20-3", "relation": "P20", "question": "Where did Lauge Koch die?", "aliases": ["Copenhagen"]}
+{"id": "entity-P26-3", "relation": "P26", "question": "Who is Robert Erskine Childers married to?", "aliases": ["Molly Childers"]}
+{"id": "entity-P264-3", "relation": "P264", "question": "What music label is Metamorphosis represented by?", "aliases": ["ABKCO Records"]}
+{"id": "entity-P276-3", "relation": "P276", "question": "Where is 1970 Masters Tournament located?", "aliases": ["Augusta National Golf Club"]}
+{"id": "entity-P36-3", "relation": "P36", "question": "What is the capital of West Azarbaijan Province?", "aliases": ["Urmia"]}
+{"id": "entity-P40-3", "relation": "P40", "question": "Who is Teti's child?", "aliases": ["Pepi I Meryre"]}
+{"id": "entity-P407-3", "relation": "P407", "question": "Which language was Le Dernier qui a parlé... written in?", "aliases": ["French"]}
+{"id": "entity-P413-3", "relation": "P413", "question": "What position does Evgeni Nabokov play?", "aliases": ["goaltender"]}
+{"id": "entity-P495-3", "relation": "P495", "question": "Which country was Your Touch created in?", "aliases": ["United States of America"]}
+{"id": "entity-P50-3", "relation": "P50", "question": "Who is the author of Lux Mundi?", "aliases": ["Charles Gore"]}
+{"id": "entity-P69-3", "relation": "P69", "question": "Where was Bruce Bromley educated?", "aliases": ["Harvard Law School"]}
+{"id": "entity-P740-3", "relation": "P740", "question": "Where was Kuehne + Nagel founded?", "aliases": ["Bremen"]}
+{"id": "entity-P800-3", "relation": "P800", "question": "What is Kazi Nazrul Islam famous for?", "aliases": ["Notuner Gaan"]}
+{"id": "entity-P106-4", "relation": "P106", "question": "What kind of work does Bruce Smith do?", "aliases": ["poet"]}
+{"id": "entity-P112-4", "relation": "P112", "question": "Who founded Barnardo's?", "aliases": ["Thomas John Barnardo"]}
+{"id": "entity-P127-4", "relation": "P127", "question": "Who owns Bergensavisen?", "aliases": ["Amedia"]}
+{"id": "entity-P131-4", "relation": "P131", "question": "Where is Edamulackal located?", "aliases": ["Kerala", "Kollam district"]}
+{"id": "entity-P136-4", "relation": "P136", "question": "What type of music does Miss Congeniality 2: Armed and Fabulous play?", "aliases": ["comedy film"]}
+{"id": "entity-P159-4", "relation": "P159", "question": "Where is the headquarter of Traction?", "aliases": ["San Francisco"]}
+{"id": "entity-P17-4", "relation": "P17", "question": "Which country is Wil–Kreuzlingen railway located in?", "aliases": ["Switzerland"]}
+{"id": "entity-P170-4", "relation": "P170", "question": "Who was Babes created by?", "aliases": ["Sandy Gallin"]}
+{"id": "entity-P175-4", "relation": "P175", "question": "Who performed El Miedo a la Libertad?", "aliases": ["Tanghetto"]}
+{"id": "entity-P176-4", "relation": "P176", "question": "Which company is BMW Vision ConnectedDrive produced by?", "aliases": ["Arman Ansari"]}
+{"id": "entity-P19-4", "relation": "P19", "question": "Where was Richard Semon born?", "aliases": ["Berlin"]}
+{"id": "entity-P20-4", "relation": "P20", "question": "Where did Hugo Treffner die?", "aliases": ["Tartu"]}
+{"id": "entity-P26-4", "relation": "P26", "question": "Who is Bastiaan Ragas married to?", "aliases": ["Tooske Ragas"]}
+{"id": "entity-P264-4", "relation": "P264", "question": "What music label is Opal Mantra represented by?", "aliases": ["A&M Records"]}
+{"id": "entity-P276-4", "relation": "P276", "question": "Where is Siege of Bari located?", "aliases": ["Bari"]}
+{"id": "entity-P36-4", "relation": "P36", "question": "What is the capital of Ribagorza?", "aliases": ["Graus"]}
+{"id": "entity-P40-4", "relation": "P40", "question": "Who is Lambert I of Nantes's child?", "aliases": ["Guy I of Spoleto", "Lambert II of Nantes"]}
+{"id": "entity-P407-4", "relation": "P407", "question": "Which language was Siegfried written in?", "aliases": ["German"]}
+{"id": "entity-P413-4", "relation": "P413", "question": "What position does Christy Mathewson play?", "aliases": ["pitcher"]}
+{"id": "entity-P495-4", "relation": "P495", "question": "Which country was Thank Heavens for Dale Evans created in?", "aliases": ["United States of America"]}
+{"id": "entity-P50-4", "relation": "P50", "question": "Who is the author of Nature Girl?", "aliases": ["Carl Hiaasen"]}
+{"id": "entity-P69-4", "relation": "P69", "question": "Where was Richard G. Stern educated?", "aliases": ["Harvard University"]}
+{"id": "entity-P740-4", "relation": "P740", "question": "Where was Topper's Pizza founded?", "aliases": ["Greater Sudbury"]}
+{"id": "entity-P800-4", "relation": "P800", "question": "What is Lemon Jelly famous for?", "aliases": ["Lost Horizons"]}
+{"id": "entity-P106-5", "relation": "P106", "question": "What kind of work does Bruce Foxton do?", "aliases": ["songwriter"]}
+{"id": "entity-P112-5", "relation": "P112", "question": "Who founded Roman Catholic Diocese of Győr?", "aliases": ["Stephen I of Hungary"]}
+{"id": "entity-P127-5", "relation": "P127", "question": "Who owns PlayStation?", "aliases": ["Sony Interactive Entertainment"]}
+{"id": "entity-P131-5", "relation": "P131", "question": "Where is Vatani Stadium located?", "aliases": ["Qaem Shahr"]}
+{"id": "entity-P136-5", "relation": "P136", "question": "What type of music does Herb Morand play?", "aliases": ["jazz"]}
+{"id": "entity-P159-5", "relation": "P159", "question": "Where is the headquarter of Beitar Tel Aviv Ramla F.C.?", "aliases": ["Tel Aviv"]}
+{"id": "entity-P17-5", "relation": "P17", "question": "Which country is Tulewo Górne located in?", "aliases": ["Poland"]}
+{"id": "entity-P170-5", "relation": "P170", "question": "Who was Crucifixion, seen from the Cross created by?", "aliases": ["James Tissot"]}
+{"id": "entity-P175-5", "relation": "P175", "question": "Who performed Era?", "aliases": ["Dori Ghezzi"]}
+{"id": "entity-P176-5", "relation": "P176", "question": "Which company is Samsung S5230 produced by?", "aliases": ["Samsung"]}
+{"id": "entity-P19-5", "relation": "P19", "question": "Where was Elizabeth Shepherd born?", "aliases": ["London"]}
+{"id": "entity-P20-5", "relation": "P20", "question": "Where did Hermann Osthoff die?", "aliases": ["Heidelberg"]}
+{"id": "entity-P26-5", "relation": "P26", "question": "Who is Lady Randolph Churchill married to?", "aliases": ["George Cornwallis-West", "Lord Randolph Churchill"]}
+{"id": "entity-P264-5", "relation": "P264", "question": "What music label is Andrea Echeverri represented by?", "aliases": ["Nacional Records"]}
+{"id": "entity-P276-5", "relation": "P276", "question": "Where is Treaty of Saint-Germain-en-Laye located?", "aliases": ["Saint-Germain-en-Laye"]}
+{"id": "entity-P36-5", "relation": "P36", "question": "What is the capital of Pando Department?", "aliases": ["Cobija"]}
+{"id": "entity-P40-5", "relation": "P40", "question": "Who is Burchard I, Duke of Swabia's child?", "aliases": ["Burchard II"]}
+{"id": "entity-P407-5", "relation": "P407", "question": "Which language was In Conflict written in?", "aliases": ["English"]}
+{"id": "entity-P413-5", "relation": "P413", "question": "What position does Charly Musonda play?", "aliases": ["midfielder"]}
+{"id": "entity-P495-5", "relation": "P495", "question": "Which country was Laughing With created in?", "aliases": ["United States of America"]}
+{"id": "entity-P50-5", "relation": "P50", "question": "Who is the author of A Dictionary of Slang and Unconventional English?", "aliases": ["Eric Partridge"]}
+{"id": "entity-P69-5", "relation": "P69", "question": "Where was Michael New educated?", "aliases": ["Dartmouth College", "Stanford University"]}
+{"id": "entity-P740-5", "relation": "P740", "question": "Where was As One founded?", "aliases": ["Hong Kong"]}
+{"id": "entity-P800-5", "relation": "P800", "question": "What is Alan Warner famous for?", "aliases": ["Morvern Callar"]}
+{"id": "entity-P106-6", "relation": "P106", "question": "What kind of work does Luc Bürgin do?", "aliases": ["journalist"]}
+{"id": "entity-P112-6", "relation": "P112", "question": "Who founded Walt Disney Pictures?", "aliases": ["Walt Disney"]}
+{"id": "entity-P127-6", "relation": "P127", "question": "Who owns Google Public Alerts?", "aliases": ["Google.org"]}
+{"id": "entity-P131-6", "relation": "P131", "question": "Where is Greensboro located?", "aliases": ["Henry County"]}
+{"id": "entity-P136-6", "relation": "P136", "question": "What type of music does Katie Reider play?", "aliases": ["rock music"]}
+{"id": "entity-P159-6", "relation": "P159", "question": "Where is the headquarter of TMS Entertainment?", "aliases": ["Nakano-ku"]}
+{"id": "entity-P17-6", "relation": "P17", "question": "Which country is Valea Bisericii River located in?", "aliases": ["Romania"]}
+{"id": "entity-P170-6", "relation": "P170", "question": "Who was La Femme Nikita created by?", "aliases": ["Joel Surnow"]}
+{"id": "entity-P175-6", "relation": "P175", "question": "Who performed Rory Gallagher?", "aliases": ["Rory Gallagher"]}
+{"id": "entity-P176-6", "relation": "P176", "question": "Which company is Renault 4 produced by?", "aliases": ["Renault"]}
+{"id": "entity-P19-6", "relation": "P19", "question": "Where was Robert Moorhouse born?", "aliases": ["Berry Brow"]}
+{"id": "entity-P20-6", "relation": "P20", "question": "Where did Paulus Hector Mair die?", "aliases": ["Augsburg"]}
+{"id": "entity-P26-6", "relation": "P26", "question": "Who is Hunter Foster married to?", "aliases": ["Jennifer Cody"]}
+{"id": "entity-P264-6", "relation": "P264", "question": "What music label is Touched by a Polka represented by?", "aliases": ["Rounder Records"]}
+{"id": "entity-P276-6", "relation": "P276", "question": "Where is Armstrong Cork Company building located?", "aliases": ["Pittsburgh"]}
+{"id": "entity-P36-6", "relation": "P36", "question": "What is the capital of Västra Götaland County?", "aliases": ["Gothenburg"]}
+{"id": "entity-P40-6", "relation": "P40", "question": "Who is James Miller McKim's child?", "aliases": ["Charles Follen McKim"]}
+{"id": "entity-P407-6", "relation": "P407", "question": "Which language was Gazzetta Chimica Italiana written in?", "aliases": ["Italian"]}
+{"id": "entity-P413-6", "relation": "P413", "question": "What position does Richard Sneekes play?", "aliases": ["midfielder"]}
+{"id": "entity-P495-6", "relation": "P495", "question": "Which country was The Return of Sophie Lang created in?", "aliases": ["United States of America"]}
+{"id": "entity-P50-6", "relation": "P50", "question": "Who is the author of The Devils of Loudun?", "aliases": ["Aldous Huxley"]}
+{"id": "entity-P69-6", "relation": "P69", "question": "Where was Samuel T. Richardson educated?", "aliases": ["Willamette University"]}
+{"id": "entity-P740-6", "relation": "P740", "question": "Where was Roomrunner founded?", "aliases": ["Baltimore"]}
+{"id": "entity-P800-6", "relation": "P800", "question": "What is Gilean McVean famous for?", "aliases": ["1000 Genomes Project"]}
+{"id": "entity-P106-7", "relation": "P106", "question": "What kind of work does Parsaram Meghwal do?", "aliases": ["politician"]}
+{"id": "entity-P112-7", "relation": "P112", "question": "Who founded SELCO India?", "aliases": ["Harish Hande"]}
+{"id": "entity-P127-7", "relation": "P127", "question": "Who owns Irish Distillers?", "aliases": ["Pernod Ricard"]}
+{"id": "entity-P131-7", "relation": "P131", "question": "Where is Drumnadrochit located?", "aliases": ["Highland"]}
+{"id": "entity-P136-7", "relation": "P136", "question": "What type of music does Haciendo Punto en Otro Son play?", "aliases": ["Nueva trova"]}
+{"id": "entity-P159-7", "relation": "P159", "question": "Where is the headquarter of LRG Capital Funds?", "aliases": ["San Francisco"]}
+{"id": "entity-P17-7", "relation": "P17", "question": "Which country is Wangphu Gewog located in?", "aliases": ["Bhutan"]}
+{"id": "entity-P170-7", "relation": "P170", "question": "Who was Madonna in Glory with Seraphim created by?", "aliases": ["Sandro Botticelli"]}
+{"id": "entity-P175-7", "relation": "P175", "question": "Who performed Holiday for Swing?", "aliases": ["Seth MacFarlane"]}
+{"id": "entity-P176-7", "relation": "P176", "question": "Which company is SEAT Alhambra produced by?", "aliases": ["SEAT"]}
+{"id": "entity-P19-7", "relation": "P19", "question": "Where was Graham Hood born?", "aliases": ["Winnipeg"]}
+{"id": "entity-P20-7", "relation": "P20", "question": "Where did Marcel Gaumont die?", "aliases": ["Paris"]}
+{"id": "entity-P26-7", "relation": "P26", "question": "Who is Archduchess Maria Leopoldine of Austria-Este married to?", "aliases": ["Charles Theodore, Elector of Bavaria"]}
+{"id": "entity-P264-7", "relation": "P264", "question": "What music label is Jennifer Love Hewitt represented by?", "aliases": ["Atlantic Records"]}
+{"id": "entity-P276-7", "relation": "P276", "question": "Where is International Screenwriters' Festival located?", "aliases": ["Cheltenham"]}
+{"id": "entity-P36-7", "relation": "P36", "question": "What is the capital of Canton of Ferney-Voltaire?", "aliases": ["Ferney-Voltaire"]}
+{"id": "entity-P40-7", "relation": "P40", "question": "Who is Helen Herron Taft's child?", "aliases": ["Robert Alphonso Taft"]}
+{"id": "entity-P407-7", "relation": "P407", "question": "Which language was Il faut du temps written in?", "aliases": ["French"]}
+{"id": "entity-P413-7", "relation": "P413", "question": "What position does Ivone De Franceschi play?", "aliases": ["midfielder"]}
+{"id": "entity-P495-7", "relation": "P495", "question": "Which country was Love Brewed in the African Pot created in?", "aliases": ["Ghana"]}
+{"id": "entity-P50-7", "relation": "P50", "question": "Who is the author of Twelve?", "aliases": ["Nick McDonell"]}
+{"id": "entity-P69-7", "relation": "P69", "question": "Where was Christian Friedrich Henrici educated?", "aliases": ["Leipzig University"]}
+{"id": "entity-P740-7", "relation": "P740", "question": "Where was Servite Order founded?", "aliases": ["Florence"]}
+{"id": "entity-P800-7", "relation": "P800", "question": "What is Muhammad Husayn Tabatabaei famous for?", "aliases": ["Tafsir al-Mizan"]}
+{"id": "entity-P106-8", "relation": "P106", "question": "What kind of work does Ian McColl, Baron McColl of Dulwich do?", "aliases": ["politician", "surgeon"]}
+{"id": "entity-P112-8", "relation": "P112", "question": "Who founded Victor Talking Machine Company?", "aliases": ["Eldridge R. Johnson", "Emile Berliner"]}
+{"id": "entity-P127-8", "relation": "P127", "question": "Who owns Hallmark Channel?", "aliases": ["Crown Media Holdings"]}
+{"id": "entity-P131-8", "relation": "P131", "question": "Where is Quch Palang located?", "aliases": ["Razavi Khorasan Province"]}
+{"id": "entity-P136-8", "relation": "P136", "question": "What type of music does Leon Spencer play?", "aliases": ["jazz"]}
+{"id": "entity-P159-8", "relation": "P159", "question": "Where is the headquarter of Erani Filiatra?", "aliases": ["Filiatra"]}
+{"id": "entity-P17-8", "relation": "P17", "question": "Which country is Houayhe located in?", "aliases": ["Laos"]}
+{"id": "entity-P170-8", "relation": "P170", "question": "Who was Hawaii Five-O created by?", "aliases": ["Leonard Freeman"]}

@@ -1,0 +1,18 @@
+{
+  "n": 30,
+  "n_conf_rows": 30,
+  "n_exact": 30,
+  "n_guarded": 30,
+  "acc_exact": 1.0,
+  "acc_guarded": 1.0,
+  "n_flips": 0,
+  "flip_rate": 0.0,
+  "mcnemar_b": 0,
+  "mcnemar_c": 0,
+  "mcnemar_p_two": 1.0,
+  "ece10_exact": 0.08,
+  "ece10_guarded": 0.08,
+  "model": "qwen2:7b",
+  "temperature": 0,
+  "note": "English cross-type stratum (10 computed + 20 hand golds)"
+}

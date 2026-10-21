@@ -1,0 +1,62 @@
+[
+  {
+    "trace_id": "cloud-new-07",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "光速约每秒多少公里？只答数字。",
+    "predicted_label": "300000",
+    "gold_answer": "30万",
+    "confidence": 0.9,
+    "error": null,
+    "exact": false,
+    "tolerant": true
+  },
+  {
+    "trace_id": "cloud-new-22",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "长江长约多少公里？只答数字。",
+    "predicted_label": "6300公里",
+    "gold_answer": "6300",
+    "confidence": 0.9,
+    "error": null,
+    "exact": false,
+    "tolerant": true
+  },
+  {
+    "trace_id": "cloud-new-26",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "地球绕太阳一周约多少天？只答数字。",
+    "predicted_label": "365.25",
+    "gold_answer": "365",
+    "confidence": 0.25,
+    "error": null,
+    "exact": false,
+    "tolerant": true
+  },
+  {
+    "trace_id": "cloud-new-42",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "氧气的化学符号是？",
+    "predicted_label": "O",
+    "gold_answer": "O2",
+    "confidence": 0.9,
+    "error": null,
+    "exact": false,
+    "tolerant": true
+  },
+  {
+    "trace_id": "cloud-new-48",
+    "source": "cloud-new",
+    "model": "qwen2.5:7b",
+    "question": "美国的首都是哪里？只答地名。",
+    "predicted_label": "华盛顿特区",
+    "gold_answer": "华盛顿",
+    "confidence": 0.9,
+    "error": null,
+    "exact": false,
+    "tolerant": true
+  }
+]

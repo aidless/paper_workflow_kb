@@ -1,0 +1,17 @@
+{
+  "n": 60,
+  "n_exact": 48,
+  "n_tolerant": 53,
+  "acc_exact": 0.8,
+  "acc_tolerant": 0.8833,
+  "n_flips": 5,
+  "flip_rate": 0.0833,
+  "mcnemar_b": 5,
+  "mcnemar_c": 0,
+  "mcnemar_p_two": 0.0625,
+  "discordant_rate": 0.0833,
+  "ece10_exact": 0.1067,
+  "ece10_tolerant": 0.0492,
+  "model": "qwen2.5:7b",
+  "temperature": 0
+}

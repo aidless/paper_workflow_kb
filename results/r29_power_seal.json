@@ -1,0 +1,32 @@
+{
+ "merged": {
+  "n": 720,
+  "n_flips": 19,
+  "flip_rate": 0.02638888888888889,
+  "mcnemar_b": 19,
+  "mcnemar_c": 0,
+  "mcnemar_p_two": 3.814697265625e-06,
+  "n_flip_correct": 14,
+  "n_over_fire": 5
+ },
+ "gates": {
+  "power": {
+   "n_met": true,
+   "n_ceil": 720,
+   "verdict": "MET",
+   "note": "local-big 160 -> 720, the '160 of 720 placeholder OR=4' gap is closed"
+  },
+  "mcnemar": {
+   "p_two": 3.814697265625e-06,
+   "significant": true,
+   "verdict": "SIGNIFICANT",
+   "note": "b=19, c=0 (exact McNemar); H1 maintained (not downgraded)"
+  },
+  "over_fire": {
+   "n_over_fire": 5,
+   "n_flip_correct": 14,
+   "over_fire_rate_in_flips": 0.2631578947368421,
+   "note": "5 division-error over-fires within 0.5% numeric tolerance (new class)"
+  }
+ }
+}

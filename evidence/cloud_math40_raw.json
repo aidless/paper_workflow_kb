@@ -1,0 +1,402 @@
+[
+ {
+  "trace_id": "cloud-math-01",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "12乘以13等于几？只答数字。",
+  "gold_answer": "156",
+  "predicted_label": "156",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-02",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "144除以12等于几？只答数字。",
+  "gold_answer": "12",
+  "predicted_label": "12",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-03",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "15的平方是几？只答数字。",
+  "gold_answer": "225",
+  "predicted_label": "225",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-04",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "2的10次方是几？只答数字。",
+  "gold_answer": "1024",
+  "predicted_label": "1024",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-05",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "100减去37等于几？只答数字。",
+  "gold_answer": "63",
+  "predicted_label": "63",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-06",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "25乘以4等于几？只答数字。",
+  "gold_answer": "100",
+  "predicted_label": "100",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-07",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "1000除以8等于几？只答数字。",
+  "gold_answer": "125",
+  "predicted_label": "125",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-08",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "9的立方是几？只答数字。",
+  "gold_answer": "729",
+  "predicted_label": "729",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-09",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "50的20%是几？只答数字。",
+  "gold_answer": "10",
+  "predicted_label": "10",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-10",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "200的15%是几？只答数字。",
+  "gold_answer": "30",
+  "predicted_label": "30",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-11",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "1/2加1/4等于几（小数）？只答数字。",
+  "gold_answer": "0.75",
+  "predicted_label": "0.7",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-12",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "3/4化为小数是几？只答数字。",
+  "gold_answer": "0.75",
+  "predicted_label": "0.75",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-13",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "圆周率取3.14，直径10的圆周长是几？只答数字。",
+  "gold_answer": "31.4",
+  "predicted_label": "31.4",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-14",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "边长7的正方形面积是几？只答数字。",
+  "gold_answer": "49",
+  "predicted_label": "49",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-15",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "长8宽5的长方形面积是几？只答数字。",
+  "gold_answer": "40",
+  "predicted_label": "40",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-16",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "17加28加35等于几？只答数字。",
+  "gold_answer": "80",
+  "predicted_label": "70",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-17",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "1000减333等于几？只答数字。",
+  "gold_answer": "667",
+  "predicted_label": "667",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-18",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "11乘以11等于几？只答数字。",
+  "gold_answer": "121",
+  "predicted_label": "121",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-19",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "13乘以17等于几？只答数字。",
+  "gold_answer": "221",
+  "predicted_label": "221",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-20",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "2乘以3乘以5等于几？只答数字。",
+  "gold_answer": "30",
+  "predicted_label": "30",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-21",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "100除以4再乘以3等于几？只答数字。",
+  "gold_answer": "75",
+  "predicted_label": "75",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-22",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "60的一半再加10等于几？只答数字。",
+  "gold_answer": "40",
+  "predicted_label": "40",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-23",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "90减少1/3后是几？只答数字。",
+  "gold_answer": "60",
+  "predicted_label": "60",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-24",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "7天等于几小时？只答数字。",
+  "gold_answer": "168",
+  "predicted_label": "168",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-25",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "2小时等于几分钟？只答数字。",
+  "gold_answer": "120",
+  "predicted_label": "120",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-26",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "3天等于几小时？只答数字。",
+  "gold_answer": "72",
+  "predicted_label": "72",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-27",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "1周加3天共几天？只答数字。",
+  "gold_answer": "10",
+  "predicted_label": "8",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-28",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "5打鸡蛋有几个（一打12个）？只答数字。",
+  "gold_answer": "60",
+  "predicted_label": "60",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-29",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "4双袜子有几只？只答数字。",
+  "gold_answer": "8",
+  "predicted_label": "8",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-30",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "一箱24瓶水，3箱有几瓶？只答数字。",
+  "gold_answer": "72",
+  "predicted_label": "72",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-31",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "每排9人，6排有几人？只答数字。",
+  "gold_answer": "54",
+  "predicted_label": "54",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-32",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "100元买35元的东西找回几元？只答数字。",
+  "gold_answer": "65",
+  "predicted_label": "65",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-33",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "50元买两件20元的东西找回几元？只答数字。",
+  "gold_answer": "10",
+  "predicted_label": "10",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-34",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "19加21等于几？只答数字。",
+  "gold_answer": "40",
+  "predicted_label": "40",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-35",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "45减18等于几？只答数字。",
+  "gold_answer": "27",
+  "predicted_label": "27",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-36",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "6乘以9等于几？只答数字。",
+  "gold_answer": "54",
+  "predicted_label": "54",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-37",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "72除以9等于几？只答数字。",
+  "gold_answer": "8",
+  "predicted_label": "8",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-38",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "5的4次方是几？只答数字。",
+  "gold_answer": "625",
+  "predicted_label": "625",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-39",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "10的3次方是几？只答数字。",
+  "gold_answer": "1000",
+  "predicted_label": "1000",
+  "confidence": 0.9,
+  "error": null
+ },
+ {
+  "trace_id": "cloud-math-40",
+  "source": "cloud-math",
+  "model": "qwen2.5:7b",
+  "question": "123加456等于几？只答数字。",
+  "gold_answer": "579",
+  "predicted_label": "579",
+  "confidence": 0.9,
+  "error": null
+ }
+]

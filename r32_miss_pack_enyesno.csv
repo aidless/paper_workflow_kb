@@ -1,0 +1,11 @@
+id,gold,predicted,form,len,verdict,reason
+boolq-2635,Yes,"No, it is not normal to have motion sickness persisting for months or years after a cruise. This is indicative of Mal de Debarquement Syndrome (MdDS).",extended,150,correct_reject,"wrong content, guard rightly rejects"
+boolq-1540,Yes,"No, you do not need to be on US soil to claim asylum.",extended,53,correct_reject,"wrong content, guard rightly rejects"
+boolq-1336,Yes,No,bare,2,correct_reject,"wrong content, guard rightly rejects"
+boolq-429,Yes,No,bare,2,correct_reject,"wrong content, guard rightly rejects"
+boolq-2370,Yes,"No, you can't mail something without a return address.",extended,54,correct_reject,"wrong content, guard rightly rejects"
+boolq-247,Yes,"No, there is no bird faster than a cheetah.",extended,43,correct_reject,"wrong content, guard rightly rejects"
+boolq-2728,Yes,"No, Leatherface in the 2017 film is not the same character as the original Leatherface from the 1974 film.",extended,106,correct_reject,"wrong content, guard rightly rejects"
+boolq-1269,No,"Yes, Crabapple Cove is actually Broad Cove in Bremen, Maine.",extended,60,correct_reject,"wrong content, guard rightly rejects"
+boolq-1160,No,"Yes, the Bill of Rights is part of the United States Constitution.",extended,66,correct_reject,"wrong content, guard rightly rejects"
+boolq-1012,No,"Yes, Air Force One has flown with fighter escort.",extended,49,correct_reject,"wrong content, guard rightly rejects"

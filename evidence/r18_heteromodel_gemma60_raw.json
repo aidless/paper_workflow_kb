@@ -1,0 +1,602 @@
+[
+  {
+    "trace_id": "gr18-01",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一刻钟等于多少分钟？",
+    "predicted_label": "60 分钟",
+    "gold_answer": "15",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-02",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一旬等于多少天？",
+    "predicted_label": "105天",
+    "gold_answer": "10",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-03",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一打等于几个？",
+    "predicted_label": "12",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-04",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一罗等于几打？",
+    "predicted_label": "12",
+    "gold_answer": "12",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-05",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一斤等于多少克？",
+    "predicted_label": "500克",
+    "gold_answer": "500",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-06",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一两等于多少克？",
+    "predicted_label": "7.03克",
+    "gold_answer": "50",
+    "confidence": 0.03,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-07",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一公斤等于多少克？",
+    "predicted_label": "1000克",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-08",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一米等于多少厘米？",
+    "predicted_label": "100厘米",
+    "gold_answer": "100",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-09",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一公里等于多少米？",
+    "predicted_label": "1000米",
+    "gold_answer": "1000",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-10",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一平方米等于多少平方厘米？",
+    "predicted_label": "10000",
+    "gold_answer": "10000",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-11",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一升等于多少毫升？",
+    "predicted_label": "1000毫升",
+    "gold_answer": "1000",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-12",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一吨等于多少公斤？",
+    "predicted_label": "1000公斤",
+    "gold_answer": "1000",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-13",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一小时等于多少秒？",
+    "predicted_label": "3600",
+    "gold_answer": "3600",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-14",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一天等于多少小时？",
+    "predicted_label": "24",
+    "gold_answer": "24",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-15",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一周等于多少天？",
+    "predicted_label": "7",
+    "gold_answer": "7",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-16",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一年有多少个月？",
+    "predicted_label": "十二个月",
+    "gold_answer": "12",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-17",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一世纪等于多少年？",
+    "predicted_label": "100年",
+    "gold_answer": "100",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-18",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一双等于几只？",
+    "predicted_label": "两只",
+    "gold_answer": "2",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-19",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "一对等于几个？",
+    "predicted_label": "二",
+    "gold_answer": "2",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-20",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "半打等于几个？",
+    "predicted_label": "6",
+    "gold_answer": "6",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-21",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "蜘蛛是昆虫吗？",
+    "predicted_label": "是。",
+    "gold_answer": "否",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-22",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "鲸鱼是鱼吗？",
+    "predicted_label": "不。",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-23",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "蝙蝠会飞吗？",
+    "predicted_label": "是的。",
+    "gold_answer": "是",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-24",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "企鹅会飞吗？",
+    "predicted_label": "不。",
+    "gold_answer": "否",
+    "confidence": 0.01,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-25",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "竹子是草吗？",
+    "predicted_label": "不。",
+    "gold_answer": "是",
+    "confidence": 0.7,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-26",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "花生是坚果吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-27",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "西红柿是水果吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-28",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "土豆是蔬菜吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-29",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "乌龟是两栖动物吗？",
+    "predicted_label": "不。",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-30",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "青蛙是两栖动物吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-31",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "蚊子是昆虫吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-32",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "蜗牛有外壳吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-33",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "鱼用鳃呼吸吗？",
+    "predicted_label": "是的。",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-34",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "鸟类是恒温动物吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-35",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "蛇是恒温动物吗？",
+    "predicted_label": "不。",
+    "gold_answer": "否",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-36",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "月亮自己会发光吗？",
+    "predicted_label": "是的。",
+    "gold_answer": "否",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-37",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "太阳是恒星吗？",
+    "predicted_label": "是的。",
+    "gold_answer": "是",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-38",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "地球是行星吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.999,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-39",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "水在零摄氏度会结冰吗？",
+    "predicted_label": "是。",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-40",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "铁会被磁铁吸引吗？",
+    "predicted_label": "是",
+    "gold_answer": "是",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-41",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "李白字什么？",
+    "predicted_label": "白",
+    "gold_answer": "太白",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-42",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "杜甫字什么？",
+    "predicted_label": "子",
+    "gold_answer": "子美",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-43",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "苏轼号什么？",
+    "predicted_label": "齐天大圣",
+    "gold_answer": "东坡",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-44",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "关羽字什么？",
+    "predicted_label": "关羽字：关羽",
+    "gold_answer": "云长",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-45",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "刘备字什么？",
+    "predicted_label": "玄",
+    "gold_answer": "玄德",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-46",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "曹操字什么？",
+    "predicted_label": "子育",
+    "gold_answer": "孟德",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-47",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "诸葛亮字什么？",
+    "predicted_label": "孔明",
+    "gold_answer": "孔明",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-48",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "鲁迅原名是什么？",
+    "predicted_label": "章士钊",
+    "gold_answer": "周树人",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-49",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "巴金原名是什么？",
+    "predicted_label": "李献ōng",
+    "gold_answer": "李尧棠",
+    "confidence": 0.95,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-50",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "老舍原名是什么？",
+    "predicted_label": "张树人",
+    "gold_answer": "舒庆春",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-51",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "冰心原名是什么？",
+    "predicted_label": "沈曼",
+    "gold_answer": "谢婉莹",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-52",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "茅盾原名是什么？",
+    "predicted_label": "饶寿裳",
+    "gold_answer": "沈德鸿",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-53",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "中国的首都是哪里？",
+    "predicted_label": "北京",
+    "gold_answer": "北京",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-54",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "日本的首都是哪里？",
+    "predicted_label": "东京",
+    "gold_answer": "东京",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-55",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "法国的首都是哪里？",
+    "predicted_label": "巴黎",
+    "gold_answer": "巴黎",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-56",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "端午节是农历哪一天？",
+    "predicted_label": "农五月初五",
+    "gold_answer": "五月初五",
+    "confidence": 0.99,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-57",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "中秋节是农历哪一天？",
+    "predicted_label": "农历八月十五",
+    "gold_answer": "八月十五",
+    "confidence": 0.8,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-58",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "春节是农历哪一天？",
+    "predicted_label": "农历十二月三十",
+    "gold_answer": "正月初一",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-59",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "清明节是农历还是公历节日？",
+    "predicted_label": "公历节日",
+    "gold_answer": "公历",
+    "confidence": 0.9,
+    "error": null
+  },
+  {
+    "trace_id": "gr18-60",
+    "source": "r18-heteromodel-gemma",
+    "model": "gemma3:4b",
+    "question": "重阳节是农历哪一天？",
+    "predicted_label": "农九月十五",
+    "gold_answer": "九月初九",
+    "confidence": 0.8,
+    "error": null
+  }
+]

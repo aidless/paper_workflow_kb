@@ -1,0 +1,118 @@
+{
+  "checks": [
+    {
+      "cmd": [
+        "python3",
+        "scripts/verify_claim_ledger.py",
+        ".",
+        "--out",
+        "reports/ledger.md"
+      ],
+      "cwd": ".",
+      "name": "ledger verifier 0 FAIL",
+      "timeout": 300,
+      "type": "script_runs"
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/build_evidence_manifest.py",
+        ".",
+        "--verify",
+        "evidence_manifest.json"
+      ],
+      "cwd": ".",
+      "name": "manifest hash reconciliation",
+      "timeout": 300,
+      "type": "script_runs"
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/scan_stats_consistency.py",
+        ".",
+        "--out",
+        "reports/stats.md",
+        "--fail-on-error"
+      ],
+      "cwd": ".",
+      "name": "stats scan no errors",
+      "timeout": 300,
+      "type": "script_runs"
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/scan_number_consistency.py",
+        ".",
+        "--out",
+        "reports/numbers.md"
+      ],
+      "cwd": ".",
+      "name": "number scan report-only exit 0, stale 0",
+      "timeout": 300,
+      "type": "script_runs"
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/verify_taint.py",
+        ".",
+        "--fail-on-error",
+        "--out",
+        "reports/taint.md"
+      ],
+      "cwd": ".",
+      "name": "taint scan clean",
+      "timeout": 300,
+      "type": "script_runs"
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/scan_hallucination.py",
+        ".",
+        "--out",
+        "reports/hallucination.md",
+        "--fail-on-error"
+      ],
+      "cwd": ".",
+      "name": "hallucination scan no errors",
+      "timeout": 300,
+      "type": "script_runs"
+    },
+    {
+      "cmd": [
+        "python3",
+        "scripts/check_writing_style.py",
+        ".",
+        "--out",
+        "reports/style.md"
+      ],
+      "cwd": ".",
+      "name": "style scan",
+      "timeout": 300,
+      "type": "script_runs"
+    },
+    {
+      "name": "main.tex present",
+      "path": "paper/main.tex",
+      "type": "file_exists"
+    },
+    {
+      "name": "requirements lock present",
+      "path": "requirements.txt",
+      "type": "file_exists"
+    },
+    {
+      "name": "R25 adjudication recount seal",
+      "type": "script_runs",
+      "cmd": [
+        "python3",
+        "scripts/seal_R25_numbers.py"
+      ],
+      "cwd": ".",
+      "timeout": 300
+    }
+  ]
+}
