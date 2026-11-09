@@ -1,5 +1,7 @@
 # paper_workflow_kb
 
+[![CI](https://github.com/aidless/paper_workflow_kb/actions/workflows/static-checks.yml/badge.svg)](https://github.com/aidless/paper_workflow_kb/actions/workflows/static-checks.yml)
+
 一篇 TMLR 在研稿件的完整科研工作台：声明账本、预注册、冻结证据、封存结果与验收门禁，外加 SuperGLUE BoolQ 公开数据集上的是非问答（yes/no）实验臂。
 
 ## 这是什么
