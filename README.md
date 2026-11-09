@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/aidless/paper_workflow_kb/actions/workflows/static-checks.yml/badge.svg)](https://github.com/aidless/paper_workflow_kb/actions/workflows/static-checks.yml)
 
+> **English TL;DR**: A complete research workbench for a TMLR submission studying whether the choice of label matcher (exact vs. tolerant/guard) shifts measured accuracy in short-answer QA, including a BoolQ yes/no arm. It ships an 82-entry claim-to-evidence ledger, preregistrations, round records with disclosed negative results, frozen captures, and 10 acceptance gates; rerun seals such as `python3 scripts/r30_seal_boolq.py` without a model. Honest boundaries are explicit: fresh collection requires a local ollama, and the canonical ledger check lives outside the repository.
+
 一篇 TMLR 在研稿件的完整科研工作台：声明账本、预注册、冻结证据、封存结果与验收门禁，外加 SuperGLUE BoolQ 公开数据集上的是非问答（yes/no）实验臂。
 
 ## 这是什么
