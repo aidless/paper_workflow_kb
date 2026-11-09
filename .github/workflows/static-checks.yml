@@ -1,8 +1,11 @@
 name: static-checks
 
-# Deterministic, offline checks: Python syntax across the tree + JSON well-formedness.
-# Deliberately does not install third-party dependencies, so it cannot fail for
-# environment reasons — it only catches broken source or corrupted data files.
+# Two jobs, both free of a model and of third-party installs.
+# syntax-and-json: Python syntax and JSON well-formedness.
+# offline-evidence: census, headline drift, and the seal scripts that reread
+# frozen answers. The canonical ledger shell is required to exit 3
+# (CANONICAL_NOT_FOUND). That is a miss, not a pass. gates_config.json is the
+# author-worktree list and is not run here.
 on:
   push:
     branches: ["main"]
@@ -80,3 +83,23 @@ jobs:
               print("JSON", b)
           sys.exit(1 if bad else 0)
           PY
+
+  offline-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Offline seals, census, and drift
+        run: python3 scripts/run_acceptance_gates.py gates_offline.json
+      - name: Ledger shell stays a hard miss without the canonical verifier
+        run: |
+          set +e
+          python3 scripts/verify_claim_ledger.py . --out /tmp/ledger_clone.md > /tmp/ledger_clone.out 2> /tmp/ledger_clone.err
+          code=$?
+          set -e
+          echo "verify_claim_ledger.py exit ${code}"
+          cat /tmp/ledger_clone.err
+          test "${code}" -eq 3
+          grep -q CANONICAL_NOT_FOUND /tmp/ledger_clone.err

@@ -3,7 +3,9 @@ import json
 import math
 import os
 
-BASE = "~/F:\\deepseek/paper_workflow_kb"
+# Repo root. A previous literal "~/F:\\deepseek/paper_workflow_kb" was an
+# authoring-machine path and does not resolve on a clone.
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES = os.path.join(BASE, "results")
 
 

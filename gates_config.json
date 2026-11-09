@@ -1,4 +1,5 @@
 {
+  "role": "Author-worktree list of 10 checks. Not clone-green: the ledger shell exits 3 when the canonical verifier is absent, and evidence_manifest.json does not verify on a fresh clone (missing backups, logs, corpora, and submission zips, plus pre-existing hash drift). CI runs gates_offline.json. A failure here is a failure, not an expected pass.",
   "checks": [
     {
       "cmd": [

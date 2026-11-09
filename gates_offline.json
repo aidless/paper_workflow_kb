@@ -1,0 +1,85 @@
+{
+  "role": "Clone-green checks that do not call a model and do not need the external ledger verifier. This is not gates_config.json and it is not an acceptance of the paper.",
+  "checks": [
+    {
+      "name": "ledger census matches the tree",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/check_ledger_census.py"],
+      "cwd": ".",
+      "timeout": 60
+    },
+    {
+      "name": "seal drift before recomputation",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/check_seal_drift.py"],
+      "cwd": ".",
+      "timeout": 60
+    },
+    {
+      "name": "BoolQ score from frozen answers",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/r30_score_boolq.py"],
+      "cwd": ".",
+      "timeout": 120
+    },
+    {
+      "name": "BoolQ main-arm seal",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/r30_seal_boolq.py"],
+      "cwd": ".",
+      "timeout": 120
+    },
+    {
+      "name": "BoolQ gemma seal",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/r30_seal_boolq_gemma.py"],
+      "cwd": ".",
+      "timeout": 120
+    },
+    {
+      "name": "English yes/no seal",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/r32_seal_enyesno.py"],
+      "cwd": ".",
+      "timeout": 120
+    },
+    {
+      "name": "R25 adjudication recount from sealed evidence",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/seal_R25_numbers.py"],
+      "cwd": ".",
+      "timeout": 120
+    },
+    {
+      "name": "R26 external over-fire seal (v3.4 not adopted)",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/seal_R26.py"],
+      "cwd": ".",
+      "timeout": 120
+    },
+    {
+      "name": "merged 1062 descriptive totals",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/seal_merged_hetero.py"],
+      "cwd": ".",
+      "timeout": 120
+    },
+    {
+      "name": "seal drift after recomputation",
+      "type": "script_runs",
+      "cmd": ["python3", "scripts/check_seal_drift.py"],
+      "cwd": ".",
+      "timeout": 60
+    },
+    {
+      "name": "FAILURE_MODES present",
+      "type": "file_exists",
+      "path": "FAILURE_MODES.md"
+    },
+    {
+      "name": "paper source present",
+      "type": "file_exists",
+      "path": "paper/main.tex"
+    }
+  ]
+}

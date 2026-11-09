@@ -1,5 +1,6 @@
 from __future__ import annotations
-# Vendored copy of /data3/deepseek/DELIVERY_calibration/03_scripts/label_match.py
+# Vendored in-tree. Historical authoring path, not read at runtime:
+# /data3/deepseek/DELIVERY_calibration/03_scripts/label_match.py
 # paper_workflow_kb verify_labels.py embeds an older subset; v3 is authoritative here.
 import re
 
