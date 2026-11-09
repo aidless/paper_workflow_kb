@@ -107,4 +107,9 @@ the paper already states.
 
 | pattern | refers to | files | occurrences |
 |---|---|---|---|
-| `/home/` | the authoring machine home | `LITERATURE_REVIEW.md` | 1 |
+| `/data3/` | authoring research disk; historical pointer, not read at runtime | `LITERATURE_REVIEW.md` | 2 |
+| `/data3/` | frozen knowledge-base index paths | `evidence/kb/_单篇索引.md` | 130 |
+| `/data3/` | frozen knowledge-base index paths | `evidence/kb/_索引_批量审稿75批.md` | 76 |
+| `/data3/` | frozen knowledge-base index paths | `evidence/kb/_索引_论文卡片53.md` | 51 |
+
+A previous note in this section listed one `/home/` occurrence in `LITERATURE_REVIEW.md`. That string is not in the current `anc/` tree. The row was removed so the disclosure matches the files, not an older machine.

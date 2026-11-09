@@ -10,7 +10,9 @@
      证据不足给 inconclusive 优于编造数值。inconclusive 不阻塞投稿，但不得以强断言口吻出现。
    - blocked 的声明不得进入正文。
 4. 每轮修改后更新本表并重新跑数字一致性扫描与验收门。
-5. 计数口径：校验器 PASS 数＝77 active verified 行证据核对通过＋C08 inconclusive 出口（按设计不验证据）＋C33/C45 superseded 历史行（数值仍与旧封存文件相符）；对外口径统一为“77 active verified＋2 superseded＋1 inconclusive，0 FAIL”，不得简写为“80 verified”。
+5. 计数口径：下表行数只以机械清点为准。过期快照（不得再当作现行总数）包括“77 active verified＋2 superseded＋1 inconclusive”和终封笔记里的“82 条”；那些句子描述的是当时的表，C83 与 C84 等行在其后写入。现行一行，由 `scripts/check_ledger_census.py` 对下表复点并要求本文、README、FAILURE_MODES 三处一致：
+   LEDGER_CENSUS: n=84 verified=81 inconclusive=1 superseded=2 draft=0 blocked=0 other=0
+   该清点只数行、查引用路径是否在树上，不核对每个数字，也不是“N PASS”。字段级核对的正本不在本克隆内：`scripts/verify_claim_ledger.py` 找不到仓外正本时退出 3，那不是通过。C08 仍是 inconclusive；C33、C45 仍是 superseded 历史行，数值留在旧封存文件上，不升格为现行结论。
 
 | ID | 声明（章节） | 证据文件+字段 | 数值 | 如何验证 | 状态 |
 |---|---|---|---|---|---|

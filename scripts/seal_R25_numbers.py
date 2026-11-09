@@ -3,7 +3,10 @@ from sealed evidence files only. Writes results/adjudication_recount_R25.json
 and results/guard_fn_R25.json. Fails loudly on any mismatch."""
 import json, os
 
-KB = "~/F:\\deepseek/paper_workflow_kb"
+# Repo root. A previous literal "~/F:\\deepseek/paper_workflow_kb" was an
+# authoring-machine path (a tilde plus a Windows drive) and does not resolve
+# on a clone. The assertions below are unchanged.
+KB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EV = os.path.join(KB, "evidence")
 RS = os.path.join(KB, "results")
 
