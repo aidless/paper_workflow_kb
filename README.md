@@ -34,6 +34,52 @@
 
 主臂结果：exact 0、guard 55、flip 55（全部内容正确、over-fire 0）；拒 45 行普查：miss 31（`Yes.`/`No.` 句点变体）+ 正确拒 14；flip 率 0.55、miss 率 0.6889。第二模型臂（Amendment A2，`gemma3:4b`）：flip 45/99、miss 39/54，方向复现、量级更低；1 行采集超时如实披露、不进分母。结论：被 matcher 规则覆盖的是非变体（会/不会/yes/no）翻转、未覆盖变体（True/False）miss——数据集内判别检验成立（账本 C78/C82），描述性、不入 Holm、不做功效主张。
 
+## Results（实验结果汇总）
+
+下表全部数字**逐字段取自 `results/*_seal.json` 与 `analysis_d2.py` 本机实跑输出**（2026-11-10 复算，脚本从冻结作答唯一重算并断言计数）；每行末列给出可复算来源：
+
+| 实验 | n | exact 接受 | guard/tolerant 接受 | flips | flip 率 | over-fire | miss / 拒行普查 | 关键统计 | 来源（seal / 脚本） |
+|---|---|---:|---:|---:|---:|---:|---|---|---|
+| D2-60 pilot（qwen2 本地） | 30 | 19 | 30 | 11 | 0.3667 | — | — | McNemar p=9.77e-04 | `analysis_d2.py` 实跑 |
+| D2-60 holdout | 30 | 19 | 24 | 5 | 0.1667 | — | — | McNemar p=0.0625（NS） | 同上 |
+| D2-60 pooled | 60 | 38 | 54 | 16 | 0.2667 | — | — | b=16/c=0，p=3.05e-05；ECE10 exact 0.3473 vs tolerant 0.0893 | 同上 |
+| R26 外部 EntityQuestions（guard33） | 200 | 25 | 57 | 32 | 0.16 | 2 | miss 0/60 抽样 [0, 0.0602] | v34 候选：增量 0 | `results/r26_seal.json` |
+| R26 外部 TriviaQA-RC（guard33） | 200 | 95 | 123 | 28 | 0.14 | 3 | miss 2/60 抽样 [0.0092, 0.1136] | v34 miss_drop=2 < 采纳线 5 → **负结果：不采纳 v34** | 同上 |
+| R28 跨域·数学臂（退化空间） | 40 | 39 | 40 | 1 | 0.025 | 0 | — | 1 flip = `125.0` 数值格式变体；verdict REFINE | `results/r28_seal.json` |
+| R28 跨域·英文单位臂（未覆盖） | 40 | 18 | 18 | 0 | 0.0 | 0 | miss 21/40 [0.375, 0.6706] | p_ii MET（判别条件成立） | 同上 |
+| R29 功效复测（合并 6 层） | 720 | — | — | 19 | 0.0264 | 5（除法误差新类） | — | **McNemar 精确 p=3.81e-06**，b=19/c=0，H1 维持 | `results/r29_power_seal.json` |
+| R30 BoolQ 主臂（qwen2:7b） | 100 | 0 | 55 | 55 | 0.55 | 0 | miss 31 + 正确拒 14（miss 率 0.6889 [0.5434, 0.8047]） | 判别成立 DISCRIMINATION HOLDS | `results/r30_boolq_seal.json` |
+| R30 BoolQ 第二模型臂（gemma3:4b） | 99* | 0 | 45 | 45 | 0.4545 | 0 | miss 39 + 正确拒 15（miss 率 0.7222 [0.5911, 0.8238]） | 方向复现；*1 行采集超时披露、不进分母 | `results/r30_boolq_gemma_seal.json` |
+| R32 英文原生 Yes/No（qwen2:7b） | 60 | 15 | 50 | 35 | 0.5833 [0.4573, 0.6994] | 0 | miss 0/10 | 原生 yes/no 也翻转 → 判别不限于中文映射 | `results/r32_enyesno_seal.json` |
+
+负结果与未达标轮照实入表：R26 v34 未采纳、R28 数学臂 REFINE、R30 O2 双模型重评未过双侧 8 分线（见 `ROUND_R30.md`）；完整轮次史见 `ROUND_*.md` 与 `STATE_SNAPSHOT.md`。
+
+### 快速开始实测（2026-11-10，纯克隆环境）
+
+```text
+$ python3 scripts/r30_seal_boolq.py
+{
+ "n": 100,
+ "n_exact": 0,
+ "n_guard": 55,
+ "n_flips": 55,
+ ...
+ "miss_rate": 0.6889,
+ "verdict": "DISCRIMINATION HOLDS: covered yes/no synonym variants flip 55/55
+ correct with zero over-fire; uncovered trailing-period variants miss 31/45"
+}
+
+$ python3 analysis_d2.py        # pooled 节选
+"n": 60, "n_exact": 38, "n_tolerant": 54, "acc_exact": 0.6333, "acc_tolerant": 0.9,
+"flip_rate": 0.2667, "mcnemar_b": 16, "mcnemar_c": 0,
+"mcnemar_p_two": 3.0517578125000014e-05,
+"ece10_exact": 0.3473, "ece10_tolerant": 0.0893
+```
+
+注：快速开始第 4/5 步在纯克隆环境按 README「环境绑定」说明会产生显式失败
+（manifest 对账报 missing/hash mismatch、ledger 闸 exit 3 `CANONICAL_NOT_FOUND`），
+这是设计内行为，不是脚本缺陷。
+
 ## 快速开始
 
 打分/封存/分析脚本基本为纯标准库实现；`requirements.txt`（numpy、scipy）仅部分数值脚本需要。以下命令均在仓库根目录执行，且已验证可跑：
